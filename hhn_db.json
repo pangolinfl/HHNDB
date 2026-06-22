@@ -6,30 +6,888 @@
     "icon": null,
     "tagline": "The Monsters Are Real",
     "dates": {
-      "open": "1991-10-18",
-      "close": "1991-10-19"
+      "open": "1991-10-25",
+      "close": "1991-10-31"
     },
-    "description": "The very first Halloween Horror Nights was a modest two-night event held at Universal Studios Florida. Originally called 'Fright Nights,' it was a test run that would eventually grow into one of the most celebrated Halloween events in the world. Guests wandered a park transformed by fog, darkness, and roaming monsters—an entirely new concept for a theme park.",
-    "attendance": "Unknown",
-    "reception": "Modest but promising. The event was considered a success and paved the way for annual expansion.",
-    "scarezones": [],
-    "shows": [],
+    "description": "",
+    "attendance": "",
+    "reception": "",
     "houses": [
       {
-        "name": "Dungeon of Terror",
+        "name": "Dungeon Of Terror '91",
         "type": "MAZE",
         "ip": false,
         "ipName": null,
-        "location": "Unknown",
-        "description": "One of the original haunted houses from the inaugural event.",
+        "location": "JAWS QUEUE",
+        "description": "",
         "lore": "",
-        "trivia": [
-          "One of only a handful of mazes at the very first HHN."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dungeon_of_Terror"
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dungeon_Of_Terror_%2791"
       }
     ],
-    "notes": "Originally called 'Fright Nights.' The event ran only two nights."
+    "scarezones": [],
+    "shows": [
+      {
+        "name": "Beetlejuice Dead In Concert! Featuring The Ghostbusters!",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Beetlejuice_Dead_In_Concert!_Featuring_The_Ghostbusters!"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 1992,
+    "event_number": "II",
+    "theme": "Halloween Horror Nights II",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "1992-10-09",
+      "close": "1992-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Dungeon Of Terror '92",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "JAWS QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dungeon_Of_Terror_%2792"
+      },
+      {
+        "name": "The People Under The Stairs",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The People Under the Stairs",
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_People_Under_The_Stairs"
+      }
+    ],
+    "scarezones": [],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "WILD WEST STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "The Pendragons",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "ANIMAL ACTOR'S STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Pendragons"
+      },
+      {
+        "name": "Robosaurus",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Robosaurus"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 1993,
+    "event_number": "III",
+    "theme": "Halloween Horror Nights III",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "1993-10-15",
+      "close": "1993-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "The People Under The Stairs",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The People Under the Stairs",
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_People_Under_The_Stairs"
+      },
+      {
+        "name": "The Psycho Path Maze '93",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Psycho (Bates Motel)",
+        "location": "BATES MOTEL",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Psycho_Path_Maze_%2793"
+      },
+      {
+        "name": "The Slaughterhouse",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "NAZARMANS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Slaughterhouse"
+      }
+    ],
+    "scarezones": [],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "WILD WEST STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Robosaurus",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Robosaurus"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 1994,
+    "event_number": "IV",
+    "theme": "Halloween Horror Nights IV",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "1994-10-07",
+      "close": "1994-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Dungeon Of Terror '94",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dungeon_Of_Terror_%2794"
+      },
+      {
+        "name": "Hell'S Kitchen",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "NAZARMANS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Hell%27S_Kitchen"
+      },
+      {
+        "name": "The Boneyard",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "THE BONE YARD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Boneyard"
+      },
+      {
+        "name": "The Psycho Path Maze '94",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Psycho (Bates Motel)",
+        "location": "BATES MOTEL",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Psycho_Path_Maze_%2794"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Horrorwood",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Horrorwood"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted Meet Timecop",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "WILD WEST STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted_Meet_Timecop"
+      },
+      {
+        "name": "The Price Is Fright",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": null,
+        "location": "ANIMAL ACTOR'S STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Price_Is_Fright"
+      },
+      {
+        "name": "Robosaurus Ii",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Robosaurus_Ii"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 1995,
+    "event_number": "V",
+    "theme": "Halloween Horror Nights V",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "1995-09-29",
+      "close": "1995-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Cryptkeeper'S Dungeon Of Terror",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Crypt Keeper (Tales from the Crypt)",
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Cryptkeeper%27S_Dungeon_Of_Terror"
+      },
+      {
+        "name": "Terror Underground: Transit To Torment",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "NAZARMANS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Terror_Underground%3A_Transit_To_Torment"
+      },
+      {
+        "name": "Universal'S House Of Horrors",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal%27S_House_Of_Horrors"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Horrorwood Blvd",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Horrorwood_Blvd"
+      },
+      {
+        "name": "Midway Of The Bizarre",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "AMITY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Midway_Of_The_Bizarre"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure Iv",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "WILD WEST STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure_Iv"
+      },
+      {
+        "name": "The Price Is Fright",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "ANIMAL ACTOR'S STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Price_Is_Fright"
+      },
+      {
+        "name": "Rock Of Ages",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Rock_Of_Ages"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 1996,
+    "event_number": "VI",
+    "theme": "Halloween Horror Nights VI",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "1996-09-27",
+      "close": "1996-11-02"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "The Crypt Keeper'S Studio Tour Of Terror",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Crypt Keeper (Tales from the Crypt)",
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Crypt_Keeper%27S_Studio_Tour_Of_Terror"
+      },
+      {
+        "name": "Toy Hell: Nightmare In The Scream Factory",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "NAZARMANS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Toy_Hell%3A_Nightmare_In_The_Scream_Factory"
+      },
+      {
+        "name": "Universal'S New House Of Horrors",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal%27S_New_House_Of_Horrors"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Midway Of The Bizarre",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "AMITY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Midway_Of_The_Bizarre"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "WILD WEST STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "The Crypt Keeper'S Festival Of The Dead Parade",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Crypt Keeper (Tales from the Crypt)",
+        "location": "PARADE ROUTE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Crypt_Keeper%27S_Festival_Of_The_Dead_Parade"
+      },
+      {
+        "name": "Tricks, Treats, & Trances",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "ANIMAL ACTOR'S STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Tricks,_Treats,_%26_Trances"
+      },
+      {
+        "name": "Welcome To My Nightmare",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "MEL'S DRIVE-IN STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Welcome_To_My_Nightmare"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 1997,
+    "event_number": "VII",
+    "theme": "Frightmares",
+    "icon": "Eyegore",
+    "tagline": "You'll Never Sleep Again",
+    "dates": {
+      "open": "1997-10-03",
+      "close": "1997-11-01"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Hotel Hell",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "NAZARMANS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Hotel_Hell"
+      },
+      {
+        "name": "Tombs Of Terror",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Tombs_Of_Terror"
+      },
+      {
+        "name": "Universal'S Museum Of Horror",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal%27S_Museum_Of_Horror"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Midway Of The Bizarre",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "AMITY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Midway_Of_The_Bizarre"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Abra-Cadaver",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "ANIMAL ACTOR'S STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Abra-Cadaver"
+      },
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure Vi: The Final Frontier",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "WILD WEST STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure_Vi%3A_The_Final_Frontier"
+      },
+      {
+        "name": "Festival Of The Dead Parade",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE ROUTE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Festival_Of_The_Dead_Parade"
+      },
+      {
+        "name": "Frightmares",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "MEL'S DRIVE-IN STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Frightmares"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 1998,
+    "event_number": "VIII",
+    "theme": "Primal Scream",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "1998-09-25",
+      "close": "1998-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Hell'S High",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "NAZARMANS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Hell%27S_High"
+      },
+      {
+        "name": "S.S. Frightanic: Carnage Crew",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/S.S._Frightanic%3A_Carnage_Crew"
+      },
+      {
+        "name": "S.S. Frightanic: Fear In First Class",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/S.S._Frightanic%3A_Fear_In_First_Class"
+      },
+      {
+        "name": "Universal'S Museum Of Horror: Chamber Of Horrors",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal%27S_Museum_Of_Horror%3A_Chamber_Of_Horrors"
+      },
+      {
+        "name": "Universal'S Museum Of Horror: Unnatural History",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal%27S_Museum_Of_Horror%3A_Unnatural_History"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Midway Of The Bizarre",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "AMITY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Midway_Of_The_Bizarre"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure Vii: Dial \"E\" For Excellent!",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "WILD WEST STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure_Vii%3A_Dial_\"E\"_For_Excellent!"
+      },
+      {
+        "name": "Festival Of The Dead Parade",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE ROUTE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Festival_Of_The_Dead_Parade"
+      },
+      {
+        "name": "Horrorpalooza",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "MEL'S DRIVE-IN STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Horrorpalooza"
+      },
+      {
+        "name": "Inferno",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "ANIMAL ACTOR'S STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Inferno"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 1999,
+    "event_number": "IX",
+    "theme": "Halloween Horror Nights IX",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "1999-10-01",
+      "close": "1999-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Doomsday",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Doomsday"
+      },
+      {
+        "name": "Psycho: Through The Mind Of Norman Bates",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Psycho (Bates Motel)",
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Psycho%3A_Through_The_Mind_Of_Norman_Bates"
+      },
+      {
+        "name": "Insanity",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Insanity"
+      },
+      {
+        "name": "The Mummy",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Mummy",
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Mummy"
+      },
+      {
+        "name": "Universal'S Creature Features In 3-D",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "NAZARMANS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal%27S_Creature_Features_In_3-D"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Midway Of The Bizarre",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "AMITY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Midway_Of_The_Bizarre"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure Viii",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "WILD WEST STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure_Viii"
+      },
+      {
+        "name": "Deadly D'Illusions",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "ANIMAL ACTOR'S STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Deadly_D%27Illusions"
+      },
+      {
+        "name": "Festival Of The Dead Parade",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE ROUTE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Festival_Of_The_Dead_Parade"
+      },
+      {
+        "name": "Tricks Or Treats: Dead Man'S Party",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "MEL'S DRIVE-IN STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Tricks_Or_Treats%3A_Dead_Man%27S_Party"
+      }
+    ],
+    "notes": ""
   },
   {
     "year": 2000,
@@ -41,349 +899,4216 @@
       "open": "2000-09-29",
       "close": "2000-10-31"
     },
-    "description": "Halloween Horror Nights X marked the debut of Jack the Clown, one of the event's most beloved and enduring icons. The tenth anniversary event leaned into a carnival-of-horror aesthetic, with Jack serving as the twisted ringleader of the chaos. His introduction fundamentally changed the identity of HHN Orlando, giving the event a mascot who would return again and again over the decades.",
-    "attendance": "Estimated 300,000+",
-    "reception": "Widely regarded as a landmark year. Jack's debut made a massive impression and he quickly became a fan-favorite icon.",
+    "description": "",
+    "attendance": "",
+    "reception": "",
     "houses": [
       {
-        "name": "Psychoscarepy",
+        "name": "Anxiety In 3-D",
         "type": "MAZE",
         "ip": false,
         "ipName": null,
-        "location": "Soundstage 23",
-        "description": "Set inside a crumbling psychiatric facility, Psychoscarepy was an original HHN house that would go on to become one of the most revisited concepts in the event's history.",
-        "lore": "The fictional Shadybrook Home for the Criminally Insane, where the inmates have taken over.",
-        "trivia": [
-          "Psychoscarepy returned numerous times over the years.",
-          "Considered one of the defining original HHN concepts."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Psychoscarepy"
-      },
-      {
-        "name": "Forsaken",
-        "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "Soundstage 22",
-        "description": "A descent into a world of forsaken souls and demonic forces.",
+        "location": "SS22",
+        "description": "",
         "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Forsaken"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Anxiety_In_3-D"
+      },
+      {
+        "name": "Dark Torment",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dark_Torment"
+      },
+      {
+        "name": "The Fearhouse",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "NAZARMANS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Fearhouse"
+      },
+      {
+        "name": "Total Chaos",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Total_Chaos"
+      },
+      {
+        "name": "Universal Classic Monster Mania",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal_Classic_Monster_Mania"
       }
     ],
     "scarezones": [
       {
-        "name": "Jack's Carnival of Carnage",
+        "name": "The Gauntlet",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Jack the Clown's domain — a twisted midway where nothing is safe.",
-        "trivia": [
-          "This was Jack's first official scare zone and served as the centerpiece of the event."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jack%27s_Carnival_of_Carnage"
+        "ipName": null,
+        "location": "AMBLIN WAY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Gauntlet"
+      },
+      {
+        "name": "Midway Of Dr. Morose",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "AMITY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Midway_Of_Dr._Morose"
+      },
+      {
+        "name": "Apocalypse Island",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Apocalypse_Island"
+      },
+      {
+        "name": "Clown Attack",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Clown_Attack"
       }
     ],
     "shows": [
       {
-        "name": "Bill & Ted's Excellent Halloween Adventure",
+        "name": "Festival Of The Dead Parade",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE ROUTE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Festival_Of_The_Dead_Parade"
+      },
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
         "type": "SHOW",
         "ip": true,
-        "ipName": "Bill & Ted",
-        "location": "Fear Factor Live Stage",
-        "description": "The irreverent pop culture parody show that became an HHN staple for decades.",
-        "trivia": [
-          "Bill & Ted's show ran at HHN for over 20 years before its retirement."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27s_Excellent_Halloween_Adventure"
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "WILD WEST STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Jacked Up",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "ANIMAL ACTOR'S STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jacked_Up"
       }
     ],
-    "notes": "HHN X is considered one of the most important years in the event's history due to Jack's debut."
+    "notes": ""
+  },
+  {
+    "year": 2001,
+    "event_number": "XI",
+    "theme": "Halloween Horror Nights XI",
+    "icon": "Jack the Clown",
+    "tagline": "",
+    "dates": {
+      "open": "2001-09-28",
+      "close": "2001-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Pitch Black",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Pitch_Black"
+      },
+      {
+        "name": "Run",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Run"
+      },
+      {
+        "name": "Scary Tales",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Scary_Tales"
+      },
+      {
+        "name": "Superstitions",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "NAZARMANS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Superstitions"
+      },
+      {
+        "name": "The Mummy Returns: The Curse Continues",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Mummy",
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Mummy_Returns%3A_The_Curse_Continues"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Midway Of The Bizarre",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "AMITY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Midway_Of_The_Bizarre"
+      },
+      {
+        "name": "Nightmare Alley",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SHREK ALLEY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmare_Alley"
+      },
+      {
+        "name": "The Unknown",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Unknown"
+      }
+    ],
+    "shows": [
+      {
+        "name": "The Boogeymen",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "PANTAGES THEATER",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Boogeymen"
+      },
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "WILD WEST STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Deadly D'Illusions",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "ANIMAL ACTOR'S STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Deadly_D%27Illusions"
+      },
+      {
+        "name": "Nightmares On Parade",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE ROUTE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmares_On_Parade"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2002,
+    "event_number": "XII",
+    "theme": "Islands of Fear",
+    "icon": "The Caretaker",
+    "tagline": "",
+    "dates": {
+      "open": "2002-09-27",
+      "close": "2002-11-02"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Fear Factor",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "THUNDERFALLS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Fear_Factor"
+      },
+      {
+        "name": "Maximum Carnage",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "CARNAGE WH",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Maximum_Carnage"
+      },
+      {
+        "name": "Project Evilution",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "TRICERATOPS DT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Project_Evilution"
+      },
+      {
+        "name": "Scary Tales Ii",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "BLUTO QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Scary_Tales_Ii"
+      },
+      {
+        "name": "Scream House",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS20",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Scream_House"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Boo-Ville",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SUESS LANDING",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Boo-Ville"
+      },
+      {
+        "name": "Island Of Evil Souls",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "LOST CONTINENT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Island_Of_Evil_Souls"
+      },
+      {
+        "name": "Island Under Siege",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": null,
+        "location": "MARVEL SH ISLAND",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Island_Under_Siege"
+      },
+      {
+        "name": "Jp Extinction",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": null,
+        "location": "JURASSIC PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jp_Extinction"
+      },
+      {
+        "name": "Port Of Evil",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PORT OF ENTRY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Port_Of_Evil"
+      },
+      {
+        "name": "Treaks And Foons",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "TOON LAGOON",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Treaks_And_Foons"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "TOON LAGOON THEATER",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Studio 666",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "ENCHANTED OAK TAVERN",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Studio_666"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2003,
+    "event_number": "XIII",
+    "theme": "Halloween Horror Nights XIII",
+    "icon": "The Director",
+    "tagline": "",
+    "dates": {
+      "open": "2003-09-26",
+      "close": "2003-11-01"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "All Nite Die-In",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS20",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/All_Nite_Die-In"
+      },
+      {
+        "name": "Funhouse Of Fear",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "THUNDERFALLS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Funhouse_Of_Fear"
+      },
+      {
+        "name": "Jungle Of Doom",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "TRICERATOPS DT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jungle_Of_Doom"
+      },
+      {
+        "name": "Psychoscareapy",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "JP DISC",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Psychoscareapy"
+      },
+      {
+        "name": "Scream House Revisited",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS20",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Scream_House_Revisited"
+      },
+      {
+        "name": "Ship Of Screams",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "BLUTO QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Ship_Of_Screams"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Boo-Ville",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SUESS LANDING",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Boo-Ville"
+      },
+      {
+        "name": "Hide & Shrieeek!",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "TOON LAGOON",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Hide_%26_Shrieeek!"
+      },
+      {
+        "name": "Immortal Island",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "LOST CONTINENT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Immortal_Island"
+      },
+      {
+        "name": "Night Prey",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "JURASSIC PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Night_Prey"
+      },
+      {
+        "name": "Port Of Evil",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PORT OF ENTRY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Port_Of_Evil"
+      },
+      {
+        "name": "Toxic City",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "MARVEL SH ISLAND",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Toxic_City"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "TOON LAGOON THEATER",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Infestation",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "ENCHANTED OAK TAVERN",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Infestation"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2004,
+    "event_number": "XIV",
+    "theme": "Halloween Horror Nights XIV",
+    "icon": "The Director",
+    "tagline": "",
+    "dates": {
+      "open": "2004-09-17",
+      "close": "2004-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Castle Vampyr",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Castle_Vampyr"
+      },
+      {
+        "name": "Deadtropolis",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Deadtropolis"
+      },
+      {
+        "name": "Disorientorium",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "CARNAGE WH",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Disorientorium"
+      },
+      {
+        "name": "Ghost Town",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Ghost_Town"
+      },
+      {
+        "name": "Hellgate Prison",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS20",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Hellgate_Prison"
+      },
+      {
+        "name": "Horror In Wax",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS20",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Horror_In_Wax"
+      },
+      {
+        "name": "Horror Nights Nightmares",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS44",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Horror_Nights_Nightmares"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Field Of Screams",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SUESS BACKLOT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Field_Of_Screams"
+      },
+      {
+        "name": "The Fright Yard",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NY BACKLOT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Fright_Yard"
+      },
+      {
+        "name": "Midway Of The Bizarre",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "THE BONEYARD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Midway_Of_The_Bizarre"
+      },
+      {
+        "name": "Point Of Evil",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PORT OF ENTRY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Point_Of_Evil"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "TOON LAGOON THEATER",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Festival Of The Dead Parade",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE ROUTE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Festival_Of_The_Dead_Parade"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2005,
+    "event_number": "XV",
+    "theme": "Tales of Terror",
+    "icon": "The Storyteller",
+    "tagline": "",
+    "dates": {
+      "open": "2005-09-30",
+      "close": "2005-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Blood Ruins",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Blood_Ruins"
+      },
+      {
+        "name": "Body Collectors",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "JP DISC",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Body_Collectors"
+      },
+      {
+        "name": "Cold Blind Terror",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS20",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Cold_Blind_Terror"
+      },
+      {
+        "name": "Demon Cantina",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "CARNAGE WH",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Demon_Cantina"
+      },
+      {
+        "name": "Terror Mines",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "POSEIDON Q",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Terror_Mines"
+      },
+      {
+        "name": "The Skool",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "THUNDERFALLS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Skool"
+      },
+      {
+        "name": "Where Evil Hides",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS18",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Where_Evil_Hides"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Blood Thunder Alley",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "MARVEL SH ISLAND",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Blood_Thunder_Alley"
+      },
+      {
+        "name": "The Cemetery Mines",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "JURASSIC PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Cemetery_Mines"
+      },
+      {
+        "name": "The Fire Pits",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "LOST CONTINENT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Fire_Pits"
+      },
+      {
+        "name": "Gorewood Forest",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "TOON LAGOON",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Gorewood_Forest"
+      },
+      {
+        "name": "Terra Guard Run",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SUESS LANDING",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Terra_Guard_Run"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Terra Throne",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "PORT OF ENTRY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Terra_Throne"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2006,
+    "event_number": "XVI",
+    "theme": "Sweet 16",
+    "icon": "Jack the Clown",
+    "tagline": "",
+    "dates": {
+      "open": "2006-09-22",
+      "close": "2006-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "All Nite Die-In: Take 2",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/All_Nite_Die-In%3A_Take_2"
+      },
+      {
+        "name": "Dungeon Of Terror: Retold",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "JAWS QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dungeon_Of_Terror%3A_Retold"
+      },
+      {
+        "name": "Psycho Path: The Return Of Norman Bates",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Psycho (Bates Motel)",
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Psycho_Path%3A_The_Return_Of_Norman_Bates"
+      },
+      {
+        "name": "Psychoscareapy: Maximum Madness",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Psychoscareapy%3A_Maximum_Madness"
+      },
+      {
+        "name": "Run: Hostile Territory",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Run%3A_Hostile_Territory"
+      },
+      {
+        "name": "Scream House: Resurrection",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Scream_House%3A_Resurrection"
+      },
+      {
+        "name": "The People Under The Stairs: Under Construction",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The People Under the Stairs",
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_People_Under_The_Stairs%3A_Under_Construction"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Blood Masquerade",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SHREK ALLEY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Blood_Masquerade"
+      },
+      {
+        "name": "Deadtropolis: Zombie Siege",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Deadtropolis%3A_Zombie_Siege"
+      },
+      {
+        "name": "Harvest Of The Souls",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Harvest_Of_The_Souls"
+      },
+      {
+        "name": "Horror Comes Home",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Horror_Comes_Home"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "The Arrival",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "MEL'S DRIVE-IN STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Arrival"
+      },
+      {
+        "name": "Sweet 16: The Director'S Cut",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "LAGOON",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Sweet_16%3A_The_Director%27S_Cut"
+      },
+      {
+        "name": "Robosaurus",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Robosaurus"
+      }
+    ],
+    "notes": ""
   },
   {
     "year": 2007,
     "event_number": "XVII",
     "theme": "Carnival of Carnage",
     "icon": "Jack the Clown",
-    "tagline": "You Don't Know Jack",
+    "tagline": "Choose Thy Fear",
     "dates": {
       "open": "2007-09-28",
       "close": "2007-11-03"
     },
-    "description": "Jack the Clown returned as the icon for HHN XVII in a full Carnival of Carnage theme. The event was praised for its cohesive atmosphere and strong house lineup. It remains one of the most fondly remembered years among longtime fans, blending strong original IP houses with effective use of the entire park as a carnival-themed nightmare.",
-    "attendance": "Estimated 800,000+",
-    "reception": "Considered one of the best years in HHN history by many longtime fans. The Jack-themed aesthetic was executed with rare consistency across the entire event.",
+    "description": "",
+    "attendance": "",
+    "reception": "",
     "houses": [
       {
-        "name": "Jack's Funhouse in Clown-O-Vision",
+        "name": "A Nightmare On Elm Street: Dreamwalkers",
         "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "Soundstage 23",
-        "description": "Jack's own funhouse — a kaleidoscopic, disorienting maze built around the icon himself.",
-        "lore": "Inside Jack's personal domain, nothing follows the rules of the normal world.",
-        "trivia": [
-          "Used 3D 'Clown-O-Vision' glasses as a signature gimmick — one of the first HHN houses to do so."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jack%27s_Funhouse_in_Clown-O-Vision"
+        "ip": true,
+        "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street",
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/A_Nightmare_On_Elm_Street%3A_Dreamwalkers"
       },
       {
-        "name": "Scary Tales III",
+        "name": "Dead Silence: The Curse Of Mary Shaw",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dead_Silence%3A_The_Curse_Of_Mary_Shaw"
+      },
+      {
+        "name": "Friday The 13Th: Camp Blood",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street",
+        "location": "JAWS QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Friday_The_13Th%3A_Camp_Blood"
+      },
+      {
+        "name": "Jack'S Funhouse In Clown-O-Vision",
         "type": "MAZE",
         "ip": false,
         "ipName": null,
-        "location": "Soundstage 22",
-        "description": "The third installment in the Scary Tales series, twisting classic fairy tales into nightmarish scenarios.",
+        "location": "SPRUNG TENT 2",
+        "description": "",
         "lore": "",
-        "trivia": [
-          "Part of a long-running original franchise within HHN."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Scary_Tales_III"
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jack%27S_Funhouse_In_Clown-O-Vision"
+      },
+      {
+        "name": "Psychoscareapy: Home For The Holidays",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Psychoscareapy%3A_Home_For_The_Holidays"
+      },
+      {
+        "name": "The Texas Chainsaw Massacre: Flesh Wounds",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Texas Chainsaw Massacre",
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Texas_Chainsaw_Massacre%3A_Flesh_Wounds"
+      },
+      {
+        "name": "The Thing: Assimilation",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Thing",
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Thing%3A_Assimilation"
+      },
+      {
+        "name": "Vampyr: Blood Bath",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "NAZARMANS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Vampyr%3A_Blood_Bath"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Midway Of The Bizarre",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARK-WIDE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Midway_Of_The_Bizarre"
+      },
+      {
+        "name": "Killer Carnies",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Killer_Carnies"
+      },
+      {
+        "name": "Motormaniacs",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Motormaniacs"
+      },
+      {
+        "name": "Treaks & Foons",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SHREK ALLEY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Treaks_%26_Foons"
+      },
+      {
+        "name": "Troupe Macabe",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Troupe_Macabe"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Jack'S Carnival Of Carnage",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "MEL'S DRIVE-IN STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jack%27S_Carnival_Of_Carnage"
+      },
+      {
+        "name": "The Rocky Horror Picture Show: A Tribute",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "The Rocky Horror Picture Show",
+        "location": "BEETLEJUICE STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Rocky_Horror_Picture_Show%3A_A_Tribute"
+      },
+      {
+        "name": "Freak Show",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "ANIMAL ACTOR'S STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Freak_Show"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2008,
+    "event_number": "XVIII",
+    "theme": "Reflections of Fear",
+    "icon": "Bloody Mary",
+    "tagline": "I Dare You to Say It One More Time",
+    "dates": {
+      "open": "2008-09-26",
+      "close": "2008-11-01"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Body Collectors: Collections Of The Past",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS20",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Body_Collectors%3A_Collections_Of_The_Past"
+      },
+      {
+        "name": "Creatures!",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Creatures!"
+      },
+      {
+        "name": "Dead Exposure",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dead_Exposure"
+      },
+      {
+        "name": "Doomsday",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Doomsday"
+      },
+      {
+        "name": "Interstellar Terror",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS20",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Interstellar_Terror"
+      },
+      {
+        "name": "Reflections Of Fear",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "JAWS QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Reflections_Of_Fear"
+      },
+      {
+        "name": "Scary Tales: Once Upon A Nightmare",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Scary_Tales%3A_Once_Upon_A_Nightmare"
+      },
+      {
+        "name": "The Hallow",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Hallow"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "American Gothic",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SHREK ALLEY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/American_Gothic"
+      },
+      {
+        "name": "Asylum In Wonderland",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Asylum_In_Wonderland"
+      },
+      {
+        "name": "Fractured Tales",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "KIDZONE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Fractured_Tales"
+      },
+      {
+        "name": "The Path Of The Wicked",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Path_Of_The_Wicked"
+      },
+      {
+        "name": "The Skoolhouse",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "MEL'S DRIVE-IN",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Skoolhouse"
+      },
+      {
+        "name": "Streets Of Blood: Body Collectors",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Streets_Of_Blood%3A_Body_Collectors"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted Meet Hellboy",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted_Meet_Hellboy"
+      },
+      {
+        "name": "The Rocky Horror Picture Show: A Tribute",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "The Rocky Horror Picture Show",
+        "location": "BEETLEJUICE STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Rocky_Horror_Picture_Show%3A_A_Tribute"
+      },
+      {
+        "name": "Brian Brushwood",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": null,
+        "location": "ANIMAL ACTOR'S STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Brian_Brushwood"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2009,
+    "event_number": "XIX",
+    "theme": "Ripped from the Silver Screen",
+    "icon": "The Usher",
+    "tagline": "It's Showtime",
+    "dates": {
+      "open": "2009-09-25",
+      "close": "2009-11-01"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Chucky: Friends 'Til The End",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Chucky",
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Chucky%3A_Friends_%27Til_The_End"
+      },
+      {
+        "name": "Dracula: Legacy In Blood",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "SS23A",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dracula%3A_Legacy_In_Blood"
+      },
+      {
+        "name": "Frankenstein: Creation Of The Damned",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS23B",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Frankenstein%3A_Creation_Of_The_Damned"
+      },
+      {
+        "name": "Leave It To Cleaver",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Leave_It_To_Cleaver"
+      },
+      {
+        "name": "Saw",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Saw",
+        "location": "JAWS QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Saw"
+      },
+      {
+        "name": "Silver Screams",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Silver_Screams"
       },
       {
         "name": "The Spawning",
         "type": "MAZE",
         "ip": false,
         "ipName": null,
-        "location": "Parade Building",
-        "description": "A creature-feature house set in a research station overrun by horrifying biological organisms.",
+        "location": "SPRUNG TENT 2",
+        "description": "",
         "lore": "",
         "trivia": [],
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Spawning"
+      },
+      {
+        "name": "The Wolfman",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Wolfman"
       }
     ],
     "scarezones": [
       {
-        "name": "Deadtropolis",
+        "name": "Apocalypse: City Of Cannibals",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "A zombie-infested urban streetscape overtaking the park's New York area.",
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Deadtropolis"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Apocalypse%3A_City_Of_Cannibals"
       },
       {
-        "name": "Your Luck Has Run Out",
+        "name": "Cirque Du Freak",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": null,
+        "location": "KIDZONE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Cirque_Du_Freak"
+      },
+      {
+        "name": "Containment",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "A twisted carnival games zone where the games play you.",
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Your_Luck_Has_Run_Out"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Containment"
+      },
+      {
+        "name": "Horrorwood Die-In",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "MEL'S DRIVE-IN",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Horrorwood_Die-In"
+      },
+      {
+        "name": "Lights, Camera, Hacktion!",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Lights,_Camera,_Hacktion!"
+      },
+      {
+        "name": "War Of The Living Dead",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SHREK ALLEY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/War_Of_The_Living_Dead"
+      },
+      {
+        "name": "Shadows From The Past",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "STING ALLEY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Shadows_From_The_Past"
       }
     ],
     "shows": [
       {
-        "name": "Bill & Ted's Excellent Halloween Adventure",
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
         "type": "SHOW",
         "ip": true,
-        "ipName": "Bill & Ted",
-        "location": "Fear Factor Live Stage",
-        "description": "The long-running pop culture parody variety show.",
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27s_Excellent_Halloween_Adventure"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "The Rocky Horror Picture Show: A Tribute",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "The Rocky Horror Picture Show",
+        "location": "BEETLEJUICE STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Rocky_Horror_Picture_Show%3A_A_Tribute"
       }
     ],
-    "notes": "Often cited by fans as a top-3 HHN year. Jack's return as icon for XVII was a major draw."
+    "notes": ""
+  },
+  {
+    "year": 2010,
+    "event_number": "XX",
+    "theme": "Twenty Years of Fear",
+    "icon": "Fear",
+    "tagline": "A New Era of Darkness Begins",
+    "dates": {
+      "open": "2010-09-24",
+      "close": "2010-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Catacombs: Black Death Rising",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Catacombs%3A_Black_Death_Rising"
+      },
+      {
+        "name": "Hades: The Gates Of Ruin",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Hades%3A_The_Gates_Of_Ruin"
+      },
+      {
+        "name": "Havoc: Dogs Of War",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Havoc%3A_Dogs_Of_War"
+      },
+      {
+        "name": "Horror Nights: The Hallow'D Past",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Horror_Nights%3A_The_Hallow%27D_Past"
+      },
+      {
+        "name": "Legendary Truth: The Wyandot Estate",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Legendary_Truth%3A_The_Wyandot_Estate"
+      },
+      {
+        "name": "Psychoscareapy: Echoes Of Shadybrook",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Psychoscareapy%3A_Echoes_Of_Shadybrook"
+      },
+      {
+        "name": "The Orfanage: Ashes To Ashes",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "JAWS QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Orfanage%3A_Ashes_To_Ashes"
+      },
+      {
+        "name": "Zombiegeddon",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Zombiegeddon"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Hhn: 20 Years Of Fear",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Hhn%3A_20_Years_Of_Fear"
+      },
+      {
+        "name": "Fear Revealed",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "MEL'S DRIVE-IN",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Fear_Revealed"
+      },
+      {
+        "name": "Zombie Gras",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SAN FRANCISCO",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Zombie_Gras"
+      },
+      {
+        "name": "Saws N' Steam",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Saws_N%27_Steam"
+      },
+      {
+        "name": "The Coven",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SHREK ALLEY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Coven"
+      },
+      {
+        "name": "Esqueleto Muerte",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Esqueleto_Muerte"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Brian Brushwood: Menace And Malice",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": null,
+        "location": "BEETLEJUICE STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Brian_Brushwood%3A_Menace_And_Malice"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2011,
+    "event_number": "XXI",
+    "theme": "Halloween Horror Nights 21",
+    "icon": "Lady Luck",
+    "tagline": "Are You In?",
+    "dates": {
+      "open": "2011-09-23",
+      "close": "2011-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "H.R. Bloodengutz Presents Holidays Of Horror",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/H.R._Bloodengutz_Presents_Holidays_Of_Horror"
+      },
+      {
+        "name": "Nevermore: The Madness Of Poe",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nevermore%3A_The_Madness_Of_Poe"
+      },
+      {
+        "name": "Nightingales: Blood Prey",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightingales%3A_Blood_Prey"
+      },
+      {
+        "name": "Saws N' Steam: Into The Machine",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "JAWS QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Saws_N%27_Steam%3A_Into_The_Machine"
+      },
+      {
+        "name": "The Forsaken",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Forsaken"
+      },
+      {
+        "name": "The In Between",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_In_Between"
+      },
+      {
+        "name": "The Thing",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Thing",
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Thing"
+      },
+      {
+        "name": "Winter'S Night: The Haunting Of Hawthorn Cemetery",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Winter%27S_Night%3A_The_Haunting_Of_Hawthorn_Cemetery"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Your Luck Has Run Out",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "STING ALLEY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Your_Luck_Has_Run_Out"
+      },
+      {
+        "name": "Nightmaze",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SHREK ALLEY",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmaze"
+      },
+      {
+        "name": "Grown Evil",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Grown_Evil"
+      },
+      {
+        "name": "Canyon Of Dark Souls",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "INTL FOOD BAZAAR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Canyon_Of_Dark_Souls"
+      },
+      {
+        "name": "7",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/7"
+      },
+      {
+        "name": "Acid Assault",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Acid_Assault"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Death Drums",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "PARK-WIDE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Death_Drums"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2012,
+    "event_number": "XXII",
+    "theme": "Halloween Horror Nights 22",
+    "icon": null,
+    "tagline": "Once You're Inside There Is No Way Out",
+    "dates": {
+      "open": "2012-09-21",
+      "close": "2012-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Alice Cooper: Welcome To My Nightmare",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Alice_Cooper%3A_Welcome_To_My_Nightmare"
+      },
+      {
+        "name": "Dead End",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS20",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dead_End"
+      },
+      {
+        "name": "Gothic",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS20",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Gothic"
+      },
+      {
+        "name": "Penn & Teller: New(Kd) Las Vegas 3-D",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Penn_%26_Teller%3A_New(Kd)_Las_Vegas_3-D"
+      },
+      {
+        "name": "The Walking Dead: Dead Inside",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Walking Dead",
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Walking_Dead%3A_Dead_Inside"
+      },
+      {
+        "name": "Universal'S House Of Horrors",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "PARADE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal%27S_House_Of_Horrors"
+      },
+      {
+        "name": "Welcome To Silent Hill",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Welcome_To_Silent_Hill"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "The Iniquitus",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARK-WIDE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Iniquitus"
+      },
+      {
+        "name": "Dark Legions: Vampires",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARK-WIDE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dark_Legions%3A_Vampires"
+      },
+      {
+        "name": "Dark Legions: Beasts",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARK-WIDE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dark_Legions%3A_Beasts"
+      },
+      {
+        "name": "Dark Legions: Warriors",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARK-WIDE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dark_Legions%3A_Warriors"
+      },
+      {
+        "name": "Dark Legions: Prisoners",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARK-WIDE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dark_Legions%3A_Prisoners"
+      },
+      {
+        "name": "Dark Legions: Traditionals",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARK-WIDE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dark_Legions%3A_Traditionals"
+      },
+      {
+        "name": "Dark Legions: Trick-Or-Treaters",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARK-WIDE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dark_Legions%3A_Trick-Or-Treaters"
+      },
+      {
+        "name": "Dark Legions: Zombies",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARK-WIDE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dark_Legions%3A_Zombies"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "20 Penny Circus: Fully Exposed",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": null,
+        "location": "BEETLEJUICE STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/20_Penny_Circus%3A_Fully_Exposed"
+      },
+      {
+        "name": "Halloween Horror Nights Cinematic Spectacular",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "LAGOON",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Halloween_Horror_Nights_Cinematic_Spectacular"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2013,
+    "event_number": "XXIII",
+    "theme": "Halloween Horror Nights 23",
+    "icon": null,
+    "tagline": "What Evil Has Taken Root?",
+    "dates": {
+      "open": "2013-09-20",
+      "close": "2013-11-02"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Afterlife: Death'S Vengeance",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Afterlife%3A_Death%27S_Vengeance"
+      },
+      {
+        "name": "An American Werewolf In London",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "An American Werewolf in London",
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/An_American_Werewolf_In_London"
+      },
+      {
+        "name": "Evil Dead",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Evil Dead",
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Evil_Dead"
+      },
+      {
+        "name": "Havoc: Derailed",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Havoc%3A_Derailed"
+      },
+      {
+        "name": "Resident Evil: Escape From Raccoon City",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS21",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Resident_Evil%3A_Escape_From_Raccoon_City"
+      },
+      {
+        "name": "The Cabin In The Woods",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS21",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Cabin_In_The_Woods"
+      },
+      {
+        "name": "The Walking Dead: No Safe Haven",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Walking Dead",
+        "location": "PARADE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Walking_Dead%3A_No_Safe_Haven"
+      },
+      {
+        "name": "Urban Legends: La Llorona",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Urban_Legends%3A_La_Llorona"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "The Walking Dead: The Fall Of Atlanta",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": "The Walking Dead",
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Walking_Dead%3A_The_Fall_Of_Atlanta"
+      },
+      {
+        "name": "The Walking Dead: Woodlands",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": "The Walking Dead",
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Walking_Dead%3A_Woodlands"
+      },
+      {
+        "name": "The Walking Dead: Survivor'S Camp",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": "The Walking Dead",
+        "location": "KIDZONE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Walking_Dead%3A_Survivor%27S_Camp"
+      },
+      {
+        "name": "The Walking Dead: The Farm",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": "The Walking Dead",
+        "location": "MEL'S DRIVE-IN",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Walking_Dead%3A_The_Farm"
+      },
+      {
+        "name": "The Walking Dead: Clear",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": "The Walking Dead",
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Walking_Dead%3A_Clear"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "The Rocky Horror Picture Show: A Tribute",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "The Rocky Horror Picture Show",
+        "location": "BEETLEJUICE STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Rocky_Horror_Picture_Show%3A_A_Tribute"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2014,
+    "event_number": "XXIV",
+    "theme": "Halloween Horror Nights 24",
+    "icon": null,
+    "tagline": "You've Been Warned",
+    "dates": {
+      "open": "2014-09-19",
+      "close": "2014-11-01"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Avp: Alien Vs. Predator",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Avp%3A_Alien_Vs._Predator"
+      },
+      {
+        "name": "Dollhouse Of The Damned",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dollhouse_Of_The_Damned"
+      },
+      {
+        "name": "Dracula Untold: Reign Of Blood",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Dracula",
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dracula_Untold%3A_Reign_Of_Blood"
+      },
+      {
+        "name": "From Dusk Till Dawn",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/From_Dusk_Till_Dawn"
+      },
+      {
+        "name": "Giggles & Gore Inc.",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Giggles_%26_Gore_Inc."
+      },
+      {
+        "name": "Halloween",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Halloween",
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Halloween"
+      },
+      {
+        "name": "Roanoke: Cannibal Colony",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Roanoke%3A_Cannibal_Colony"
+      },
+      {
+        "name": "The Walking Dead: The End Of The Line",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Walking Dead",
+        "location": "SS25",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Walking_Dead%3A_The_End_Of_The_Line"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "The Purge: Anarchy",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": "The Purge",
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Purge%3A_Anarchy"
+      },
+      {
+        "name": "Face Off: In The Flesh",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Face_Off%3A_In_The_Flesh"
+      },
+      {
+        "name": "Bayou Of Blood",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bayou_Of_Blood"
+      },
+      {
+        "name": "Maskerade: Unstitched",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Maskerade%3A_Unstitched"
+      }
+    ],
+    "shows": [
+      {
+        "name": "The Rocky Horror Picture Show: A Tribute",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "The Rocky Horror Picture Show",
+        "location": "BEETLEJUICE STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Rocky_Horror_Picture_Show%3A_A_Tribute"
+      },
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2015,
+    "event_number": "XXV",
+    "theme": "Halloween Horror Nights 25",
+    "icon": "Jack the Clown",
+    "tagline": "25 Years of Fear",
+    "dates": {
+      "open": "2015-09-18",
+      "close": "2015-11-01"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "An American Werewolf In London",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "An American Werewolf in London",
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/An_American_Werewolf_In_London"
+      },
+      {
+        "name": "Asylum In Wonderland 3D",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SHREK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Asylum_In_Wonderland_3D"
+      },
+      {
+        "name": "Body Collectors: Recollections",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Body_Collectors%3A_Recollections"
+      },
+      {
+        "name": "Freddy Vs. Jason",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street",
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Freddy_Vs._Jason"
+      },
+      {
+        "name": "Insidious",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Insidious",
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Insidious"
+      },
+      {
+        "name": "Jack Presents: 25 Years Of Monsters And Mayhem",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS21",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jack_Presents%3A_25_Years_Of_Monsters_And_Mayhem"
+      },
+      {
+        "name": "Run: Blood, Sweat, And Fears",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "EQ QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Run%3A_Blood,_Sweat,_And_Fears"
+      },
+      {
+        "name": "The Purge",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Purge",
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Purge"
+      },
+      {
+        "name": "The Walking Dead: The Living And The Dead",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Walking Dead",
+        "location": "PARADE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Walking_Dead%3A_The_Living_And_The_Dead"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Psychoscareapy: Unleashed",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Psychoscareapy%3A_Unleashed"
+      },
+      {
+        "name": "Icons: Hhn",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Icons%3A_Hhn"
+      },
+      {
+        "name": "Scary Tales: Screampunk",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Scary_Tales%3A_Screampunk"
+      },
+      {
+        "name": "Evil'S Roots",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Evil%27S_Roots"
+      },
+      {
+        "name": "All Nite Die-In: Double Feature",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SAN FRANCISCO",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/All_Nite_Die-In%3A_Double_Feature"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "The Carnage Returns",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "MEL'S DRIVE-IN STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Carnage_Returns"
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "year": 2016,
+    "event_number": "XXVI",
+    "theme": "Halloween Horror Nights 26",
+    "icon": null,
+    "tagline": "You Won't Stand a Chance",
+    "dates": {
+      "open": "2016-09-16",
+      "close": "2016-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "American Horror Story",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "American Horror Story",
+        "location": "SS19",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/American_Horror_Story"
+      },
+      {
+        "name": "Ghost Town: The Curse Of Lightning Gulch",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Ghost_Town%3A_The_Curse_Of_Lightning_Gulch"
+      },
+      {
+        "name": "Halloween: Hell Comes To Haddonfield",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Halloween",
+        "location": "PARADE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Halloween%3A_Hell_Comes_To_Haddonfield"
+      },
+      {
+        "name": "The Walking Dead",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Walking Dead",
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Walking_Dead"
+      },
+      {
+        "name": "Krampus",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SHREK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Krampus"
+      },
+      {
+        "name": "Lunatics Playground 3D: You Won'T Stand A Chance",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "MIB TENT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Lunatics_Playground_3D%3A_You_Won%27T_Stand_A_Chance"
+      },
+      {
+        "name": "The Exorcist",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Exorcist",
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Exorcist"
+      },
+      {
+        "name": "The Texas Chainsaw Massacre",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Texas Chainsaw Massacre",
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Texas_Chainsaw_Massacre"
+      },
+      {
+        "name": "Tomb Of The Ancients",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Tomb_Of_The_Ancients"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "The Walking Dead",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": "The Walking Dead",
+        "location": "WHOLE PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Walking_Dead"
+      },
+      {
+        "name": "Survive Or Die: Apocalypse",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Survive_Or_Die%3A_Apocalypse"
+      },
+      {
+        "name": "Lair Of The Banshee",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Lair_Of_The_Banshee"
+      },
+      {
+        "name": "Dead Man'S Wharf",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SAN FRANCISCO",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dead_Man%27S_Wharf"
+      },
+      {
+        "name": "Vamp '55",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Vamp_%2755"
+      },
+      {
+        "name": "A Chance In Hell",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/A_Chance_In_Hell"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Academy Of Villains: House Of Fear",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Academy of Villains",
+        "location": "MEL'S DRIVE-IN STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_Of_Villains%3A_House_Of_Fear"
+      }
+    ],
+    "notes": "The Repository Vr Experience"
+  },
+  {
+    "year": 2017,
+    "event_number": "XXVII",
+    "theme": "The Festival of the Deadliest",
+    "icon": null,
+    "tagline": "The Best Nightmares Never End",
+    "dates": {
+      "open": "2017-09-15",
+      "close": "2017-11-04"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "American Horror Story",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "American Horror Story",
+        "location": "SS21",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/American_Horror_Story"
+      },
+      {
+        "name": "Ash Vs Evil Dead",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Evil Dead",
+        "location": "PARADE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Ash_Vs_Evil_Dead"
+      },
+      {
+        "name": "Dead Waters",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dead_Waters"
+      },
+      {
+        "name": "Hive",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Hive"
+      },
+      {
+        "name": "Saw: The Games Of Jigsaw",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Saw",
+        "location": "SHREK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Saw%3A_The_Games_Of_Jigsaw"
+      },
+      {
+        "name": "Scarecrow: The Reaping",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Scarecrow%3A_The_Reaping"
+      },
+      {
+        "name": "The Fallen",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Fallen"
+      },
+      {
+        "name": "The Horrors Of Blumhouse",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Horrors of Blumhouse",
+        "location": "MIB TENT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Horrors_Of_Blumhouse"
+      },
+      {
+        "name": "The Shining",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Shining"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Trick 'R Treat",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": "Trick 'r Treat",
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Trick_%27R_Treat"
+      },
+      {
+        "name": "The Purge",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": "The Purge",
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Purge"
+      },
+      {
+        "name": "Altars Of Horror",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Altars_Of_Horror"
+      },
+      {
+        "name": "Festival Of The Deadliest",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Festival_Of_The_Deadliest"
+      },
+      {
+        "name": "Invasion!",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SAN FRANCISCO",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Invasion!"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted'S Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted's Excellent Halloween Adventure",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
+      },
+      {
+        "name": "Academy Of Villains: Afterlife",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Academy of Villains",
+        "location": "MEL'S DRIVE-IN STAGE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_Of_Villains%3A_Afterlife"
+      }
+    ],
+    "notes": "Tickets On Sale"
+  },
+  {
+    "year": 2018,
+    "event_number": "XXVIII",
+    "theme": "Halloween Horror Nights 28",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "2018-09-14",
+      "close": "2018-11-03"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Dead Exposure: Patient Zero",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dead_Exposure%3A_Patient_Zero"
+      },
+      {
+        "name": "Seeds Of Extinction",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE WAREHOUSE 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Seeds_Of_Extinction"
+      },
+      {
+        "name": "Poltergeist",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS25",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Poltergeist"
+      },
+      {
+        "name": "Halloween 4",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Halloween",
+        "location": "SHREK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Halloween_4"
+      },
+      {
+        "name": "Horrors Of Blumhouse 2",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Horrors of Blumhouse",
+        "location": "MIB TENT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Horrors_Of_Blumhouse_2"
+      },
+      {
+        "name": "Slaughter Sinema",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Slaughter_Sinema"
+      },
+      {
+        "name": "Carnival Graveyard",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Carnival_Graveyard"
+      },
+      {
+        "name": "Stranger Things",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Stranger Things",
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Stranger_Things"
+      },
+      {
+        "name": "Trick 'R Treat",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "PARADE WAREHOUSE 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Trick_%27R_Treat"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "The Harvest",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Harvest"
+      },
+      {
+        "name": "Vamp '85: New Year’S Eve",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Vamp_%2785%3A_New_Year’S_Eve"
+      },
+      {
+        "name": "Twisted Tradition",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Twisted_Tradition"
+      },
+      {
+        "name": "Revenge Of Chucky",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": "Chucky",
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Revenge_Of_Chucky"
+      },
+      {
+        "name": "Killer Klowns From Outer Space",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": "Killer Klowns from Outer Space",
+        "location": "SOUTH STREET",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Killer_Klowns_From_Outer_Space"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Academy Of Villains",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Academy of Villains",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_Of_Villains"
+      }
+    ],
+    "notes": "Tickets On Sale"
   },
   {
     "year": 2019,
     "event_number": "XXIX",
-    "theme": "Stranger Things & More",
+    "theme": "Halloween Horror Nights 29",
     "icon": "The Usher",
     "tagline": "Leave the Light On",
     "dates": {
       "open": "2019-09-06",
       "close": "2019-11-02"
     },
-    "description": "Halloween Horror Nights 29 was headlined by Stranger Things Season 3 and a massive spread of horror IP houses. The event introduced The Usher as its icon — a movie theater-themed host who shepherded guests through the horrors. The year featured one of the strongest IP lineups in the event's history, including Us, Ghostbusters, House of 1000 Corpses, and a Yeti original concept.",
-    "attendance": "Estimated 1M+",
-    "reception": "Praised for its strong IP execution, especially the Us and Ghostbusters houses. Stranger Things 3 was visually impressive. Some fans felt the original concepts were overshadowed by IP.",
+    "description": "",
+    "attendance": "",
+    "reception": "",
     "houses": [
       {
-        "name": "Stranger Things 3",
+        "name": "Stranger Things 2",
         "type": "MAZE",
         "ip": true,
         "ipName": "Stranger Things",
-        "location": "Soundstage 23",
-        "description": "Based on the third season of the Netflix hit, the house brought the Starcourt Mall and the Russian bunker to life with stunning set design.",
-        "lore": "The Mind Flayer has returned, possessing residents of Hawkins and building a physical form in the Starcourt Mall.",
-        "trivia": [
-          "Featured a recreation of the Starcourt Mall food court.",
-          "One of the most elaborately designed IP houses in HHN history."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Stranger_Things_3"
+        "location": "SS25",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Stranger_Things_2"
       },
       {
-        "name": "Us",
+        "name": "Nightingales: Blood Pit",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightingales%3A_Blood_Pit"
+      },
+      {
+        "name": "Universal Monsters",
         "type": "MAZE",
         "ip": true,
-        "ipName": "Us (2019 film)",
-        "location": "Soundstage 22",
-        "description": "Jordan Peele's critically acclaimed horror film came to HHN with its haunting Tethered doppelgängers.",
-        "lore": "The Wilsons' beach vacation turns nightmarish when their twisted underground doubles emerge.",
-        "trivia": [
-          "Jordan Peele collaborated closely on the house design.",
-          "Widely considered one of the best houses of the year."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Us"
+        "ipName": "Universal Monsters",
+        "location": "PARADE WAREHOUSE 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal_Monsters"
+      },
+      {
+        "name": "Depths Of Fear",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Depths_Of_Fear"
+      },
+      {
+        "name": "Yeti: Terror Of The Yukon",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24A",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Yeti%3A_Terror_Of_The_Yukon"
       },
       {
         "name": "Ghostbusters",
         "type": "MAZE",
         "ip": true,
         "ipName": "Ghostbusters",
-        "location": "Parade Building",
-        "description": "Guests crossed the streams in a faithful recreation of the 1984 film's iconic locations.",
-        "lore": "Gozer has returned. The containment grid is down. Proton packs up.",
-        "trivia": [
-          "Featured the Stay Puft Marshmallow Man and a recreation of the Sedgewick Hotel.",
-          "Used practical fog effects to simulate ectoplasm."
-        ],
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Ghostbusters"
       },
       {
-        "name": "House of 1000 Corpses",
+        "name": "Killer Klowns From Outer Space",
         "type": "MAZE",
         "ip": true,
-        "ipName": "House of 1000 Corpses",
-        "location": "Sprung Tent 1",
-        "description": "Rob Zombie's depraved cult classic finally got the HHN treatment, plunging guests into the world of the Firefly family.",
-        "lore": "Captain Spaulding's roadside attraction is just the beginning of a descent into the Firefly family's horrors.",
-        "trivia": [
-          "Long requested by fans before finally appearing in 2019.",
-          "Dr. Satan's lair was a highlight of the house."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/House_of_1000_Corpses"
-      },
-      {
-        "name": "Depths of Fear",
-        "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "Sprung Tent 2",
-        "description": "An original deep-sea horror concept featuring mutated aquatic creatures overrunning an underwater mining operation.",
-        "lore": "When a deep-sea mining rig breaches an unknown ecosystem, the creatures that emerge are unlike anything science has classified.",
-        "trivia": [
-          "One of the most positively reviewed original houses of the year.",
-          "Featured practical water effects throughout."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Depths_of_Fear"
-      },
-      {
-        "name": "Yeti: Terror of the Yukon",
-        "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "Disaster Queue",
-        "description": "A creature feature set in the frozen Yukon wilderness, where a research expedition meets a horrifying end at the hands of a massive Yeti.",
+        "ipName": "Killer Klowns from Outer Space",
+        "location": "SHREK",
+        "description": "",
         "lore": "",
-        "trivia": [
-          "Featured some of the most impressive practical creature costumes of any HHN year."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Yeti%3A_Terror_of_the_Yukon"
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Killer_Klowns_From_Outer_Space"
       },
       {
-        "name": "Holidayz in Hell",
+        "name": "Us",
         "type": "MAZE",
-        "ip": false,
+        "ip": true,
         "ipName": null,
-        "location": "New York Library Queue",
-        "description": "Every holiday twisted into a nightmare — from a killer Santa to a murderous Easter Bunny.",
+        "location": "SS24B",
+        "description": "",
         "lore": "",
-        "trivia": [
-          "A comedic-horror concept that played well with crowds."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Holidayz_in_Hell"
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Us"
       },
       {
         "name": "Graveyard Games",
         "type": "MAZE",
         "ip": false,
         "ipName": null,
-        "location": "MIB Queue",
-        "description": "Guests disturbed the dead in a cemetery-set house themed around the consequences of disrespecting the departed.",
-        "lore": "A group of teens playing games in a graveyard unleash something ancient and vengeful.",
+        "location": "PARADE WAREHOUSE 1",
+        "description": "",
+        "lore": "",
         "trivia": [],
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Graveyard_Games"
       },
       {
-        "name": "Killer Klowns from Outer Space",
+        "name": "House Of 1000 Corpses",
         "type": "MAZE",
         "ip": true,
-        "ipName": "Killer Klowns from Outer Space",
-        "location": "Soundstage 18",
-        "description": "The beloved 1988 cult film got its HHN debut with cotton candy cocoons, shadow puppet monsters, and giant mallets.",
-        "lore": "The Klowns have landed their big top spaceship and are harvesting humans in their own special way.",
-        "trivia": [
-          "The Chiodo Brothers, who made the original film, provided input on the house.",
-          "Featured the popcorn gun scene faithfully recreated."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Killer_Klowns_from_Outer_Space"
+        "ipName": null,
+        "location": "MIB TENT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/House_Of_1000_Corpses"
       }
     ],
     "scarezones": [
       {
+        "name": "Zombieland Double Tap",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Zombieland_Double_Tap"
+      },
+      {
+        "name": "Rob Zombie: Hellbilly Deluxe",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": null,
+        "location": "SAN FRANCISCO",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Rob_Zombie%3A_Hellbilly_Deluxe"
+      },
+      {
+        "name": "Anarch-Cade",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Anarch-Cade"
+      },
+      {
         "name": "Vanity Ball",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "A glamorous masquerade ball turned sinister, celebrating the icon The Usher.",
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
         "trivia": [],
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Vanity_Ball"
-      },
-      {
-        "name": "Rob Zombie Hellbilly Deluxe",
-        "type": "SCAREZONE",
-        "ip": true,
-        "description": "A metal-infused scare zone bringing Rob Zombie's album and aesthetic to life in the streets.",
-        "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Rob_Zombie_Hellbilly_Deluxe"
-      },
-      {
-        "name": "Zombieland: Double Tap",
-        "type": "SCAREZONE",
-        "ip": true,
-        "description": "Timed to promote the sequel film, this zone brought the comedic zombie apocalypse to the park streets.",
-        "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Zombieland%3A_Double_Tap"
-      },
-      {
-        "name": "Anarch-cade",
-        "type": "SCAREZONE",
-        "ip": false,
-        "description": "A neon-lit arcade overtaken by pixelated monsters come to life.",
-        "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Anarch-cade"
       },
       {
         "name": "Vikings Undead",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Norse undead warriors roam a fog-drenched Viking village.",
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
         "trivia": [],
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Vikings_Undead"
       }
     ],
     "shows": [
       {
-        "name": "Marathon of Mayhem: Carnage Factory",
+        "name": "Academy Of Villains: Altered States",
         "type": "SHOW",
-        "ip": false,
-        "location": "Lagoon",
-        "description": "The lagoon show replaced Bill & Ted after its retirement in 2018, featuring projection mapping and live stunts.",
-        "trivia": [
-          "2018 marked the end of Bill & Ted's long run at HHN."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Marathon_of_Mayhem%3A_Carnage_Factory"
+        "ip": true,
+        "ipName": "Academy of Villains",
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_Of_Villains%3A_Altered_States"
       },
       {
-        "name": "Academy of Villains: Altered States",
+        "name": "Marathon Of Mayhem",
         "type": "SHOW",
-        "ip": false,
-        "location": "Fear Factor Live Stage",
-        "description": "The Academy of Villains dance crew returned with a new electrifying performance.",
+        "ip": true,
+        "ipName": null,
+        "location": "LAGOON",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_of_Villains%3A_Altered_States"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Marathon_Of_Mayhem"
       }
     ],
-    "notes": "HHN 29 was the last 'normal' HHN before the pandemic cancelled 2020."
+    "notes": "Tickets On Sale"
+  },
+  {
+    "year": 2020,
+    "event_number": null,
+    "theme": "Cancelled — COVID-19",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": null,
+      "close": null
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Revenge Of The Tooth Fairy",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Revenge_Of_The_Tooth_Fairy"
+      },
+      {
+        "name": "The Bride Of Frankenstein Lives",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Bride_Of_Frankenstein_Lives"
+      }
+    ],
+    "scarezones": [],
+    "shows": [],
+    "notes": "Event Cancelled"
+  },
+  {
+    "year": 2021,
+    "event_number": "XXX",
+    "theme": "Halloween Horror Nights 30",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "2021-09-03",
+      "close": "2021-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Beetlejuice",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "PARADE WAREHOUSE 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Beetlejuice"
+      },
+      {
+        "name": "The Haunting Of Hill House",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "PARADE WAREHOUSE 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Haunting_Of_Hill_House"
+      },
+      {
+        "name": "The Texas Chainsaw Massacre",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Texas Chainsaw Massacre",
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Texas_Chainsaw_Massacre"
+      },
+      {
+        "name": "The Bride Of Frankenstein Lives",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Bride_Of_Frankenstein_Lives"
+      },
+      {
+        "name": "Hhn Icons Captured",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Hhn_Icons_Captured"
+      },
+      {
+        "name": "Welcome To Scarey",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "MIB TENT",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Welcome_To_Scarey"
+      },
+      {
+        "name": "Case Files: Unearthed",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SHREK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Case_Files%3A_Unearthed"
+      },
+      {
+        "name": "The Wicked Growth: Realm Of The Pumpkin",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Wicked_Growth%3A_Realm_Of_The_Pumpkin"
+      },
+      {
+        "name": "Puppet Theatre: Captive Audience",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Puppet_Theatre%3A_Captive_Audience"
+      },
+      {
+        "name": "Revenge Of The Tooth Fairy",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Revenge_Of_The_Tooth_Fairy"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Crypt Tv",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": null,
+        "location": "SAN FRANCISCO",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Crypt_Tv"
+      },
+      {
+        "name": "30 Years 30 Fears",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/30_Years_30_Fears"
+      },
+      {
+        "name": "Seek And Destroy",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Seek_And_Destroy"
+      },
+      {
+        "name": "Gorewood Forest",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Gorewood_Forest"
+      },
+      {
+        "name": "Lights Camera Hacktion: Eddie'S Revenge",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Lights_Camera_Hacktion%3A_Eddie%27S_Revenge"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Marathon Of Mayhem: Carnage Factory",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "LAGOON",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Marathon_Of_Mayhem%3A_Carnage_Factory"
+      },
+      {
+        "name": "Nightmare Fuel",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmare_Fuel"
+      }
+    ],
+    "notes": "Tickets On Sale | Jack Is Back! (Again) | Frequent Fear Passes On Sale"
+  },
+  {
+    "year": 2022,
+    "event_number": "XXXI",
+    "theme": "Halloween Horror Nights 31",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "2022-09-01",
+      "close": "2022-10-31"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Universal Monsters: Legends Collide",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "PARADE WAREHOUSE 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal_Monsters%3A_Legends_Collide"
+      },
+      {
+        "name": "Halloween",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Halloween",
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Halloween"
+      },
+      {
+        "name": "The Horrors Of Blumhouse",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Horrors of Blumhouse",
+        "location": "FF QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Horrors_Of_Blumhouse"
+      },
+      {
+        "name": "The Weeknd: After Hours Nightmare",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "PARADE WAREHOUSE 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Weeknd%3A_After_Hours_Nightmare"
+      },
+      {
+        "name": "Spirits Of The Coven",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Spirits_Of_The_Coven"
+      },
+      {
+        "name": "Bugs: Eaten Alive",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bugs%3A_Eaten_Alive"
+      },
+      {
+        "name": "Fiesta De Chupacabras",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Fiesta_De_Chupacabras"
+      },
+      {
+        "name": "Hellblock Horror",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Hellblock_Horror"
+      },
+      {
+        "name": "Dead Man'S Pier",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dead_Man%27S_Pier"
+      },
+      {
+        "name": "Descendants Of Destruction",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Descendants_Of_Destruction"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Horrors Of Halloween",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Horrors_Of_Halloween"
+      },
+      {
+        "name": "Sweet Revenge",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Sweet_Revenge"
+      },
+      {
+        "name": "Conjure The Dark",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SAN FRANCISCO",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Conjure_The_Dark"
+      },
+      {
+        "name": "Graveyard: Deadly Unrest",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Graveyard%3A_Deadly_Unrest"
+      },
+      {
+        "name": "Scarecrow: Cursed Soil",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Scarecrow%3A_Cursed_Soil"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Nightmare Fuel: Wildfire",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmare_Fuel%3A_Wildfire"
+      },
+      {
+        "name": "Ghoulish! A Halloween Tale",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "LAGOON",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Ghoulish!_A_Halloween_Tale"
+      }
+    ],
+    "notes": "Tickets On Sale | Frequent Fear Passes On Sale"
   },
   {
     "year": 2023,
@@ -395,192 +5120,192 @@
       "open": "2023-09-01",
       "close": "2023-10-31"
     },
-    "description": "Halloween Horror Nights 32 was anchored by a strong original narrative: Dr. D. Rago, a supernatural purveyor of dark bargains, served as the event's icon. The year balanced a strong original concept lineup with high-profile IP houses including The Last of Us, Chucky, The Exorcist Believer, and a Universal Monsters house. It was also notable for being the longest-running HHN to date.",
-    "attendance": "Estimated 1.2M+",
-    "reception": "Well-received. The Last of Us house was a fan standout. The original houses were praised for depth of concept. Dr. D. Rago was considered an effective and underrated icon.",
+    "description": "",
+    "attendance": "",
+    "reception": "",
     "houses": [
-      {
-        "name": "The Last of Us",
-        "type": "MAZE",
-        "ip": true,
-        "ipName": "The Last of Us",
-        "location": "Soundstage 23",
-        "description": "Based on the acclaimed HBO/PlayStation series, the house walked guests through the fungal apocalypse with Clicker encounters and emotional story beats.",
-        "lore": "Twenty years after the Cordyceps pandemic, Joel and Ellie's journey through a collapsed America is brought to terrifying life.",
-        "trivia": [
-          "Featured incredibly detailed Clicker practical effects.",
-          "Timed to the success of the HBO series debut in 2023.",
-          "Considered one of the best IP houses in years."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Last_of_Us"
-      },
       {
         "name": "Chucky: Ultimate Kill Count",
         "type": "MAZE",
         "ip": true,
-        "ipName": "Child's Play / Chucky",
-        "location": "Soundstage 22",
-        "description": "The Good Guy doll ran amok in a house that celebrated his decades of kills in classic slasher style.",
-        "lore": "Charles Lee Ray's reign of terror chronicled through his most iconic murder tableaux.",
-        "trivia": [
-          "Featured multiple Chucky variants across different film eras."
-        ],
+        "ipName": "Chucky",
+        "location": "FF QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Chucky%3A_Ultimate_Kill_Count"
       },
       {
-        "name": "Universal Monsters: Unfinished Business",
+        "name": "The Last Of Us",
         "type": "MAZE",
         "ip": true,
-        "ipName": "Universal Monsters",
-        "location": "Sprung Tent 1",
-        "description": "Classic Universal Monsters — Dracula, Frankenstein's Monster, The Wolfman, The Mummy — returned with new scores to settle.",
-        "lore": "Each monster has one final act of revenge before they can rest.",
-        "trivia": [
-          "Brought back beloved classic monsters in new contexts.",
-          "Featured strong period set design."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal_Monsters%3A_Unfinished_Business"
-      },
-      {
-        "name": "The Exorcist: Believer",
-        "type": "MAZE",
-        "ip": true,
-        "ipName": "The Exorcist: Believer",
-        "location": "Parade Building",
-        "description": "Promoting the 2023 legacy sequel, the house depicted the possession of two young girls and the desperate measures taken to save them.",
+        "ipName": null,
+        "location": "PARADE WAREHOUSE 2",
+        "description": "",
         "lore": "",
-        "trivia": [
-          "Tied to the film's theatrical release in October 2023."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Exorcist%3A_Believer"
-      },
-      {
-        "name": "Dr. D. Rago's House of Horrors",
-        "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "Soundstage 18",
-        "description": "The icon's own house — a cursed emporium of dark deals and their terrible consequences.",
-        "lore": "Dr. D. Rago offers everything your heart desires. The price is always higher than you expect.",
-        "trivia": [
-          "The icon house is traditionally one of the most narrative-driven of each year."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dr._D._Rago%27s_House_of_Horrors"
-      },
-      {
-        "name": "Dueling Dragons: Choose Thy Fate",
-        "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "Dragon Queue (former Dueling Dragons)",
-        "description": "Set in the ruins of the old Dragon Challenge roller coaster's queue, this house used the authentic medieval environment to devastating effect.",
-        "lore": "The cursed dueling dragons have awakened in their ancient lair — and guests must survive both.",
-        "trivia": [
-          "Used the actual original Dueling Dragons queue as its location, making it a love letter to longtime USF fans.",
-          "One of the most location-specific houses ever created for HHN."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dueling_Dragons%3A_Choose_Thy_Fate"
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Last_Of_Us"
       },
       {
         "name": "Stranger Things 4",
         "type": "MAZE",
         "ip": true,
         "ipName": "Stranger Things",
-        "location": "Sprung Tent 2",
-        "description": "The fourth and final Stranger Things house at HHN, bringing Vecna and the Upside Down's most terrifying form to life.",
-        "lore": "Vecna's master plan is nearly complete. One final breach into Hawkins may seal the world's fate.",
-        "trivia": [
-          "The fourth and presumed final HHN Stranger Things house.",
-          "Featured an elaborate Vecna practical sculpture."
-        ],
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Stranger_Things_4"
       },
       {
-        "name": "Nightmare Fuel",
+        "name": "The Exorcist: Believer",
         "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "Disaster Queue",
-        "description": "A nightmarish journey through the sleeping mind, where every dream becomes a deadly trap.",
+        "ip": true,
+        "ipName": "The Exorcist",
+        "location": "SS22",
+        "description": "",
         "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmare_Fuel"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Exorcist%3A_Believer"
       },
       {
-        "name": "Harvester of Souls",
+        "name": "Universal Monsters: Unmasked",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "PARADE WAREHOUSE 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal_Monsters%3A_Unmasked"
+      },
+      {
+        "name": "Dr. Oddfellow'S Twisted Origins",
         "type": "MAZE",
         "ip": false,
         "ipName": null,
-        "location": "MIB Queue",
-        "description": "A reaper has come to collect — and guests are the harvest.",
+        "location": "SPRUNG TENT 2",
+        "description": "",
         "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Harvester_of_Souls"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dr._Oddfellow%27S_Twisted_Origins"
+      },
+      {
+        "name": "Dueling Dragons: Choose Thy Fate",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24A",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dueling_Dragons%3A_Choose_Thy_Fate"
+      },
+      {
+        "name": "Yeti: Campground Kills",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24B",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Yeti%3A_Campground_Kills"
+      },
+      {
+        "name": "The Darkest Deal",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Darkest_Deal"
+      },
+      {
+        "name": "Bloodmoon: Dark Offerings",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS23",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bloodmoon%3A_Dark_Offerings"
       }
     ],
     "scarezones": [
       {
-        "name": "Dr. D. Rago's Collection",
+        "name": "Dr. Oddfellow'S Collection Of Horror",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "The icon's prized possessions come to life in a central scare zone.",
+        "ipName": null,
+        "location": "ENTRANCE",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dr._D._Rago%27s_Collection"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dr._Oddfellow%27S_Collection_Of_Horror"
       },
       {
-        "name": "Shipyard 32: Return of the Demons",
+        "name": "Dark Zodiac",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Industrial demons haunt a fog-choked harbor.",
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Shipyard_32%3A_Return_of_the_Demons"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dark_Zodiac"
       },
       {
-        "name": "Jungle of Doom: Expedition Horror",
+        "name": "Jungle Of Doom: Expedition Of Horror",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Cursed expedition members haunt the jungle, twisted beyond recognition.",
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jungle_of_Doom%3A_Expedition_Horror"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jungle_Of_Doom%3A_Expedition_Of_Horror"
       },
       {
-        "name": "Desperate Times",
+        "name": "Vamp '69: Summer Of Blood",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Post-apocalyptic survivors — and the things hunting them — clash in the streets.",
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Desperate_Times"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Vamp_%2769%3A_Summer_Of_Blood"
       },
       {
-        "name": "Sweet Revenge",
+        "name": "Shipyard 32: Horrors Unhinged",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Sinister confections and candy-themed horror in a sugar-coated nightmare.",
+        "ipName": null,
+        "location": "SAN FRANCISCO",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Sweet_Revenge"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Shipyard_32%3A_Horrors_Unhinged"
       }
     ],
     "shows": [
       {
-        "name": "Marathon of Mayhem: Clashing of the Titans",
+        "name": "Nightmare Fuel: Revenge Dream",
         "type": "SHOW",
         "ip": false,
-        "location": "Lagoon",
-        "description": "The lagoon projection show, pitting iconic monsters against one another in spectacular fashion.",
+        "ipName": null,
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Marathon_of_Mayhem%3A_Clashing_of_the_Titans"
-      },
-      {
-        "name": "Academy of Villains: Dead Ops",
-        "type": "SHOW",
-        "ip": false,
-        "location": "Fear Factor Live Stage",
-        "description": "The Academy of Villains returned with a high-octane dance and acrobatics performance.",
-        "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_of_Villains%3A_Dead_Ops"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmare_Fuel%3A_Revenge_Dream"
       }
     ],
-    "notes": "HHN 32 ran from September 1 through October 31, making it the longest HHN on record at the time."
+    "notes": "Tickets On Sale | Frequent Fear Passes On Sale | Death Eaters In Diagon Alley"
   },
   {
     "year": 2024,
@@ -592,188 +5317,473 @@
       "open": "2024-08-30",
       "close": "2024-11-03"
     },
-    "description": "Halloween Horror Nights 33 debuted as the earliest-starting event in HHN history, opening in August for the first time. The year introduced The Collective as its icon — five figures united by shared darkness — and leaned heavily into horror IP with a lineup that included A Quiet Place, Alien vs. Predator, Chucky, and Insidious. Original concepts explored body horror, folk horror, and cosmic dread.",
-    "attendance": "Estimated 1.3M+",
-    "reception": "Strong reviews for the IP houses. AvP was widely celebrated as the house of the year. The Collective was praised as an inventive multi-icon concept. Some noted the event felt IP-heavy relative to originals.",
+    "description": "",
+    "attendance": "",
+    "reception": "",
     "houses": [
       {
-        "name": "Alien vs. Predator",
+        "name": "Slaughter Sinema 2",
         "type": "MAZE",
-        "ip": true,
-        "ipName": "Alien vs. Predator",
-        "location": "Soundstage 23",
-        "description": "Two legendary species collided in what many named the house of the year — guests were caught in the middle of a Xenomorph infestation being hunted by Predators.",
-        "lore": "The Weyland-Yutani facility has been overrun. The hunt has begun. You are neither prey nor hunter — just in the way.",
-        "trivia": [
-          "Widely voted house of the year by HHN fan communities.",
-          "Featured full-scale Xenomorph queen and Queen Facehugger props.",
-          "Multiple Predator cloaking effects used throughout."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Alien_vs._Predator"
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Slaughter_Sinema_2"
+      },
+      {
+        "name": "Goblin'S Feast",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 4",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Goblin%27S_Feast"
+      },
+      {
+        "name": "Major Sweets Candy Factory",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "FF QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Major_Sweets_Candy_Factory"
+      },
+      {
+        "name": "The Museum: Deadly Exhibit",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Museum%3A_Deadly_Exhibit"
+      },
+      {
+        "name": "Monstruos: The Monsters Of Latin America",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS23A",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Monstruos%3A_The_Monsters_Of_Latin_America"
+      },
+      {
+        "name": "Triplets Of Terror",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24B",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Triplets_Of_Terror"
       },
       {
         "name": "A Quiet Place",
         "type": "MAZE",
         "ip": true,
-        "ipName": "A Quiet Place",
-        "location": "Soundstage 22",
-        "description": "The terrifying concept of near-silence as survival was translated into the haunted house format — guests were urged not to make a sound.",
-        "lore": "The Abbott family's nightmare world, where Death Angels hunt by sound alone.",
-        "trivia": [
-          "Ambient noise suppression design made this one of the most unique sensory experiences in HHN history.",
-          "Featured the iconic bathtub birth sequence."
-        ],
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/A_Quiet_Place"
+      },
+      {
+        "name": "Ghostbusters: Frozen Empire",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Ghostbusters",
+        "location": "SS23B",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Ghostbusters%3A_Frozen_Empire"
       },
       {
         "name": "Insidious: The Further",
         "type": "MAZE",
         "ip": true,
         "ipName": "Insidious",
-        "location": "Parade Building",
-        "description": "Guests entered The Further — the purgatorial realm from the Insidious franchise — and faced its most terrifying denizens.",
-        "lore": "The Further is not empty. The things living there do not want you to leave.",
-        "trivia": [
-          "The red-faced demon from the original film made multiple appearances."
-        ],
+        "location": "SS24A",
+        "description": "",
+        "lore": "",
+        "trivia": [],
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Insidious%3A_The_Further"
       },
       {
-        "name": "Chucky: Ultimate Kill Count 2",
+        "name": "Universal Monsters: Eternal Bloodlines",
         "type": "MAZE",
         "ip": true,
-        "ipName": "Child's Play / Chucky",
-        "location": "Sprung Tent 1",
-        "description": "The Good Guy doll returned for another round, this time with new kills and new obsessions.",
+        "ipName": "Universal Monsters",
+        "location": "SPRUNG TENT 3",
+        "description": "",
         "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Chucky%3A_Ultimate_Kill_Count_2"
-      },
-      {
-        "name": "The Collective: A Convergence of Evil",
-        "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "Soundstage 18",
-        "description": "The five members of The Collective held court in their own house, each with their own domain of horror.",
-        "lore": "Five entities, five nightmares, one convergence. The Collective has gathered — and you are the offering.",
-        "trivia": [
-          "Each room of the house was designed by a different member of The Collective's mythology."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Collective%3A_A_Convergence_of_Evil"
-      },
-      {
-        "name": "Monstruos: The Monsters of Latin America",
-        "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "Sprung Tent 2",
-        "description": "A vivid, visually rich house drawing on the legendary monsters of Latin American folklore — La Llorona, El Cucuy, and more.",
-        "lore": "The old legends are real. They have been waiting for generations.",
-        "trivia": [
-          "Praised for its cultural specificity and visual design.",
-          "La Llorona's wailing was considered one of the most disturbing sound designs of HHN 33."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Monstruos%3A_The_Monsters_of_Latin_America"
-      },
-      {
-        "name": "Bloodmoon: Dark Offerings",
-        "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "Disaster Queue",
-        "description": "A folk horror descent into cult ritual, harvest sacrifice, and the terrible power of the blood moon.",
-        "lore": "",
-        "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bloodmoon%3A_Dark_Offerings"
-      },
-      {
-        "name": "Cellar Dweller",
-        "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "MIB Queue",
-        "description": "Something has been living beneath the house for decades. Now it's hungry.",
-        "lore": "",
-        "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Cellar_Dweller"
-      },
-      {
-        "name": "The Darkest Depths",
-        "type": "MAZE",
-        "ip": false,
-        "ipName": null,
-        "location": "Dragon Queue",
-        "description": "Deep sea horror returned to HHN — leviathan creatures from the crushing dark of the ocean trenches.",
-        "lore": "",
-        "trivia": [
-          "Thematic spiritual successor to 2019's well-received Depths of Fear."
-        ],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Darkest_Depths"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal_Monsters%3A_Eternal_Bloodlines"
       }
     ],
     "scarezones": [
       {
-        "name": "The Collective Convergence",
+        "name": "Torture Faire",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "The five icons of The Collective roamed their domain in the central park hub.",
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Collective_Convergence"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Torture_Faire"
       },
       {
-        "name": "Parasitic Twins",
+        "name": "Swamp Of The Undead",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Body horror brought to street level — conjoined abominations that should not exist.",
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Parasitic_Twins"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Swamp_Of_The_Undead"
       },
       {
-        "name": "Toxic Tunnel of Terror",
+        "name": "Duality Of Fear",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Chemical mutation and industrial horror in the park's tunnel passage.",
+        "ipName": null,
+        "location": "ENTRANCE",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Toxic_Tunnel_of_Terror"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Duality_Of_Fear"
       },
       {
-        "name": "Forget Me Knot",
+        "name": "Demon Queens",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Floral horror — beautiful on the surface, deadly beneath.",
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Forget_Me_Knot"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Demon_Queens"
       },
       {
-        "name": "Gore Whore",
+        "name": "Enter The Blumhouse",
         "type": "SCAREZONE",
-        "ip": false,
-        "description": "A blood-soaked couture nightmare where fashion meets visceral horror.",
+        "ip": true,
+        "ipName": null,
+        "location": "SAN FRANCISCO",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Gore_Whore"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Enter_The_Blumhouse"
       }
     ],
     "shows": [
       {
-        "name": "Marathon of Mayhem: Horrors Unleashed",
+        "name": "Nightmare Fuel: Nocturnal Circus",
         "type": "SHOW",
         "ip": false,
-        "location": "Lagoon",
-        "description": "The lagoon show's latest iteration, unleashing the full roster of HHN horrors on the water stage.",
+        "ipName": null,
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
         "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Marathon_of_Mayhem%3A_Horrors_Unleashed"
-      },
-      {
-        "name": "Academy of Villains: Altered States",
-        "type": "SHOW",
-        "ip": false,
-        "location": "Fear Factor Live Stage",
-        "description": "Another year of high-energy villain-themed dance performance.",
-        "trivia": [],
-        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_of_Villains%3A_Altered_States"
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmare_Fuel%3A_Nocturnal_Circus"
       }
     ],
-    "notes": "HHN 33 opened on August 30, the earliest start in the event's history. It ran 64 nights."
+    "notes": "Tickets On Sale | Frequent Fear Passes On Sale"
+  },
+  {
+    "year": 2025,
+    "event_number": "XXXIV",
+    "theme": "Halloween Horror Nights 34",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "2025-08-28",
+      "close": "2025-11-01"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Five Nights At Freddy'S",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS23B",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Five_Nights_At_Freddy%27S"
+      },
+      {
+        "name": "Fallout",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SPRUNG TENT 4",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Fallout"
+      },
+      {
+        "name": "Jason Universe",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Freddy vs. Jason / Friday the 13th / A Nightmare on Elm Street",
+        "location": "FF QUEUE",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jason_Universe"
+      },
+      {
+        "name": "El Artista: A Spanish Haunting",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS22",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/El_Artista%3A_A_Spanish_Haunting"
+      },
+      {
+        "name": "Hatchet And Chains",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 1",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Hatchet_And_Chains"
+      },
+      {
+        "name": "Dolls: Let'S Play Dead",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 2",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dolls%3A_Let%27S_Play_Dead"
+      },
+      {
+        "name": "Grave Of Flesh",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SS24B",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Grave_Of_Flesh"
+      },
+      {
+        "name": "Galkn: Monsters Of The North",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "SPRUNG TENT 3",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Galkn%3A_Monsters_Of_The_North"
+      },
+      {
+        "name": "Terrifier",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS25",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Terrifier"
+      },
+      {
+        "name": "Wwe Presents: The Horrors Of The Wyatt Sicks",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "SS23A",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Wwe_Presents%3A_The_Horrors_Of_The_Wyatt_Sicks"
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "The Origins Of Horror",
+        "type": "SCAREZONE",
+        "ip": true,
+        "ipName": null,
+        "location": "PLAZA OF THE STARS",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Origins_Of_Horror"
+      },
+      {
+        "name": "Masquerade: Dance W/ Death",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "HOLLYWOOD",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Masquerade%3A_Dance_W%2F_Death"
+      },
+      {
+        "name": "The Cat Lady Of Crooked Lane",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "CENTRAL PARK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Cat_Lady_Of_Crooked_Lane"
+      },
+      {
+        "name": "Mutations: Toxic Twenties",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "NEW YORK",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Mutations%3A_Toxic_Twenties"
+      },
+      {
+        "name": "Mel'S Die-In Zombies",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "MEL'S DRIVE-IN",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Mel%27S_Die-In_Zombies"
+      },
+      {
+        "name": "Club Horror",
+        "type": "SCAREZONE",
+        "ip": false,
+        "ipName": null,
+        "location": "SAN FRANCISCO",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Club_Horror"
+      }
+    ],
+    "shows": [
+      {
+        "name": "Nightmare Fuel: Circus Of Decay",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "FEAR FACTOR",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmare_Fuel%3A_Circus_Of_Decay"
+      },
+      {
+        "name": "Haunt-O-Phonic: A Ghoulish Journey",
+        "type": "SHOW",
+        "ip": false,
+        "ipName": null,
+        "location": "LAGOON",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Haunt-O-Phonic%3A_A_Ghoulish_Journey"
+      }
+    ],
+    "notes": "Tickets On Sale | Frequent Fear Passes On Sale"
+  },
+  {
+    "year": 2026,
+    "event_number": "XXXV",
+    "theme": "Halloween Horror Nights 35",
+    "icon": null,
+    "tagline": "",
+    "dates": {
+      "open": "2026-08-28",
+      "close": "2026-11-01"
+    },
+    "description": "",
+    "attendance": "",
+    "reception": "",
+    "houses": [
+      {
+        "name": "Jack & Oddfellow: Chaos & Control",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "TBA",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jack_%26_Oddfellow%3A_Chaos_%26_Control"
+      },
+      {
+        "name": "Sinners",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": null,
+        "location": "TBA",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Sinners"
+      },
+      {
+        "name": "Stranger Things 5",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Stranger Things",
+        "location": "TBA",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Stranger_Things_5"
+      },
+      {
+        "name": "H.R. Bloodengutz Presents: A Halloween Fright-Tacular!",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "TBA",
+        "description": "",
+        "lore": "",
+        "trivia": [],
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/H.R._Bloodengutz_Presents%3A_A_Halloween_Fright-Tacular!"
+      }
+    ],
+    "scarezones": [],
+    "shows": [],
+    "notes": "Tickets On Sale"
   }
 ]
