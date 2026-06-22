@@ -9,7 +9,7 @@
       "open": "1991-10-18",
       "close": "1991-10-19"
     },
-    "description": "The very first Halloween Horror Nights was a modest two-night event held at Universal Studios Florida. Originally called 'Fright Nights,' it was a test run that would eventually grow into one of the most celebrated Halloween events in the world. Guests wandered a park transformed by fog, darkness, and roaming monsters\u2014an entirely new concept for a theme park.",
+    "description": "The very first Halloween Horror Nights was a modest two-night event held at Universal Studios Florida. Originally called 'Fright Nights,' it was a test run that would eventually grow into one of the most celebrated Halloween events in the world. Guests wandered a park transformed by fog, darkness, and roaming monsters—an entirely new concept for a theme park.",
     "attendance": "Unknown",
     "reception": "Modest but promising. The event was considered a success and paved the way for annual expansion.",
     "scarezones": [],
@@ -26,7 +26,7 @@
         "trivia": [
           "One of only a handful of mazes at the very first HHN."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dungeon_of_Terror"
       }
     ],
     "notes": "Originally called 'Fright Nights.' The event ran only two nights."
@@ -57,7 +57,7 @@
           "Psychoscarepy returned numerous times over the years.",
           "Considered one of the defining original HHN concepts."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Psychoscarepy"
       },
       {
         "name": "Forsaken",
@@ -68,7 +68,7 @@
         "description": "A descent into a world of forsaken souls and demonic forces.",
         "lore": "",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Forsaken"
       }
     ],
     "scarezones": [
@@ -76,11 +76,11 @@
         "name": "Jack's Carnival of Carnage",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Jack the Clown's domain \u2014 a twisted midway where nothing is safe.",
+        "description": "Jack the Clown's domain — a twisted midway where nothing is safe.",
         "trivia": [
           "This was Jack's first official scare zone and served as the centerpiece of the event."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jack%27s_Carnival_of_Carnage"
       }
     ],
     "shows": [
@@ -94,7 +94,7 @@
         "trivia": [
           "Bill & Ted's show ran at HHN for over 20 years before its retirement."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27s_Excellent_Halloween_Adventure"
       }
     ],
     "notes": "HHN X is considered one of the most important years in the event's history due to Jack's debut."
@@ -119,12 +119,12 @@
         "ip": false,
         "ipName": null,
         "location": "Soundstage 23",
-        "description": "Jack's own funhouse \u2014 a kaleidoscopic, disorienting maze built around the icon himself.",
+        "description": "Jack's own funhouse — a kaleidoscopic, disorienting maze built around the icon himself.",
         "lore": "Inside Jack's personal domain, nothing follows the rules of the normal world.",
         "trivia": [
-          "Used 3D 'Clown-O-Vision' glasses as a signature gimmick \u2014 one of the first HHN houses to do so."
+          "Used 3D 'Clown-O-Vision' glasses as a signature gimmick — one of the first HHN houses to do so."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jack%27s_Funhouse_in_Clown-O-Vision"
       },
       {
         "name": "Scary Tales III",
@@ -137,7 +137,7 @@
         "trivia": [
           "Part of a long-running original franchise within HHN."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Scary_Tales_III"
       },
       {
         "name": "The Spawning",
@@ -148,7 +148,7 @@
         "description": "A creature-feature house set in a research station overrun by horrifying biological organisms.",
         "lore": "",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Spawning"
       }
     ],
     "scarezones": [
@@ -158,7 +158,7 @@
         "ip": false,
         "description": "A zombie-infested urban streetscape overtaking the park's New York area.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Deadtropolis"
       },
       {
         "name": "Your Luck Has Run Out",
@@ -166,7 +166,7 @@
         "ip": false,
         "description": "A twisted carnival games zone where the games play you.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Your_Luck_Has_Run_Out"
       }
     ],
     "shows": [
@@ -178,7 +178,7 @@
         "location": "Fear Factor Live Stage",
         "description": "The long-running pop culture parody variety show.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27s_Excellent_Halloween_Adventure"
       }
     ],
     "notes": "Often cited by fans as a top-3 HHN year. Jack's return as icon for XVII was a major draw."
@@ -193,7 +193,7 @@
       "open": "2019-09-06",
       "close": "2019-11-02"
     },
-    "description": "Halloween Horror Nights 29 was headlined by Stranger Things Season 3 and a massive spread of horror IP houses. The event introduced The Usher as its icon \u2014 a movie theater-themed host who shepherded guests through the horrors. The year featured one of the strongest IP lineups in the event's history, including Us, Ghostbusters, House of 1000 Corpses, and a Yeti original concept.",
+    "description": "Halloween Horror Nights 29 was headlined by Stranger Things Season 3 and a massive spread of horror IP houses. The event introduced The Usher as its icon — a movie theater-themed host who shepherded guests through the horrors. The year featured one of the strongest IP lineups in the event's history, including Us, Ghostbusters, House of 1000 Corpses, and a Yeti original concept.",
     "attendance": "Estimated 1M+",
     "reception": "Praised for its strong IP execution, especially the Us and Ghostbusters houses. Stranger Things 3 was visually impressive. Some fans felt the original concepts were overshadowed by IP.",
     "houses": [
@@ -209,18 +209,7 @@
           "Featured a recreation of the Starcourt Mall food court.",
           "One of the most elaborately designed IP houses in HHN history."
         ],
-        "photos": [
-          {
-            "type": "youtube",
-            "videoId": "jXCbMJEMPgs",
-            "caption": "Official HHN 29 Stranger Things 3 announcement"
-          },
-          {
-            "type": "youtube",
-            "videoId": "l5kHJAVgDJE",
-            "caption": "House walkthrough preview"
-          }
-        ]
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Stranger_Things_3"
       },
       {
         "name": "Us",
@@ -228,19 +217,13 @@
         "ip": true,
         "ipName": "Us (2019 film)",
         "location": "Soundstage 22",
-        "description": "Jordan Peele's critically acclaimed horror film came to HHN with its haunting Tethered doppelg\u00e4ngers.",
+        "description": "Jordan Peele's critically acclaimed horror film came to HHN with its haunting Tethered doppelgängers.",
         "lore": "The Wilsons' beach vacation turns nightmarish when their twisted underground doubles emerge.",
         "trivia": [
           "Jordan Peele collaborated closely on the house design.",
           "Widely considered one of the best houses of the year."
         ],
-        "photos": [
-          {
-            "type": "youtube",
-            "videoId": "k1ZiC6G0k5Y",
-            "caption": "Official Us house announcement"
-          }
-        ]
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Us"
       },
       {
         "name": "Ghostbusters",
@@ -254,7 +237,7 @@
           "Featured the Stay Puft Marshmallow Man and a recreation of the Sedgewick Hotel.",
           "Used practical fog effects to simulate ectoplasm."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Ghostbusters"
       },
       {
         "name": "House of 1000 Corpses",
@@ -268,7 +251,7 @@
           "Long requested by fans before finally appearing in 2019.",
           "Dr. Satan's lair was a highlight of the house."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/House_of_1000_Corpses"
       },
       {
         "name": "Depths of Fear",
@@ -282,13 +265,7 @@
           "One of the most positively reviewed original houses of the year.",
           "Featured practical water effects throughout."
         ],
-        "photos": [
-          {
-            "type": "youtube",
-            "videoId": "vGMeXMTMhCY",
-            "caption": "Depths of Fear house preview"
-          }
-        ]
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Depths_of_Fear"
       },
       {
         "name": "Yeti: Terror of the Yukon",
@@ -301,7 +278,7 @@
         "trivia": [
           "Featured some of the most impressive practical creature costumes of any HHN year."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Yeti%3A_Terror_of_the_Yukon"
       },
       {
         "name": "Holidayz in Hell",
@@ -309,12 +286,12 @@
         "ip": false,
         "ipName": null,
         "location": "New York Library Queue",
-        "description": "Every holiday twisted into a nightmare \u2014 from a killer Santa to a murderous Easter Bunny.",
+        "description": "Every holiday twisted into a nightmare — from a killer Santa to a murderous Easter Bunny.",
         "lore": "",
         "trivia": [
           "A comedic-horror concept that played well with crowds."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Holidayz_in_Hell"
       },
       {
         "name": "Graveyard Games",
@@ -325,7 +302,7 @@
         "description": "Guests disturbed the dead in a cemetery-set house themed around the consequences of disrespecting the departed.",
         "lore": "A group of teens playing games in a graveyard unleash something ancient and vengeful.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Graveyard_Games"
       },
       {
         "name": "Killer Klowns from Outer Space",
@@ -339,13 +316,7 @@
           "The Chiodo Brothers, who made the original film, provided input on the house.",
           "Featured the popcorn gun scene faithfully recreated."
         ],
-        "photos": [
-          {
-            "type": "youtube",
-            "videoId": "e1oUPCqxFI4",
-            "caption": "HHN 29 Killer Klowns announcement"
-          }
-        ]
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Killer_Klowns_from_Outer_Space"
       }
     ],
     "scarezones": [
@@ -355,7 +326,7 @@
         "ip": false,
         "description": "A glamorous masquerade ball turned sinister, celebrating the icon The Usher.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Vanity_Ball"
       },
       {
         "name": "Rob Zombie Hellbilly Deluxe",
@@ -363,7 +334,7 @@
         "ip": true,
         "description": "A metal-infused scare zone bringing Rob Zombie's album and aesthetic to life in the streets.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Rob_Zombie_Hellbilly_Deluxe"
       },
       {
         "name": "Zombieland: Double Tap",
@@ -371,7 +342,7 @@
         "ip": true,
         "description": "Timed to promote the sequel film, this zone brought the comedic zombie apocalypse to the park streets.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Zombieland%3A_Double_Tap"
       },
       {
         "name": "Anarch-cade",
@@ -379,7 +350,7 @@
         "ip": false,
         "description": "A neon-lit arcade overtaken by pixelated monsters come to life.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Anarch-cade"
       },
       {
         "name": "Vikings Undead",
@@ -387,7 +358,7 @@
         "ip": false,
         "description": "Norse undead warriors roam a fog-drenched Viking village.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Vikings_Undead"
       }
     ],
     "shows": [
@@ -400,7 +371,7 @@
         "trivia": [
           "2018 marked the end of Bill & Ted's long run at HHN."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Marathon_of_Mayhem%3A_Carnage_Factory"
       },
       {
         "name": "Academy of Villains: Altered States",
@@ -409,15 +380,10 @@
         "location": "Fear Factor Live Stage",
         "description": "The Academy of Villains dance crew returned with a new electrifying performance.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_of_Villains%3A_Altered_States"
       }
     ],
-    "notes": "HHN 29 was the last 'normal' HHN before the pandemic cancelled 2020.",
-    "coverPhoto": {
-      "type": "url",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Universal_Studios_Florida_front_entrance.jpg/1280px-Universal_Studios_Florida_front_entrance.jpg",
-      "caption": "Universal Studios Florida"
-    }
+    "notes": "HHN 29 was the last 'normal' HHN before the pandemic cancelled 2020."
   },
   {
     "year": 2023,
@@ -446,7 +412,7 @@
           "Timed to the success of the HBO series debut in 2023.",
           "Considered one of the best IP houses in years."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Last_of_Us"
       },
       {
         "name": "Chucky: Ultimate Kill Count",
@@ -459,7 +425,7 @@
         "trivia": [
           "Featured multiple Chucky variants across different film eras."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Chucky%3A_Ultimate_Kill_Count"
       },
       {
         "name": "Universal Monsters: Unfinished Business",
@@ -467,13 +433,13 @@
         "ip": true,
         "ipName": "Universal Monsters",
         "location": "Sprung Tent 1",
-        "description": "Classic Universal Monsters \u2014 Dracula, Frankenstein's Monster, The Wolfman, The Mummy \u2014 returned with new scores to settle.",
+        "description": "Classic Universal Monsters — Dracula, Frankenstein's Monster, The Wolfman, The Mummy — returned with new scores to settle.",
         "lore": "Each monster has one final act of revenge before they can rest.",
         "trivia": [
           "Brought back beloved classic monsters in new contexts.",
           "Featured strong period set design."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Universal_Monsters%3A_Unfinished_Business"
       },
       {
         "name": "The Exorcist: Believer",
@@ -486,7 +452,7 @@
         "trivia": [
           "Tied to the film's theatrical release in October 2023."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Exorcist%3A_Believer"
       },
       {
         "name": "Dr. D. Rago's House of Horrors",
@@ -494,12 +460,12 @@
         "ip": false,
         "ipName": null,
         "location": "Soundstage 18",
-        "description": "The icon's own house \u2014 a cursed emporium of dark deals and their terrible consequences.",
+        "description": "The icon's own house — a cursed emporium of dark deals and their terrible consequences.",
         "lore": "Dr. D. Rago offers everything your heart desires. The price is always higher than you expect.",
         "trivia": [
           "The icon house is traditionally one of the most narrative-driven of each year."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dr._D._Rago%27s_House_of_Horrors"
       },
       {
         "name": "Dueling Dragons: Choose Thy Fate",
@@ -508,12 +474,12 @@
         "ipName": null,
         "location": "Dragon Queue (former Dueling Dragons)",
         "description": "Set in the ruins of the old Dragon Challenge roller coaster's queue, this house used the authentic medieval environment to devastating effect.",
-        "lore": "The cursed dueling dragons have awakened in their ancient lair \u2014 and guests must survive both.",
+        "lore": "The cursed dueling dragons have awakened in their ancient lair — and guests must survive both.",
         "trivia": [
           "Used the actual original Dueling Dragons queue as its location, making it a love letter to longtime USF fans.",
           "One of the most location-specific houses ever created for HHN."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dueling_Dragons%3A_Choose_Thy_Fate"
       },
       {
         "name": "Stranger Things 4",
@@ -527,7 +493,7 @@
           "The fourth and presumed final HHN Stranger Things house.",
           "Featured an elaborate Vecna practical sculpture."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Stranger_Things_4"
       },
       {
         "name": "Nightmare Fuel",
@@ -538,7 +504,7 @@
         "description": "A nightmarish journey through the sleeping mind, where every dream becomes a deadly trap.",
         "lore": "",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmare_Fuel"
       },
       {
         "name": "Harvester of Souls",
@@ -546,10 +512,10 @@
         "ip": false,
         "ipName": null,
         "location": "MIB Queue",
-        "description": "A reaper has come to collect \u2014 and guests are the harvest.",
+        "description": "A reaper has come to collect — and guests are the harvest.",
         "lore": "",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Harvester_of_Souls"
       }
     ],
     "scarezones": [
@@ -559,7 +525,7 @@
         "ip": false,
         "description": "The icon's prized possessions come to life in a central scare zone.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Dr._D._Rago%27s_Collection"
       },
       {
         "name": "Shipyard 32: Return of the Demons",
@@ -567,7 +533,7 @@
         "ip": false,
         "description": "Industrial demons haunt a fog-choked harbor.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Shipyard_32%3A_Return_of_the_Demons"
       },
       {
         "name": "Jungle of Doom: Expedition Horror",
@@ -575,15 +541,15 @@
         "ip": false,
         "description": "Cursed expedition members haunt the jungle, twisted beyond recognition.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jungle_of_Doom%3A_Expedition_Horror"
       },
       {
         "name": "Desperate Times",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Post-apocalyptic survivors \u2014 and the things hunting them \u2014 clash in the streets.",
+        "description": "Post-apocalyptic survivors — and the things hunting them — clash in the streets.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Desperate_Times"
       },
       {
         "name": "Sweet Revenge",
@@ -591,7 +557,7 @@
         "ip": false,
         "description": "Sinister confections and candy-themed horror in a sugar-coated nightmare.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Sweet_Revenge"
       }
     ],
     "shows": [
@@ -602,7 +568,7 @@
         "location": "Lagoon",
         "description": "The lagoon projection show, pitting iconic monsters against one another in spectacular fashion.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Marathon_of_Mayhem%3A_Clashing_of_the_Titans"
       },
       {
         "name": "Academy of Villains: Dead Ops",
@@ -611,7 +577,7 @@
         "location": "Fear Factor Live Stage",
         "description": "The Academy of Villains returned with a high-octane dance and acrobatics performance.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_of_Villains%3A_Dead_Ops"
       }
     ],
     "notes": "HHN 32 ran from September 1 through October 31, making it the longest HHN on record at the time."
@@ -626,7 +592,7 @@
       "open": "2024-08-30",
       "close": "2024-11-03"
     },
-    "description": "Halloween Horror Nights 33 debuted as the earliest-starting event in HHN history, opening in August for the first time. The year introduced The Collective as its icon \u2014 five figures united by shared darkness \u2014 and leaned heavily into horror IP with a lineup that included A Quiet Place, Alien vs. Predator, Chucky, and Insidious. Original concepts explored body horror, folk horror, and cosmic dread.",
+    "description": "Halloween Horror Nights 33 debuted as the earliest-starting event in HHN history, opening in August for the first time. The year introduced The Collective as its icon — five figures united by shared darkness — and leaned heavily into horror IP with a lineup that included A Quiet Place, Alien vs. Predator, Chucky, and Insidious. Original concepts explored body horror, folk horror, and cosmic dread.",
     "attendance": "Estimated 1.3M+",
     "reception": "Strong reviews for the IP houses. AvP was widely celebrated as the house of the year. The Collective was praised as an inventive multi-icon concept. Some noted the event felt IP-heavy relative to originals.",
     "houses": [
@@ -636,20 +602,14 @@
         "ip": true,
         "ipName": "Alien vs. Predator",
         "location": "Soundstage 23",
-        "description": "Two legendary species collided in what many named the house of the year \u2014 guests were caught in the middle of a Xenomorph infestation being hunted by Predators.",
-        "lore": "The Weyland-Yutani facility has been overrun. The hunt has begun. You are neither prey nor hunter \u2014 just in the way.",
+        "description": "Two legendary species collided in what many named the house of the year — guests were caught in the middle of a Xenomorph infestation being hunted by Predators.",
+        "lore": "The Weyland-Yutani facility has been overrun. The hunt has begun. You are neither prey nor hunter — just in the way.",
         "trivia": [
           "Widely voted house of the year by HHN fan communities.",
           "Featured full-scale Xenomorph queen and Queen Facehugger props.",
           "Multiple Predator cloaking effects used throughout."
         ],
-        "photos": [
-          {
-            "type": "youtube",
-            "videoId": "Lh_-aCHPJ1o",
-            "caption": "Official AvP house announcement \u2014 HHN 33"
-          }
-        ]
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Alien_vs._Predator"
       },
       {
         "name": "A Quiet Place",
@@ -657,19 +617,13 @@
         "ip": true,
         "ipName": "A Quiet Place",
         "location": "Soundstage 22",
-        "description": "The terrifying concept of near-silence as survival was translated into the haunted house format \u2014 guests were urged not to make a sound.",
+        "description": "The terrifying concept of near-silence as survival was translated into the haunted house format — guests were urged not to make a sound.",
         "lore": "The Abbott family's nightmare world, where Death Angels hunt by sound alone.",
         "trivia": [
           "Ambient noise suppression design made this one of the most unique sensory experiences in HHN history.",
           "Featured the iconic bathtub birth sequence."
         ],
-        "photos": [
-          {
-            "type": "youtube",
-            "videoId": "k7E0MGDVYPI",
-            "caption": "A Quiet Place house reveal"
-          }
-        ]
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/A_Quiet_Place"
       },
       {
         "name": "Insidious: The Further",
@@ -677,12 +631,12 @@
         "ip": true,
         "ipName": "Insidious",
         "location": "Parade Building",
-        "description": "Guests entered The Further \u2014 the purgatorial realm from the Insidious franchise \u2014 and faced its most terrifying denizens.",
+        "description": "Guests entered The Further — the purgatorial realm from the Insidious franchise — and faced its most terrifying denizens.",
         "lore": "The Further is not empty. The things living there do not want you to leave.",
         "trivia": [
           "The red-faced demon from the original film made multiple appearances."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Insidious%3A_The_Further"
       },
       {
         "name": "Chucky: Ultimate Kill Count 2",
@@ -693,7 +647,7 @@
         "description": "The Good Guy doll returned for another round, this time with new kills and new obsessions.",
         "lore": "",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Chucky%3A_Ultimate_Kill_Count_2"
       },
       {
         "name": "The Collective: A Convergence of Evil",
@@ -702,11 +656,11 @@
         "ipName": null,
         "location": "Soundstage 18",
         "description": "The five members of The Collective held court in their own house, each with their own domain of horror.",
-        "lore": "Five entities, five nightmares, one convergence. The Collective has gathered \u2014 and you are the offering.",
+        "lore": "Five entities, five nightmares, one convergence. The Collective has gathered — and you are the offering.",
         "trivia": [
           "Each room of the house was designed by a different member of The Collective's mythology."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Collective%3A_A_Convergence_of_Evil"
       },
       {
         "name": "Monstruos: The Monsters of Latin America",
@@ -714,13 +668,13 @@
         "ip": false,
         "ipName": null,
         "location": "Sprung Tent 2",
-        "description": "A vivid, visually rich house drawing on the legendary monsters of Latin American folklore \u2014 La Llorona, El Cucuy, and more.",
+        "description": "A vivid, visually rich house drawing on the legendary monsters of Latin American folklore — La Llorona, El Cucuy, and more.",
         "lore": "The old legends are real. They have been waiting for generations.",
         "trivia": [
           "Praised for its cultural specificity and visual design.",
           "La Llorona's wailing was considered one of the most disturbing sound designs of HHN 33."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Monstruos%3A_The_Monsters_of_Latin_America"
       },
       {
         "name": "Bloodmoon: Dark Offerings",
@@ -731,7 +685,7 @@
         "description": "A folk horror descent into cult ritual, harvest sacrifice, and the terrible power of the blood moon.",
         "lore": "",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bloodmoon%3A_Dark_Offerings"
       },
       {
         "name": "Cellar Dweller",
@@ -742,7 +696,7 @@
         "description": "Something has been living beneath the house for decades. Now it's hungry.",
         "lore": "",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Cellar_Dweller"
       },
       {
         "name": "The Darkest Depths",
@@ -750,12 +704,12 @@
         "ip": false,
         "ipName": null,
         "location": "Dragon Queue",
-        "description": "Deep sea horror returned to HHN \u2014 leviathan creatures from the crushing dark of the ocean trenches.",
+        "description": "Deep sea horror returned to HHN — leviathan creatures from the crushing dark of the ocean trenches.",
         "lore": "",
         "trivia": [
           "Thematic spiritual successor to 2019's well-received Depths of Fear."
         ],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Darkest_Depths"
       }
     ],
     "scarezones": [
@@ -765,15 +719,15 @@
         "ip": false,
         "description": "The five icons of The Collective roamed their domain in the central park hub.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Collective_Convergence"
       },
       {
         "name": "Parasitic Twins",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Body horror brought to street level \u2014 conjoined abominations that should not exist.",
+        "description": "Body horror brought to street level — conjoined abominations that should not exist.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Parasitic_Twins"
       },
       {
         "name": "Toxic Tunnel of Terror",
@@ -781,15 +735,15 @@
         "ip": false,
         "description": "Chemical mutation and industrial horror in the park's tunnel passage.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Toxic_Tunnel_of_Terror"
       },
       {
         "name": "Forget Me Knot",
         "type": "SCAREZONE",
         "ip": false,
-        "description": "Floral horror \u2014 beautiful on the surface, deadly beneath.",
+        "description": "Floral horror — beautiful on the surface, deadly beneath.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Forget_Me_Knot"
       },
       {
         "name": "Gore Whore",
@@ -797,7 +751,7 @@
         "ip": false,
         "description": "A blood-soaked couture nightmare where fashion meets visceral horror.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Gore_Whore"
       }
     ],
     "shows": [
@@ -808,7 +762,7 @@
         "location": "Lagoon",
         "description": "The lagoon show's latest iteration, unleashing the full roster of HHN horrors on the water stage.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Marathon_of_Mayhem%3A_Horrors_Unleashed"
       },
       {
         "name": "Academy of Villains: Altered States",
@@ -817,14 +771,9 @@
         "location": "Fear Factor Live Stage",
         "description": "Another year of high-energy villain-themed dance performance.",
         "trivia": [],
-        "photos": []
+        "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_of_Villains%3A_Altered_States"
       }
     ],
-    "notes": "HHN 33 opened on August 30, the earliest start in the event's history. It ran 64 nights.",
-    "coverPhoto": {
-      "type": "url",
-      "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Universal_Studios_Florida_front_entrance.jpg/1280px-Universal_Studios_Florida_front_entrance.jpg",
-      "caption": "Universal Studios Florida entrance (Wikimedia Commons / CC-BY-SA)"
-    }
+    "notes": "HHN 33 opened on August 30, the earliest start in the event's history. It ran 64 nights."
   }
 ]
