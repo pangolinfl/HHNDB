@@ -90,7 +90,7 @@
   }
 
   .site-title {
-    font-family: var(--font-gothic);
+    font-family: var(--font-display);
     font-size: clamp(2.4rem, 6vw, 4.2rem);
     color: var(--bone);
     letter-spacing: 0.02em;
@@ -842,11 +842,17 @@
   #back-to-grid.visible {
     display: inline-block;
   }
+  /* ── Blood drips (white) ── */
+  .drip-bar{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-around;pointer-events:none;z-index:2}
+  .drip{width:6px;background:#e8dcc8;border-radius:0 0 4px 4px;animation:drip var(--dur,3s) ease-in-out infinite;animation-delay:var(--delay,0s);opacity:.6}
+  @keyframes drip{0%,100%{height:var(--h1,8px);opacity:.5}50%{height:var(--h2,35px);opacity:.85}}
+
 </style>
 </head>
 <body>
 
 <header id="site-header">
+  <div class="drip-bar" id="drips"></div>
   <div class="site-eyebrow">Universal Studios Florida · Orlando · 1991–Present</div>
   <div class="site-title">Halloween Horror Nights</div>
   <div class="site-subtitle">Orlando Event Archive &amp; Reference Database</div>
@@ -1385,6 +1391,19 @@ function fmtDate(str) {
   const d = new Date(str + 'T12:00:00');
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
+
+// ─── DRIPS ────────────────────────────────────────────────────────────────────
+
+(function buildDrips() {
+  const bar = document.getElementById('drips');
+  if (!bar) return;
+  for (let i = 0; i < 28; i++) {
+    const d = document.createElement('div');
+    d.className = 'drip';
+    d.style.cssText = '--h1:' + (Math.random()*10+4).toFixed(0) + 'px;--h2:' + (Math.random()*38+10).toFixed(0) + 'px;--dur:' + (Math.random()*2+2).toFixed(1) + 's;--delay:' + (Math.random()*3).toFixed(1) + 's';
+    bar.appendChild(d);
+  }
+})();
 
 // ─── BOOT ─────────────────────────────────────────────────────────────────────
 
