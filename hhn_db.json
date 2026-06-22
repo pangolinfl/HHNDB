@@ -2,12 +2,12 @@
   {
     "year": 1991,
     "event_number": "I",
-    "theme": "Fright Nights",
+    "theme": "Halloween Horror Nights 1991",
     "icon": null,
-    "tagline": "The Monsters Are Real",
+    "tagline": "",
     "dates": {
-      "open": "1991-10-25",
-      "close": "1991-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -48,8 +48,8 @@
     "icon": null,
     "tagline": "",
     "dates": {
-      "open": "1992-10-09",
-      "close": "1992-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -123,8 +123,8 @@
     "icon": null,
     "tagline": "",
     "dates": {
-      "open": "1993-10-15",
-      "close": "1993-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -198,8 +198,8 @@
     "icon": null,
     "tagline": "",
     "dates": {
-      "open": "1994-10-07",
-      "close": "1994-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -304,11 +304,11 @@
     "year": 1995,
     "event_number": "V",
     "theme": "Halloween Horror Nights V",
-    "icon": null,
+    "icon": "The Cryptkeeper",
     "tagline": "",
     "dates": {
-      "open": "1995-09-29",
-      "close": "1995-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -416,8 +416,8 @@
     "icon": null,
     "tagline": "",
     "dates": {
-      "open": "1996-09-27",
-      "close": "1996-11-02"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -521,12 +521,12 @@
   {
     "year": 1997,
     "event_number": "VII",
-    "theme": "Frightmares",
-    "icon": "Eyegore",
-    "tagline": "You'll Never Sleep Again",
+    "theme": "Halloween Horror Nights VII: Frightmares",
+    "icon": null,
+    "tagline": "",
     "dates": {
-      "open": "1997-10-03",
-      "close": "1997-11-01"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -630,12 +630,12 @@
   {
     "year": 1998,
     "event_number": "VIII",
-    "theme": "Primal Scream",
+    "theme": "Halloween Horror Nights VIII: Primal Scream",
     "icon": null,
     "tagline": "",
     "dates": {
-      "open": "1998-09-25",
-      "close": "1998-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -761,12 +761,12 @@
   {
     "year": 1999,
     "event_number": "IX",
-    "theme": "Halloween Horror Nights IX",
-    "icon": null,
+    "theme": "Halloween Horror Nights IX: Last Gasp",
+    "icon": "Imhotep",
     "tagline": "",
     "dates": {
-      "open": "1999-10-01",
-      "close": "1999-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -892,12 +892,12 @@
   {
     "year": 2000,
     "event_number": "X",
-    "theme": "The Curse of the Icons",
+    "theme": "Halloween Horror Nights X",
     "icon": "Jack the Clown",
-    "tagline": "Something Wicked This Way Comes",
+    "tagline": "",
     "dates": {
-      "open": "2000-09-29",
-      "close": "2000-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -1049,8 +1049,8 @@
     "icon": "Jack the Clown",
     "tagline": "",
     "dates": {
-      "open": "2001-09-28",
-      "close": "2001-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -1198,12 +1198,12 @@
   {
     "year": 2002,
     "event_number": "XII",
-    "theme": "Islands of Fear",
+    "theme": "Halloween Horror Nights: Islands of Fear",
     "icon": "The Caretaker",
     "tagline": "",
     "dates": {
-      "open": "2002-09-27",
-      "close": "2002-11-02"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -1362,12 +1362,12 @@
   {
     "year": 2003,
     "event_number": "XIII",
-    "theme": "Halloween Horror Nights XIII",
-    "icon": "The Director",
+    "theme": "Halloween Horror Nights 13",
+    "icon": null,
     "tagline": "",
     "dates": {
-      "open": "2003-09-26",
-      "close": "2003-11-01"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -1538,11 +1538,11 @@
     "year": 2004,
     "event_number": "XIV",
     "theme": "Halloween Horror Nights XIV",
-    "icon": "The Director",
+    "icon": "The Asylum Patient",
     "tagline": "",
     "dates": {
-      "open": "2004-09-17",
-      "close": "2004-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -1701,12 +1701,12 @@
   {
     "year": 2005,
     "event_number": "XV",
-    "theme": "Tales of Terror",
+    "theme": "Halloween Horror Nights: Tales of Terror",
     "icon": "The Storyteller",
     "tagline": "",
     "dates": {
-      "open": "2005-09-30",
-      "close": "2005-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -1876,12 +1876,12 @@
   {
     "year": 2006,
     "event_number": "XVI",
-    "theme": "Sweet 16",
-    "icon": "Jack the Clown",
+    "theme": "Halloween Horror Nights: Sweet 16",
+    "icon": null,
     "tagline": "",
     "dates": {
-      "open": "2006-09-22",
-      "close": "2006-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -2062,12 +2062,12 @@
   {
     "year": 2007,
     "event_number": "XVII",
-    "theme": "Carnival of Carnage",
+    "theme": "Halloween Horror Nights: Carnival of Carnage",
     "icon": "Jack the Clown",
-    "tagline": "Choose Thy Fear",
+    "tagline": "",
     "dates": {
-      "open": "2007-09-28",
-      "close": "2007-11-03"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -2270,12 +2270,12 @@
   {
     "year": 2008,
     "event_number": "XVIII",
-    "theme": "Reflections of Fear",
+    "theme": "Halloween Horror Nights: Reflections of Fear",
     "icon": "Bloody Mary",
-    "tagline": "I Dare You to Say It One More Time",
+    "tagline": "",
     "dates": {
-      "open": "2008-09-26",
-      "close": "2008-11-01"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -2478,12 +2478,12 @@
   {
     "year": 2009,
     "event_number": "XIX",
-    "theme": "Ripped from the Silver Screen",
+    "theme": "Halloween Horror Nights 2009",
     "icon": "The Usher",
-    "tagline": "It's Showtime",
+    "tagline": "",
     "dates": {
-      "open": "2009-09-25",
-      "close": "2009-11-01"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -2686,12 +2686,12 @@
   {
     "year": 2010,
     "event_number": "XX",
-    "theme": "Twenty Years of Fear",
+    "theme": "Halloween Horror Nights: Twenty Years of Fear",
     "icon": "Fear",
-    "tagline": "A New Era of Darkness Begins",
+    "tagline": "",
     "dates": {
-      "open": "2010-09-24",
-      "close": "2010-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -2885,10 +2885,10 @@
     "event_number": "XXI",
     "theme": "Halloween Horror Nights 21",
     "icon": "Lady Luck",
-    "tagline": "Are You In?",
+    "tagline": "",
     "dates": {
-      "open": "2011-09-23",
-      "close": "2011-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -3082,10 +3082,10 @@
     "event_number": "XXII",
     "theme": "Halloween Horror Nights 22",
     "icon": null,
-    "tagline": "Once You're Inside There Is No Way Out",
+    "tagline": "",
     "dates": {
-      "open": "2012-09-21",
-      "close": "2012-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -3300,11 +3300,11 @@
     "year": 2013,
     "event_number": "XXIII",
     "theme": "Halloween Horror Nights 23",
-    "icon": null,
-    "tagline": "What Evil Has Taken Root?",
+    "icon": "Walkers",
+    "tagline": "",
     "dates": {
-      "open": "2013-09-20",
-      "close": "2013-11-02"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -3487,10 +3487,10 @@
     "event_number": "XXIV",
     "theme": "Halloween Horror Nights 24",
     "icon": null,
-    "tagline": "You've Been Warned",
+    "tagline": "",
     "dates": {
-      "open": "2014-09-19",
-      "close": "2014-11-01"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -3662,10 +3662,10 @@
     "event_number": "XXV",
     "theme": "Halloween Horror Nights 25",
     "icon": "Jack the Clown",
-    "tagline": "25 Years of Fear",
+    "tagline": "",
     "dates": {
-      "open": "2015-09-18",
-      "close": "2015-11-01"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -3858,11 +3858,11 @@
     "year": 2016,
     "event_number": "XXVI",
     "theme": "Halloween Horror Nights 26",
-    "icon": null,
-    "tagline": "You Won't Stand a Chance",
+    "icon": "Chance",
+    "tagline": "",
     "dates": {
-      "open": "2016-09-16",
-      "close": "2016-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -4065,12 +4065,12 @@
   {
     "year": 2017,
     "event_number": "XXVII",
-    "theme": "The Festival of the Deadliest",
-    "icon": null,
-    "tagline": "The Best Nightmares Never End",
+    "theme": "Halloween Horror Nights 27",
+    "icon": "Bone",
+    "tagline": "",
     "dates": {
-      "open": "2017-09-15",
-      "close": "2017-11-04"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -4266,8 +4266,8 @@
     "icon": null,
     "tagline": "",
     "dates": {
-      "open": "2018-09-14",
-      "close": "2018-11-03"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -4449,11 +4449,11 @@
     "year": 2019,
     "event_number": "XXIX",
     "theme": "Halloween Horror Nights 29",
-    "icon": "The Usher",
-    "tagline": "Leave the Light On",
+    "icon": null,
+    "tagline": "",
     "dates": {
-      "open": "2019-09-06",
-      "close": "2019-11-02"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -4656,7 +4656,7 @@
   {
     "year": 2020,
     "event_number": null,
-    "theme": "Cancelled — COVID-19",
+    "theme": "Halloween Horror Nights",
     "icon": null,
     "tagline": "",
     "dates": {
@@ -4698,11 +4698,11 @@
     "year": 2021,
     "event_number": "XXX",
     "theme": "Halloween Horror Nights 30",
-    "icon": null,
+    "icon": "Jack the Clown",
     "tagline": "",
     "dates": {
-      "open": "2021-09-03",
-      "close": "2021-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -4906,11 +4906,11 @@
     "year": 2022,
     "event_number": "XXXI",
     "theme": "Halloween Horror Nights 31",
-    "icon": null,
+    "icon": "Pumpkin Lord",
     "tagline": "",
     "dates": {
-      "open": "2022-09-01",
-      "close": "2022-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -5113,12 +5113,12 @@
   {
     "year": 2023,
     "event_number": "XXXII",
-    "theme": "The Darkest Deal",
-    "icon": "Dr. D. Rago",
-    "tagline": "Make a Deal. Pay the Price.",
+    "theme": "Halloween Horror Nights 32",
+    "icon": "Dr. Oddfellow",
+    "tagline": "",
     "dates": {
-      "open": "2023-09-01",
-      "close": "2023-10-31"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -5310,12 +5310,12 @@
   {
     "year": 2024,
     "event_number": "XXXIII",
-    "theme": "Evil Blooms",
-    "icon": "The Collective",
-    "tagline": "Evil Blooms",
+    "theme": "Halloween Horror Nights 33",
+    "icon": "SINIST3R",
+    "tagline": "",
     "dates": {
-      "open": "2024-08-30",
-      "close": "2024-11-03"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -5508,11 +5508,11 @@
     "year": 2025,
     "event_number": "XXXIV",
     "theme": "Halloween Horror Nights 34",
-    "icon": null,
+    "icon": "Stone Gargoyle",
     "tagline": "",
     "dates": {
-      "open": "2025-08-28",
-      "close": "2025-11-01"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
@@ -5730,8 +5730,8 @@
     "icon": null,
     "tagline": "",
     "dates": {
-      "open": "2026-08-28",
-      "close": "2026-11-01"
+      "open": null,
+      "close": null
     },
     "description": "",
     "attendance": "",
