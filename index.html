@@ -651,6 +651,123 @@
     color: var(--bone);
   }
 
+  /* ── PHOTO GALLERY ───────────────────────────────────────────────── */
+  .photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 6px;
+    margin-top: 4px;
+  }
+
+  .photo-thumb {
+    position: relative;
+    aspect-ratio: 16/9;
+    overflow: hidden;
+    cursor: pointer;
+    background: var(--grave);
+    border: 1px solid var(--grave);
+  }
+
+  .photo-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: opacity 0.2s, transform 0.2s;
+    filter: grayscale(30%);
+  }
+
+  .photo-thumb:hover img {
+    opacity: 0.85;
+    transform: scale(1.03);
+    filter: grayscale(0%);
+  }
+
+  .photo-thumb .yt-play {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.35);
+    transition: background 0.2s;
+  }
+
+  .photo-thumb:hover .yt-play {
+    background: rgba(139,0,0,0.5);
+  }
+
+  .photo-thumb .yt-play svg {
+    width: 36px;
+    height: 36px;
+    fill: white;
+    filter: drop-shadow(0 1px 3px rgba(0,0,0,0.8));
+  }
+
+  .photo-thumb .photo-caption {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.85));
+    padding: 16px 8px 6px;
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: rgba(232,220,200,0.8);
+    line-height: 1.3;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .photo-thumb:hover .photo-caption {
+    opacity: 1;
+  }
+
+  /* fullscreen image lightbox */
+  #lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.95);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #lightbox.open {
+    display: flex;
+  }
+
+  #lightbox img {
+    max-width: 100%;
+    max-height: 90vh;
+    object-fit: contain;
+    border: 1px solid var(--grave);
+  }
+
+  #lightbox-close {
+    position: absolute;
+    top: 16px; right: 20px;
+    background: none;
+    border: none;
+    color: var(--ash);
+    font-size: 28px;
+    cursor: pointer;
+    font-family: var(--font-mono);
+    line-height: 1;
+    transition: color 0.2s;
+  }
+
+  #lightbox-close:hover { color: var(--bone); }
+
+  #lightbox-caption {
+    position: absolute;
+    bottom: 20px; left: 0; right: 0;
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ash);
+  }
+
   /* ── NOTES BOX ───────────────────────────────────────────────────── */
   .notes-box {
     border: 1px solid var(--grave);
@@ -913,6 +1030,13 @@
 
 </main>
 
+<!-- Image Lightbox -->
+<div id="lightbox">
+  <button id="lightbox-close">×</button>
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+
 <!-- Attraction Modal -->
 <div id="modal-overlay" role="dialog" aria-modal="true">
   <div id="modal-box">
@@ -1123,7 +1247,11 @@ function renderAttractionSection(blockId, gridId, countId, items, typeClass) {
   items.forEach(item => {
     const card = document.createElement('div');
     card.className = 'attraction-card';
-    const hasDetail = item.description || item.lore || (item.trivia && item.trivia.length);
+    const hasDetail = item.description || item.lore || (item.trivia && item.trivia.length) || (item.photos && item.photos.length);
+    const photoCount = (item.photos || []).length;
+    const photoIndicator = photoCount > 0
+      ? `<span style="color:var(--blood-lt);margin-left:6px;">▶ ${photoCount}</span>`
+      : '';
     card.innerHTML = `
       <div class="card-type-bar ${typeClass}"></div>
       <div class="card-inner">
@@ -1133,7 +1261,7 @@ function renderAttractionSection(blockId, gridId, countId, items, typeClass) {
         </div>
         ${item.location ? `<div class="card-location">📍 ${item.location}</div>` : ''}
         ${item.description ? `<div class="card-desc">${item.description}</div>` : ''}
-        ${hasDetail ? `<div class="card-expand-indicator">+ Details</div>` : ''}
+        ${hasDetail ? `<div class="card-expand-indicator">+ Details${photoIndicator}</div>` : ''}
       </div>
     `;
     if (hasDetail) {
@@ -1145,6 +1273,53 @@ function renderAttractionSection(blockId, gridId, countId, items, typeClass) {
 }
 
 // ─── MODAL ────────────────────────────────────────────────────────────────────
+
+function buildPhotoGallery(photos) {
+  if (!photos || !photos.length) return '';
+
+  const thumbs = photos.map(p => {
+    if (p.type === 'youtube') {
+      const thumb = `https://img.youtube.com/vi/${p.videoId}/hqdefault.jpg`;
+      return `
+        <div class="photo-thumb" data-yt="${p.videoId}" title="${p.caption || ''}">
+          <img src="${thumb}" alt="${p.caption || 'YouTube video'}" loading="lazy"
+               onerror="this.closest('.photo-thumb').style.display='none'">
+          <div class="yt-play">
+            <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+          </div>
+          <div class="photo-caption">${p.caption || ''}</div>
+        </div>`;
+    } else if (p.type === 'url') {
+      return `
+        <div class="photo-thumb" data-url="${p.url}" data-caption="${p.caption || ''}" title="${p.caption || ''}">
+          <img src="${p.url}" alt="${p.caption || 'Photo'}" loading="lazy"
+               onerror="this.closest('.photo-thumb').style.display='none'">
+          <div class="photo-caption">${p.caption || ''}</div>
+        </div>`;
+    }
+    return '';
+  }).join('');
+
+  return `
+    <div class="modal-section">
+      <div class="modal-section-label">Photos &amp; Video</div>
+      <div class="photo-gallery">${thumbs}</div>
+    </div>`;
+}
+
+function attachGalleryHandlers(container) {
+  container.querySelectorAll('.photo-thumb[data-yt]').forEach(el => {
+    el.addEventListener('click', () => {
+      const id = el.dataset.yt;
+      window.open(`https://www.youtube.com/watch?v=${id}`, '_blank', 'noopener');
+    });
+  });
+  container.querySelectorAll('.photo-thumb[data-url]').forEach(el => {
+    el.addEventListener('click', () => {
+      openLightbox(el.dataset.url, el.dataset.caption);
+    });
+  });
+}
 
 function openModal(item, year) {
   const overlay = document.getElementById('modal-overlay');
@@ -1162,6 +1337,11 @@ function openModal(item, year) {
   `;
 
   let sections = '';
+
+  // Photos first — most visual, sets the tone
+  if (item.photos && item.photos.length) {
+    sections += buildPhotoGallery(item.photos);
+  }
 
   if (item.location || item.ip !== undefined) {
     sections += `
@@ -1207,6 +1387,9 @@ function openModal(item, year) {
 
   body.innerHTML = sections || '<p class="modal-text" style="color:var(--fog)">No additional details recorded yet.</p>';
 
+  // Attach gallery click handlers after DOM insert
+  attachGalleryHandlers(body);
+
   overlay.classList.add('open');
   document.body.style.overflow = 'hidden';
 }
@@ -1220,8 +1403,31 @@ document.getElementById('modal-close').addEventListener('click', closeModal);
 document.getElementById('modal-overlay').addEventListener('click', e => {
   if (e.target === document.getElementById('modal-overlay')) closeModal();
 });
+
+// ─── LIGHTBOX ─────────────────────────────────────────────────────────────────
+
+function openLightbox(url, caption) {
+  const lb = document.getElementById('lightbox');
+  document.getElementById('lightbox-img').src = url;
+  document.getElementById('lightbox-caption').textContent = caption || '';
+  lb.classList.add('open');
+}
+
+function closeLightbox() {
+  document.getElementById('lightbox').classList.remove('open');
+  document.getElementById('lightbox-img').src = '';
+}
+
+document.getElementById('lightbox-close').addEventListener('click', closeLightbox);
+document.getElementById('lightbox').addEventListener('click', e => {
+  if (e.target === document.getElementById('lightbox')) closeLightbox();
+});
+
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeModal();
+  if (e.key === 'Escape') {
+    closeLightbox();
+    closeModal();
+  }
 });
 
 // ─── SEARCH ───────────────────────────────────────────────────────────────────
