@@ -1,0 +1,689 @@
+[
+  {
+    "year": 1991,
+    "event_number": "I",
+    "theme": "Fright Nights",
+    "icon": null,
+    "tagline": "The Monsters Are Real",
+    "dates": { "open": "1991-10-18", "close": "1991-10-19" },
+    "description": "The very first Halloween Horror Nights was a modest two-night event held at Universal Studios Florida. Originally called 'Fright Nights,' it was a test run that would eventually grow into one of the most celebrated Halloween events in the world. Guests wandered a park transformed by fog, darkness, and roaming monsters—an entirely new concept for a theme park.",
+    "attendance": "Unknown",
+    "reception": "Modest but promising. The event was considered a success and paved the way for annual expansion.",
+    "scarezones": [],
+    "shows": [],
+    "houses": [
+      {
+        "name": "Dungeon of Terror",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Unknown",
+        "description": "One of the original haunted houses from the inaugural event.",
+        "lore": "",
+        "trivia": ["One of only a handful of mazes at the very first HHN."],
+        "photos": []
+      }
+    ],
+    "notes": "Originally called 'Fright Nights.' The event ran only two nights."
+  },
+  {
+    "year": 2000,
+    "event_number": "X",
+    "theme": "The Curse of the Icons",
+    "icon": "Jack the Clown",
+    "tagline": "Something Wicked This Way Comes",
+    "dates": { "open": "2000-09-29", "close": "2000-10-31" },
+    "description": "Halloween Horror Nights X marked the debut of Jack the Clown, one of the event's most beloved and enduring icons. The tenth anniversary event leaned into a carnival-of-horror aesthetic, with Jack serving as the twisted ringleader of the chaos. His introduction fundamentally changed the identity of HHN Orlando, giving the event a mascot who would return again and again over the decades.",
+    "attendance": "Estimated 300,000+",
+    "reception": "Widely regarded as a landmark year. Jack's debut made a massive impression and he quickly became a fan-favorite icon.",
+    "houses": [
+      {
+        "name": "Psychoscarepy",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Soundstage 23",
+        "description": "Set inside a crumbling psychiatric facility, Psychoscarepy was an original HHN house that would go on to become one of the most revisited concepts in the event's history.",
+        "lore": "The fictional Shadybrook Home for the Criminally Insane, where the inmates have taken over.",
+        "trivia": ["Psychoscarepy returned numerous times over the years.", "Considered one of the defining original HHN concepts."],
+        "photos": []
+      },
+      {
+        "name": "Forsaken",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Soundstage 22",
+        "description": "A descent into a world of forsaken souls and demonic forces.",
+        "lore": "",
+        "trivia": [],
+        "photos": []
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Jack's Carnival of Carnage",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "Jack the Clown's domain — a twisted midway where nothing is safe.",
+        "trivia": ["This was Jack's first official scare zone and served as the centerpiece of the event."],
+        "photos": []
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted's Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted",
+        "location": "Fear Factor Live Stage",
+        "description": "The irreverent pop culture parody show that became an HHN staple for decades.",
+        "trivia": ["Bill & Ted's show ran at HHN for over 20 years before its retirement."],
+        "photos": []
+      }
+    ],
+    "notes": "HHN X is considered one of the most important years in the event's history due to Jack's debut."
+  },
+  {
+    "year": 2007,
+    "event_number": "XVII",
+    "theme": "Carnival of Carnage",
+    "icon": "Jack the Clown",
+    "tagline": "You Don't Know Jack",
+    "dates": { "open": "2007-09-28", "close": "2007-11-03" },
+    "description": "Jack the Clown returned as the icon for HHN XVII in a full Carnival of Carnage theme. The event was praised for its cohesive atmosphere and strong house lineup. It remains one of the most fondly remembered years among longtime fans, blending strong original IP houses with effective use of the entire park as a carnival-themed nightmare.",
+    "attendance": "Estimated 800,000+",
+    "reception": "Considered one of the best years in HHN history by many longtime fans. The Jack-themed aesthetic was executed with rare consistency across the entire event.",
+    "houses": [
+      {
+        "name": "Jack's Funhouse in Clown-O-Vision",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Soundstage 23",
+        "description": "Jack's own funhouse — a kaleidoscopic, disorienting maze built around the icon himself.",
+        "lore": "Inside Jack's personal domain, nothing follows the rules of the normal world.",
+        "trivia": ["Used 3D 'Clown-O-Vision' glasses as a signature gimmick — one of the first HHN houses to do so."],
+        "photos": []
+      },
+      {
+        "name": "Scary Tales III",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Soundstage 22",
+        "description": "The third installment in the Scary Tales series, twisting classic fairy tales into nightmarish scenarios.",
+        "lore": "",
+        "trivia": ["Part of a long-running original franchise within HHN."],
+        "photos": []
+      },
+      {
+        "name": "The Spawning",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Parade Building",
+        "description": "A creature-feature house set in a research station overrun by horrifying biological organisms.",
+        "lore": "",
+        "trivia": [],
+        "photos": []
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Deadtropolis",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "A zombie-infested urban streetscape overtaking the park's New York area.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Your Luck Has Run Out",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "A twisted carnival games zone where the games play you.",
+        "trivia": [],
+        "photos": []
+      }
+    ],
+    "shows": [
+      {
+        "name": "Bill & Ted's Excellent Halloween Adventure",
+        "type": "SHOW",
+        "ip": true,
+        "ipName": "Bill & Ted",
+        "location": "Fear Factor Live Stage",
+        "description": "The long-running pop culture parody variety show.",
+        "trivia": [],
+        "photos": []
+      }
+    ],
+    "notes": "Often cited by fans as a top-3 HHN year. Jack's return as icon for XVII was a major draw."
+  },
+  {
+    "year": 2019,
+    "event_number": "XXIX",
+    "theme": "Stranger Things & More",
+    "icon": "The Usher",
+    "tagline": "Leave the Light On",
+    "dates": { "open": "2019-09-06", "close": "2019-11-02" },
+    "description": "Halloween Horror Nights 29 was headlined by Stranger Things Season 3 and a massive spread of horror IP houses. The event introduced The Usher as its icon — a movie theater-themed host who shepherded guests through the horrors. The year featured one of the strongest IP lineups in the event's history, including Us, Ghostbusters, House of 1000 Corpses, and a Yeti original concept.",
+    "attendance": "Estimated 1M+",
+    "reception": "Praised for its strong IP execution, especially the Us and Ghostbusters houses. Stranger Things 3 was visually impressive. Some fans felt the original concepts were overshadowed by IP.",
+    "houses": [
+      {
+        "name": "Stranger Things 3",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Stranger Things",
+        "location": "Soundstage 23",
+        "description": "Based on the third season of the Netflix hit, the house brought the Starcourt Mall and the Russian bunker to life with stunning set design.",
+        "lore": "The Mind Flayer has returned, possessing residents of Hawkins and building a physical form in the Starcourt Mall.",
+        "trivia": ["Featured a recreation of the Starcourt Mall food court.", "One of the most elaborately designed IP houses in HHN history."],
+        "photos": []
+      },
+      {
+        "name": "Us",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Us (2019 film)",
+        "location": "Soundstage 22",
+        "description": "Jordan Peele's critically acclaimed horror film came to HHN with its haunting Tethered doppelgängers.",
+        "lore": "The Wilsons' beach vacation turns nightmarish when their twisted underground doubles emerge.",
+        "trivia": ["Jordan Peele collaborated closely on the house design.", "Widely considered one of the best houses of the year."],
+        "photos": []
+      },
+      {
+        "name": "Ghostbusters",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Ghostbusters",
+        "location": "Parade Building",
+        "description": "Guests crossed the streams in a faithful recreation of the 1984 film's iconic locations.",
+        "lore": "Gozer has returned. The containment grid is down. Proton packs up.",
+        "trivia": ["Featured the Stay Puft Marshmallow Man and a recreation of the Sedgewick Hotel.", "Used practical fog effects to simulate ectoplasm."],
+        "photos": []
+      },
+      {
+        "name": "House of 1000 Corpses",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "House of 1000 Corpses",
+        "location": "Sprung Tent 1",
+        "description": "Rob Zombie's depraved cult classic finally got the HHN treatment, plunging guests into the world of the Firefly family.",
+        "lore": "Captain Spaulding's roadside attraction is just the beginning of a descent into the Firefly family's horrors.",
+        "trivia": ["Long requested by fans before finally appearing in 2019.", "Dr. Satan's lair was a highlight of the house."],
+        "photos": []
+      },
+      {
+        "name": "Depths of Fear",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Sprung Tent 2",
+        "description": "An original deep-sea horror concept featuring mutated aquatic creatures overrunning an underwater mining operation.",
+        "lore": "When a deep-sea mining rig breaches an unknown ecosystem, the creatures that emerge are unlike anything science has classified.",
+        "trivia": ["One of the most positively reviewed original houses of the year.", "Featured practical water effects throughout."],
+        "photos": []
+      },
+      {
+        "name": "Yeti: Terror of the Yukon",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Disaster Queue",
+        "description": "A creature feature set in the frozen Yukon wilderness, where a research expedition meets a horrifying end at the hands of a massive Yeti.",
+        "lore": "",
+        "trivia": ["Featured some of the most impressive practical creature costumes of any HHN year."],
+        "photos": []
+      },
+      {
+        "name": "Holidayz in Hell",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "New York Library Queue",
+        "description": "Every holiday twisted into a nightmare — from a killer Santa to a murderous Easter Bunny.",
+        "lore": "",
+        "trivia": ["A comedic-horror concept that played well with crowds."],
+        "photos": []
+      },
+      {
+        "name": "Graveyard Games",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "MIB Queue",
+        "description": "Guests disturbed the dead in a cemetery-set house themed around the consequences of disrespecting the departed.",
+        "lore": "A group of teens playing games in a graveyard unleash something ancient and vengeful.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Killer Klowns from Outer Space",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Killer Klowns from Outer Space",
+        "location": "Soundstage 18",
+        "description": "The beloved 1988 cult film got its HHN debut with cotton candy cocoons, shadow puppet monsters, and giant mallets.",
+        "lore": "The Klowns have landed their big top spaceship and are harvesting humans in their own special way.",
+        "trivia": ["The Chiodo Brothers, who made the original film, provided input on the house.", "Featured the popcorn gun scene faithfully recreated."],
+        "photos": []
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Vanity Ball",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "A glamorous masquerade ball turned sinister, celebrating the icon The Usher.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Rob Zombie Hellbilly Deluxe",
+        "type": "SCAREZONE",
+        "ip": true,
+        "description": "A metal-infused scare zone bringing Rob Zombie's album and aesthetic to life in the streets.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Zombieland: Double Tap",
+        "type": "SCAREZONE",
+        "ip": true,
+        "description": "Timed to promote the sequel film, this zone brought the comedic zombie apocalypse to the park streets.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Anarch-cade",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "A neon-lit arcade overtaken by pixelated monsters come to life.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Vikings Undead",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "Norse undead warriors roam a fog-drenched Viking village.",
+        "trivia": [],
+        "photos": []
+      }
+    ],
+    "shows": [
+      {
+        "name": "Marathon of Mayhem: Carnage Factory",
+        "type": "SHOW",
+        "ip": false,
+        "location": "Lagoon",
+        "description": "The lagoon show replaced Bill & Ted after its retirement in 2018, featuring projection mapping and live stunts.",
+        "trivia": ["2018 marked the end of Bill & Ted's long run at HHN."],
+        "photos": []
+      },
+      {
+        "name": "Academy of Villains: Altered States",
+        "type": "SHOW",
+        "ip": false,
+        "location": "Fear Factor Live Stage",
+        "description": "The Academy of Villains dance crew returned with a new electrifying performance.",
+        "trivia": [],
+        "photos": []
+      }
+    ],
+    "notes": "HHN 29 was the last 'normal' HHN before the pandemic cancelled 2020."
+  },
+  {
+    "year": 2023,
+    "event_number": "XXXII",
+    "theme": "The Darkest Deal",
+    "icon": "Dr. D. Rago",
+    "tagline": "Make a Deal. Pay the Price.",
+    "dates": { "open": "2023-09-01", "close": "2023-10-31" },
+    "description": "Halloween Horror Nights 32 was anchored by a strong original narrative: Dr. D. Rago, a supernatural purveyor of dark bargains, served as the event's icon. The year balanced a strong original concept lineup with high-profile IP houses including The Last of Us, Chucky, The Exorcist Believer, and a Universal Monsters house. It was also notable for being the longest-running HHN to date.",
+    "attendance": "Estimated 1.2M+",
+    "reception": "Well-received. The Last of Us house was a fan standout. The original houses were praised for depth of concept. Dr. D. Rago was considered an effective and underrated icon.",
+    "houses": [
+      {
+        "name": "The Last of Us",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Last of Us",
+        "location": "Soundstage 23",
+        "description": "Based on the acclaimed HBO/PlayStation series, the house walked guests through the fungal apocalypse with Clicker encounters and emotional story beats.",
+        "lore": "Twenty years after the Cordyceps pandemic, Joel and Ellie's journey through a collapsed America is brought to terrifying life.",
+        "trivia": ["Featured incredibly detailed Clicker practical effects.", "Timed to the success of the HBO series debut in 2023.", "Considered one of the best IP houses in years."],
+        "photos": []
+      },
+      {
+        "name": "Chucky: Ultimate Kill Count",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Child's Play / Chucky",
+        "location": "Soundstage 22",
+        "description": "The Good Guy doll ran amok in a house that celebrated his decades of kills in classic slasher style.",
+        "lore": "Charles Lee Ray's reign of terror chronicled through his most iconic murder tableaux.",
+        "trivia": ["Featured multiple Chucky variants across different film eras."],
+        "photos": []
+      },
+      {
+        "name": "Universal Monsters: Unfinished Business",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Universal Monsters",
+        "location": "Sprung Tent 1",
+        "description": "Classic Universal Monsters — Dracula, Frankenstein's Monster, The Wolfman, The Mummy — returned with new scores to settle.",
+        "lore": "Each monster has one final act of revenge before they can rest.",
+        "trivia": ["Brought back beloved classic monsters in new contexts.", "Featured strong period set design."],
+        "photos": []
+      },
+      {
+        "name": "The Exorcist: Believer",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "The Exorcist: Believer",
+        "location": "Parade Building",
+        "description": "Promoting the 2023 legacy sequel, the house depicted the possession of two young girls and the desperate measures taken to save them.",
+        "lore": "",
+        "trivia": ["Tied to the film's theatrical release in October 2023."],
+        "photos": []
+      },
+      {
+        "name": "Dr. D. Rago's House of Horrors",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Soundstage 18",
+        "description": "The icon's own house — a cursed emporium of dark deals and their terrible consequences.",
+        "lore": "Dr. D. Rago offers everything your heart desires. The price is always higher than you expect.",
+        "trivia": ["The icon house is traditionally one of the most narrative-driven of each year."],
+        "photos": []
+      },
+      {
+        "name": "Dueling Dragons: Choose Thy Fate",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Dragon Queue (former Dueling Dragons)",
+        "description": "Set in the ruins of the old Dragon Challenge roller coaster's queue, this house used the authentic medieval environment to devastating effect.",
+        "lore": "The cursed dueling dragons have awakened in their ancient lair — and guests must survive both.",
+        "trivia": ["Used the actual original Dueling Dragons queue as its location, making it a love letter to longtime USF fans.", "One of the most location-specific houses ever created for HHN."],
+        "photos": []
+      },
+      {
+        "name": "Stranger Things 4",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Stranger Things",
+        "location": "Sprung Tent 2",
+        "description": "The fourth and final Stranger Things house at HHN, bringing Vecna and the Upside Down's most terrifying form to life.",
+        "lore": "Vecna's master plan is nearly complete. One final breach into Hawkins may seal the world's fate.",
+        "trivia": ["The fourth and presumed final HHN Stranger Things house.", "Featured an elaborate Vecna practical sculpture."],
+        "photos": []
+      },
+      {
+        "name": "Nightmare Fuel",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Disaster Queue",
+        "description": "A nightmarish journey through the sleeping mind, where every dream becomes a deadly trap.",
+        "lore": "",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Harvester of Souls",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "MIB Queue",
+        "description": "A reaper has come to collect — and guests are the harvest.",
+        "lore": "",
+        "trivia": [],
+        "photos": []
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "Dr. D. Rago's Collection",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "The icon's prized possessions come to life in a central scare zone.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Shipyard 32: Return of the Demons",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "Industrial demons haunt a fog-choked harbor.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Jungle of Doom: Expedition Horror",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "Cursed expedition members haunt the jungle, twisted beyond recognition.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Desperate Times",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "Post-apocalyptic survivors — and the things hunting them — clash in the streets.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Sweet Revenge",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "Sinister confections and candy-themed horror in a sugar-coated nightmare.",
+        "trivia": [],
+        "photos": []
+      }
+    ],
+    "shows": [
+      {
+        "name": "Marathon of Mayhem: Clashing of the Titans",
+        "type": "SHOW",
+        "ip": false,
+        "location": "Lagoon",
+        "description": "The lagoon projection show, pitting iconic monsters against one another in spectacular fashion.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Academy of Villains: Dead Ops",
+        "type": "SHOW",
+        "ip": false,
+        "location": "Fear Factor Live Stage",
+        "description": "The Academy of Villains returned with a high-octane dance and acrobatics performance.",
+        "trivia": [],
+        "photos": []
+      }
+    ],
+    "notes": "HHN 32 ran from September 1 through October 31, making it the longest HHN on record at the time."
+  },
+  {
+    "year": 2024,
+    "event_number": "XXXIII",
+    "theme": "Evil Blooms",
+    "icon": "The Collective",
+    "tagline": "Evil Blooms",
+    "dates": { "open": "2024-08-30", "close": "2024-11-03" },
+    "description": "Halloween Horror Nights 33 debuted as the earliest-starting event in HHN history, opening in August for the first time. The year introduced The Collective as its icon — five figures united by shared darkness — and leaned heavily into horror IP with a lineup that included A Quiet Place, Alien vs. Predator, Chucky, and Insidious. Original concepts explored body horror, folk horror, and cosmic dread.",
+    "attendance": "Estimated 1.3M+",
+    "reception": "Strong reviews for the IP houses. AvP was widely celebrated as the house of the year. The Collective was praised as an inventive multi-icon concept. Some noted the event felt IP-heavy relative to originals.",
+    "houses": [
+      {
+        "name": "Alien vs. Predator",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Alien vs. Predator",
+        "location": "Soundstage 23",
+        "description": "Two legendary species collided in what many named the house of the year — guests were caught in the middle of a Xenomorph infestation being hunted by Predators.",
+        "lore": "The Weyland-Yutani facility has been overrun. The hunt has begun. You are neither prey nor hunter — just in the way.",
+        "trivia": ["Widely voted house of the year by HHN fan communities.", "Featured full-scale Xenomorph queen and Queen Facehugger props.", "Multiple Predator cloaking effects used throughout."],
+        "photos": []
+      },
+      {
+        "name": "A Quiet Place",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "A Quiet Place",
+        "location": "Soundstage 22",
+        "description": "The terrifying concept of near-silence as survival was translated into the haunted house format — guests were urged not to make a sound.",
+        "lore": "The Abbott family's nightmare world, where Death Angels hunt by sound alone.",
+        "trivia": ["Ambient noise suppression design made this one of the most unique sensory experiences in HHN history.", "Featured the iconic bathtub birth sequence."],
+        "photos": []
+      },
+      {
+        "name": "Insidious: The Further",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Insidious",
+        "location": "Parade Building",
+        "description": "Guests entered The Further — the purgatorial realm from the Insidious franchise — and faced its most terrifying denizens.",
+        "lore": "The Further is not empty. The things living there do not want you to leave.",
+        "trivia": ["The red-faced demon from the original film made multiple appearances."],
+        "photos": []
+      },
+      {
+        "name": "Chucky: Ultimate Kill Count 2",
+        "type": "MAZE",
+        "ip": true,
+        "ipName": "Child's Play / Chucky",
+        "location": "Sprung Tent 1",
+        "description": "The Good Guy doll returned for another round, this time with new kills and new obsessions.",
+        "lore": "",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "The Collective: A Convergence of Evil",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Soundstage 18",
+        "description": "The five members of The Collective held court in their own house, each with their own domain of horror.",
+        "lore": "Five entities, five nightmares, one convergence. The Collective has gathered — and you are the offering.",
+        "trivia": ["Each room of the house was designed by a different member of The Collective's mythology."],
+        "photos": []
+      },
+      {
+        "name": "Monstruos: The Monsters of Latin America",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Sprung Tent 2",
+        "description": "A vivid, visually rich house drawing on the legendary monsters of Latin American folklore — La Llorona, El Cucuy, and more.",
+        "lore": "The old legends are real. They have been waiting for generations.",
+        "trivia": ["Praised for its cultural specificity and visual design.", "La Llorona's wailing was considered one of the most disturbing sound designs of HHN 33."],
+        "photos": []
+      },
+      {
+        "name": "Bloodmoon: Dark Offerings",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Disaster Queue",
+        "description": "A folk horror descent into cult ritual, harvest sacrifice, and the terrible power of the blood moon.",
+        "lore": "",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Cellar Dweller",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "MIB Queue",
+        "description": "Something has been living beneath the house for decades. Now it's hungry.",
+        "lore": "",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "The Darkest Depths",
+        "type": "MAZE",
+        "ip": false,
+        "ipName": null,
+        "location": "Dragon Queue",
+        "description": "Deep sea horror returned to HHN — leviathan creatures from the crushing dark of the ocean trenches.",
+        "lore": "",
+        "trivia": ["Thematic spiritual successor to 2019's well-received Depths of Fear."],
+        "photos": []
+      }
+    ],
+    "scarezones": [
+      {
+        "name": "The Collective Convergence",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "The five icons of The Collective roamed their domain in the central park hub.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Parasitic Twins",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "Body horror brought to street level — conjoined abominations that should not exist.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Toxic Tunnel of Terror",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "Chemical mutation and industrial horror in the park's tunnel passage.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Forget Me Knot",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "Floral horror — beautiful on the surface, deadly beneath.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Gore Whore",
+        "type": "SCAREZONE",
+        "ip": false,
+        "description": "A blood-soaked couture nightmare where fashion meets visceral horror.",
+        "trivia": [],
+        "photos": []
+      }
+    ],
+    "shows": [
+      {
+        "name": "Marathon of Mayhem: Horrors Unleashed",
+        "type": "SHOW",
+        "ip": false,
+        "location": "Lagoon",
+        "description": "The lagoon show's latest iteration, unleashing the full roster of HHN horrors on the water stage.",
+        "trivia": [],
+        "photos": []
+      },
+      {
+        "name": "Academy of Villains: Altered States",
+        "type": "SHOW",
+        "ip": false,
+        "location": "Fear Factor Live Stage",
+        "description": "Another year of high-energy villain-themed dance performance.",
+        "trivia": [],
+        "photos": []
+      }
+    ],
+    "notes": "HHN 33 opened on August 30, the earliest start in the event's history. It ran 64 nights."
+  }
+]

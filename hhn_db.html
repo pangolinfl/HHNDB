@@ -1,0 +1,1350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HHN Archive — Event Database</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<style>
+  /* ── TOKENS ─────────────────────────────────────────────────────── */
+  :root {
+    --blood:    #8B0000;
+    --blood-lt: #B22222;
+    --ember:    #C0392B;
+    --rust:     #7A2828;
+    --void:     #0A0A0A;
+    --pit:      #111111;
+    --crypt:    #1A1A1A;
+    --grave:    #252525;
+    --bone:     #E8DCC8;
+    --parchment:#D4C5A9;
+    --ash:      #888888;
+    --fog:      #555555;
+
+    --font-display: 'Cinzel', serif;
+    --font-body:    'Crimson Text', serif;
+    --font-mono:    'Space Mono', monospace;
+    --font-gothic:  'UnifrakturMaguntia', cursive;
+
+    --radius: 2px;
+    --gutter: 24px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--void);
+    color: var(--bone);
+    font-family: var(--font-body);
+    font-size: 18px;
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  /* ── TEXTURE OVERLAY ─────────────────────────────────────────────── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image:
+      repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0,0,0,0.03) 2px,
+        rgba(0,0,0,0.03) 4px
+      );
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── HEADER ──────────────────────────────────────────────────────── */
+  #site-header {
+    position: relative;
+    border-bottom: 1px solid var(--rust);
+    background: linear-gradient(180deg, #0A0A0A 0%, #111111 100%);
+    padding: 32px var(--gutter) 24px;
+    text-align: center;
+  }
+
+  #site-header::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--blood), transparent);
+  }
+
+  .site-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--blood-lt);
+    margin-bottom: 8px;
+  }
+
+  .site-title {
+    font-family: var(--font-gothic);
+    font-size: clamp(2.4rem, 6vw, 4.2rem);
+    color: var(--bone);
+    letter-spacing: 0.02em;
+    line-height: 1;
+    text-shadow: 0 0 40px rgba(139,0,0,0.4);
+    margin-bottom: 4px;
+  }
+
+  .site-subtitle {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--ash);
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 20px;
+  }
+
+  .header-nav a {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--ash);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  .header-nav a:hover {
+    color: var(--bone);
+    border-color: var(--blood);
+  }
+
+  /* ── MAIN LAYOUT ─────────────────────────────────────────────────── */
+  #app {
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--gutter);
+  }
+
+  /* ── SEARCH + CONTROLS ───────────────────────────────────────────── */
+  #controls {
+    padding: 28px 0 20px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .search-wrap {
+    position: relative;
+    flex: 1;
+    min-width: 240px;
+  }
+
+  .search-wrap::before {
+    content: '⌕';
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--fog);
+    font-size: 18px;
+    pointer-events: none;
+  }
+
+  #search-input {
+    width: 100%;
+    background: var(--crypt);
+    border: 1px solid var(--grave);
+    border-radius: var(--radius);
+    color: var(--bone);
+    font-family: var(--font-mono);
+    font-size: 13px;
+    padding: 10px 12px 10px 36px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  #search-input:focus {
+    border-color: var(--blood);
+  }
+
+  #search-input::placeholder {
+    color: var(--fog);
+  }
+
+  .filter-btn {
+    background: var(--crypt);
+    border: 1px solid var(--grave);
+    border-radius: var(--radius);
+    color: var(--ash);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .filter-btn:hover, .filter-btn.active {
+    background: var(--blood);
+    border-color: var(--blood);
+    color: var(--bone);
+  }
+
+  /* ── YEAR GRID (browse) ──────────────────────────────────────────── */
+  #year-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1px;
+    background: var(--grave);
+    border: 1px solid var(--grave);
+    margin-bottom: 40px;
+  }
+
+  .year-tile {
+    background: var(--pit);
+    padding: 16px 12px;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.15s;
+    border: none;
+    color: inherit;
+  }
+
+  .year-tile:hover {
+    background: var(--crypt);
+  }
+
+  .year-tile.active {
+    background: var(--blood);
+  }
+
+  .year-tile .yt-year {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--bone);
+    display: block;
+  }
+
+  .year-tile .yt-event {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--ash);
+    display: block;
+    margin-top: 2px;
+  }
+
+  .year-tile.active .yt-event {
+    color: rgba(232,220,200,0.7);
+  }
+
+  .year-tile .yt-icon {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 12px;
+    color: var(--fog);
+    display: block;
+    margin-top: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .year-tile.active .yt-icon {
+    color: rgba(232,220,200,0.6);
+  }
+
+  /* ── EVENT DETAIL ────────────────────────────────────────────────── */
+  #event-detail {
+    display: none;
+  }
+
+  #event-detail.visible {
+    display: block;
+  }
+
+  .event-masthead {
+    border-left: 3px solid var(--blood);
+    padding: 0 0 0 20px;
+    margin-bottom: 36px;
+  }
+
+  .event-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--blood-lt);
+    margin-bottom: 6px;
+  }
+
+  .event-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(1.6rem, 4vw, 2.6rem);
+    color: var(--bone);
+    line-height: 1.1;
+    margin-bottom: 8px;
+  }
+
+  .event-tagline {
+    font-family: var(--font-body);
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--parchment);
+    margin-bottom: 12px;
+  }
+
+  .event-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .meta-chip {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ash);
+  }
+
+  .meta-chip span {
+    color: var(--bone);
+  }
+
+  /* ── SECTION BLOCKS ──────────────────────────────────────────────── */
+  .section-block {
+    margin-bottom: 44px;
+  }
+
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--grave);
+    position: relative;
+  }
+
+  .section-header::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 60px;
+    height: 1px;
+    background: var(--blood);
+  }
+
+  .section-label {
+    font-family: var(--font-display);
+    font-size: 0.7rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--blood-lt);
+  }
+
+  .section-count {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--fog);
+  }
+
+  .event-description {
+    font-size: 1.05rem;
+    color: var(--parchment);
+    max-width: 72ch;
+    line-height: 1.75;
+  }
+
+  /* ── STATS ROW ───────────────────────────────────────────────────── */
+  .stats-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1px;
+    background: var(--grave);
+    border: 1px solid var(--grave);
+    margin-bottom: 36px;
+  }
+
+  .stat-cell {
+    background: var(--pit);
+    padding: 16px;
+  }
+
+  .stat-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--fog);
+    margin-bottom: 4px;
+  }
+
+  .stat-value {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--bone);
+  }
+
+  .stat-value.blood {
+    color: var(--blood-lt);
+  }
+
+  /* ── ATTRACTION CARDS ────────────────────────────────────────────── */
+  .attraction-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1px;
+    background: var(--grave);
+    border: 1px solid var(--grave);
+  }
+
+  .attraction-card {
+    background: var(--pit);
+    padding: 0;
+    cursor: pointer;
+    transition: background 0.15s;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .attraction-card:hover {
+    background: var(--crypt);
+  }
+
+  .card-inner {
+    padding: 18px 20px;
+  }
+
+  .card-type-bar {
+    height: 2px;
+    width: 100%;
+  }
+
+  .card-type-bar.maze       { background: var(--blood); }
+  .card-type-bar.scarezone  { background: #5C3317; }
+  .card-type-bar.show       { background: #2C4A3E; }
+
+  .card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .card-name {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--bone);
+    line-height: 1.25;
+    flex: 1;
+  }
+
+  .card-ip-badge {
+    font-family: var(--font-mono);
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    background: var(--rust);
+    color: var(--parchment);
+    padding: 2px 7px;
+    border-radius: var(--radius);
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .card-location {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--fog);
+    margin-bottom: 8px;
+  }
+
+  .card-desc {
+    font-size: 0.9rem;
+    color: var(--ash);
+    line-height: 1.5;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-expand-indicator {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--blood-lt);
+    margin-top: 8px;
+  }
+
+  /* ── ATTRACTION MODAL ────────────────────────────────────────────── */
+  #modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.88);
+    z-index: 1000;
+    overflow-y: auto;
+    padding: 40px 20px;
+  }
+
+  #modal-overlay.open {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #modal-box {
+    background: var(--pit);
+    border: 1px solid var(--grave);
+    border-top: 2px solid var(--blood);
+    max-width: 680px;
+    width: 100%;
+    position: relative;
+  }
+
+  .modal-header {
+    padding: 28px 28px 0;
+  }
+
+  .modal-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--blood-lt);
+    margin-bottom: 6px;
+  }
+
+  .modal-title {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: var(--bone);
+    margin-bottom: 6px;
+  }
+
+  .modal-ip {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--parchment);
+    background: var(--rust);
+    display: inline-block;
+    padding: 3px 10px;
+    margin-bottom: 16px;
+    border-radius: var(--radius);
+  }
+
+  .modal-body {
+    padding: 20px 28px 28px;
+  }
+
+  .modal-section {
+    margin-bottom: 22px;
+  }
+
+  .modal-section-label {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--fog);
+    margin-bottom: 8px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--grave);
+  }
+
+  .modal-text {
+    font-size: 1rem;
+    color: var(--parchment);
+    line-height: 1.7;
+  }
+
+  .modal-lore {
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--ash);
+    line-height: 1.7;
+    border-left: 2px solid var(--blood);
+    padding-left: 14px;
+  }
+
+  .trivia-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .trivia-list li {
+    font-size: 0.95rem;
+    color: var(--ash);
+    padding-left: 16px;
+    position: relative;
+  }
+
+  .trivia-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--blood);
+  }
+
+  .modal-meta-grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 6px 16px;
+    font-size: 0.9rem;
+  }
+
+  .modal-meta-grid dt {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--fog);
+    padding-top: 2px;
+  }
+
+  .modal-meta-grid dd {
+    color: var(--parchment);
+  }
+
+  #modal-close {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: var(--fog);
+    font-size: 22px;
+    cursor: pointer;
+    line-height: 1;
+    transition: color 0.2s;
+    font-family: var(--font-mono);
+  }
+
+  #modal-close:hover {
+    color: var(--bone);
+  }
+
+  /* ── NOTES BOX ───────────────────────────────────────────────────── */
+  .notes-box {
+    border: 1px solid var(--grave);
+    border-left: 2px solid var(--rust);
+    padding: 14px 18px;
+    background: var(--crypt);
+    font-size: 0.95rem;
+    color: var(--ash);
+    font-style: italic;
+  }
+
+  /* ── SEARCH RESULTS ──────────────────────────────────────────────── */
+  #search-results {
+    display: none;
+  }
+
+  #search-results.visible {
+    display: block;
+  }
+
+  #year-browse {
+    display: block;
+  }
+
+  #year-browse.hidden {
+    display: none;
+  }
+
+  .search-result-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--grave);
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+
+  .search-result-item:hover {
+    background: rgba(139,0,0,0.05);
+  }
+
+  .sr-year-badge {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    background: var(--grave);
+    color: var(--ash);
+    padding: 4px 10px;
+    border-radius: var(--radius);
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  .sr-content {}
+
+  .sr-name {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--bone);
+    margin-bottom: 2px;
+  }
+
+  .sr-meta {
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--fog);
+  }
+
+  /* ── EMPTY STATE ─────────────────────────────────────────────────── */
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--fog);
+  }
+
+  .empty-state .glyph {
+    font-size: 3rem;
+    margin-bottom: 12px;
+    opacity: 0.3;
+  }
+
+  .empty-label {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+
+  /* ── FOOTER ──────────────────────────────────────────────────────── */
+  footer {
+    position: relative;
+    z-index: 1;
+    border-top: 1px solid var(--grave);
+    padding: 20px var(--gutter);
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 10px;
+    color: var(--fog);
+    letter-spacing: 0.15em;
+    margin-top: 60px;
+  }
+
+  footer a { color: var(--fog); text-decoration: none; }
+  footer a:hover { color: var(--ash); }
+
+  /* ── RESPONSIVE ──────────────────────────────────────────────────── */
+  @media (max-width: 600px) {
+    :root { --gutter: 16px; }
+    .attraction-grid { grid-template-columns: 1fr; }
+    .stats-row { grid-template-columns: 1fr 1fr; }
+    #year-grid { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
+  }
+
+  /* ── TRANSITIONS ─────────────────────────────────────────────────── */
+  #event-detail {
+    animation: fadeUp 0.25s ease;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── DATA LOADING ────────────────────────────────────────────────── */
+  #loading-state {
+    text-align: center;
+    padding: 80px 20px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--fog);
+  }
+
+  /* ── SCROLL TO TOP ───────────────────────────────────────────────── */
+  #back-to-grid {
+    display: none;
+    background: var(--blood);
+    border: none;
+    color: var(--bone);
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 32px;
+    transition: background 0.2s;
+    border-radius: var(--radius);
+  }
+
+  #back-to-grid:hover {
+    background: var(--ember);
+  }
+
+  #back-to-grid.visible {
+    display: inline-block;
+  }
+</style>
+</head>
+<body>
+
+<header id="site-header">
+  <div class="site-eyebrow">Universal Orlando Resort · 1991–Present</div>
+  <div class="site-title">Halloween Horror Nights</div>
+  <div class="site-subtitle">Event Archive &amp; Reference Database</div>
+  <nav class="header-nav">
+    <a href="index.html">← Tracker</a>
+    <a href="#year-grid" id="nav-browse">Browse Years</a>
+    <a href="#" id="nav-search-link">Search Attractions</a>
+  </nav>
+</header>
+
+<main id="app">
+
+  <!-- Controls -->
+  <div id="controls">
+    <div class="search-wrap">
+      <input type="text" id="search-input" placeholder="Search attractions, icons, IPs…" autocomplete="off">
+    </div>
+    <button class="filter-btn active" data-type="all">All</button>
+    <button class="filter-btn" data-type="MAZE">Houses</button>
+    <button class="filter-btn" data-type="SCAREZONE">Scare Zones</button>
+    <button class="filter-btn" data-type="SHOW">Shows</button>
+  </div>
+
+  <!-- Loading -->
+  <div id="loading-state">Loading archive…</div>
+
+  <!-- Year Browse -->
+  <section id="year-browse" class="hidden">
+    <div id="year-grid"></div>
+
+    <div id="event-detail">
+      <button id="back-to-grid">↑ Back to Year Grid</button>
+
+      <div class="event-masthead">
+        <div class="event-eyebrow" id="detail-eyebrow"></div>
+        <div class="event-title" id="detail-title"></div>
+        <div class="event-tagline" id="detail-tagline"></div>
+        <div class="event-meta-row" id="detail-meta"></div>
+      </div>
+
+      <div class="section-block">
+        <div class="section-header">
+          <span class="section-label">Overview</span>
+        </div>
+        <p class="event-description" id="detail-description"></p>
+      </div>
+
+      <div class="stats-row" id="detail-stats"></div>
+
+      <div class="section-block" id="detail-reception-block">
+        <div class="section-header">
+          <span class="section-label">Reception</span>
+        </div>
+        <p class="event-description" id="detail-reception"></p>
+      </div>
+
+      <div class="section-block" id="detail-houses-block">
+        <div class="section-header">
+          <span class="section-label">Haunted Houses</span>
+          <span class="section-count" id="houses-count"></span>
+        </div>
+        <div class="attraction-grid" id="detail-houses"></div>
+      </div>
+
+      <div class="section-block" id="detail-zones-block">
+        <div class="section-header">
+          <span class="section-label">Scare Zones</span>
+          <span class="section-count" id="zones-count"></span>
+        </div>
+        <div class="attraction-grid" id="detail-zones"></div>
+      </div>
+
+      <div class="section-block" id="detail-shows-block">
+        <div class="section-header">
+          <span class="section-label">Shows</span>
+          <span class="section-count" id="shows-count"></span>
+        </div>
+        <div class="attraction-grid" id="detail-shows"></div>
+      </div>
+
+      <div class="section-block" id="detail-notes-block">
+        <div class="section-header">
+          <span class="section-label">Notes</span>
+        </div>
+        <div class="notes-box" id="detail-notes"></div>
+      </div>
+
+    </div><!-- /event-detail -->
+  </section>
+
+  <!-- Search Results -->
+  <section id="search-results">
+    <div id="search-results-list"></div>
+  </section>
+
+</main>
+
+<!-- Attraction Modal -->
+<div id="modal-overlay" role="dialog" aria-modal="true">
+  <div id="modal-box">
+    <button id="modal-close" aria-label="Close">×</button>
+    <div class="modal-header" id="modal-header"></div>
+    <div class="modal-body" id="modal-body"></div>
+  </div>
+</div>
+
+<footer>
+  <a href="pangolinfl.com">A Pangolin project</a> &nbsp;·&nbsp; Data sourced from fan research &amp; public records &nbsp;·&nbsp; Not affiliated with Universal Orlando
+</footer>
+
+<script>
+// ─── DATA ────────────────────────────────────────────────────────────────────
+
+let DB = [];
+let activeYear = null;
+let activeFilter = 'all';
+
+async function loadData() {
+  try {
+    const res = await fetch('hhn_db.json');
+    if (!res.ok) throw new Error('fetch failed');
+    DB = await res.json();
+    DB.sort((a,b) => a.year - b.year);
+    init();
+  } catch(e) {
+    document.getElementById('loading-state').textContent =
+      'Could not load hhn_db.json — make sure it\'s in the same folder as this page.';
+  }
+}
+
+// ─── INIT ─────────────────────────────────────────────────────────────────────
+
+function init() {
+  document.getElementById('loading-state').style.display = 'none';
+  document.getElementById('year-browse').classList.remove('hidden');
+  buildYearGrid();
+  bindControls();
+}
+
+// ─── YEAR GRID ────────────────────────────────────────────────────────────────
+
+function buildYearGrid() {
+  const grid = document.getElementById('year-grid');
+  grid.innerHTML = '';
+
+  // Build full range 1991–present, mark gaps
+  const knownYears = new Set(DB.map(e => e.year));
+  const currentYear = new Date().getFullYear();
+
+  for (let y = 1991; y <= Math.max(currentYear, ...knownYears); y++) {
+    const tile = document.createElement('button');
+    tile.className = 'year-tile';
+    tile.dataset.year = y;
+
+    if (y === 2020) {
+      // cancelled
+      tile.innerHTML = `
+        <span class="yt-year">${y}</span>
+        <span class="yt-event" style="color:var(--rust)">Cancelled</span>
+        <span class="yt-icon">—</span>
+      `;
+      tile.style.opacity = '0.4';
+      tile.disabled = true;
+    } else if (knownYears.has(y)) {
+      const ev = DB.find(e => e.year === y);
+      const eventNum = ev.event_number ? `HHN ${ev.event_number}` : '';
+      tile.innerHTML = `
+        <span class="yt-year">${y}</span>
+        <span class="yt-event">${eventNum}</span>
+        <span class="yt-icon">${ev.icon || ev.theme || ''}</span>
+      `;
+      tile.addEventListener('click', () => showEvent(y));
+    } else {
+      tile.innerHTML = `
+        <span class="yt-year">${y}</span>
+        <span class="yt-event" style="color:var(--grave)">—</span>
+        <span class="yt-icon"></span>
+      `;
+      tile.style.opacity = '0.25';
+      tile.disabled = true;
+    }
+
+    grid.appendChild(tile);
+  }
+}
+
+// ─── EVENT DETAIL ─────────────────────────────────────────────────────────────
+
+function showEvent(year) {
+  const ev = DB.find(e => e.year === year);
+  if (!ev) return;
+
+  activeYear = year;
+
+  // Mark active tile
+  document.querySelectorAll('.year-tile').forEach(t => t.classList.remove('active'));
+  document.querySelector(`.year-tile[data-year="${year}"]`)?.classList.add('active');
+
+  // Eyebrow / title / tagline
+  document.getElementById('detail-eyebrow').textContent =
+    `Halloween Horror Nights ${ev.event_number || ''} · ${year}`;
+  document.getElementById('detail-title').textContent =
+    ev.theme || `Halloween Horror Nights ${year}`;
+  document.getElementById('detail-tagline').textContent = ev.tagline || '';
+
+  // Meta row
+  const meta = document.getElementById('detail-meta');
+  const parts = [];
+  if (ev.icon) parts.push({ label: 'Icon', val: ev.icon });
+  if (ev.dates?.open) {
+    const open = fmtDate(ev.dates.open);
+    const close = fmtDate(ev.dates.close);
+    parts.push({ label: 'Dates', val: `${open} — ${close}` });
+  }
+  if (ev.attendance) parts.push({ label: 'Attendance', val: ev.attendance });
+  meta.innerHTML = parts.map(p =>
+    `<div class="meta-chip">${p.label}: <span>${p.val}</span></div>`
+  ).join('');
+
+  // Description
+  document.getElementById('detail-description').textContent = ev.description || '';
+
+  // Stats
+  const houses = ev.houses || [];
+  const zones = ev.scarezones || [];
+  const shows = ev.shows || [];
+  const ipCount = [...houses, ...zones, ...shows].filter(a => a.ip).length;
+
+  document.getElementById('detail-stats').innerHTML = `
+    <div class="stat-cell">
+      <div class="stat-label">Haunted Houses</div>
+      <div class="stat-value blood">${houses.length}</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-label">Scare Zones</div>
+      <div class="stat-value">${zones.length}</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-label">Shows</div>
+      <div class="stat-value">${shows.length}</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-label">IP Attractions</div>
+      <div class="stat-value">${ipCount}</div>
+    </div>
+    <div class="stat-cell">
+      <div class="stat-label">Total Attractions</div>
+      <div class="stat-value">${houses.length + zones.length + shows.length}</div>
+    </div>
+  `;
+
+  // Reception
+  const recBlock = document.getElementById('detail-reception-block');
+  if (ev.reception) {
+    document.getElementById('detail-reception').textContent = ev.reception;
+    recBlock.style.display = '';
+  } else {
+    recBlock.style.display = 'none';
+  }
+
+  // Houses
+  renderAttractionSection('detail-houses-block', 'detail-houses', 'houses-count', houses, 'maze');
+
+  // Scare Zones
+  renderAttractionSection('detail-zones-block', 'detail-zones', 'zones-count', zones, 'scarezone');
+
+  // Shows
+  renderAttractionSection('detail-shows-block', 'detail-shows', 'shows-count', shows, 'show');
+
+  // Notes
+  const notesBlock = document.getElementById('detail-notes-block');
+  if (ev.notes) {
+    document.getElementById('detail-notes').textContent = ev.notes;
+    notesBlock.style.display = '';
+  } else {
+    notesBlock.style.display = 'none';
+  }
+
+  // Show the detail panel
+  const detail = document.getElementById('event-detail');
+  detail.style.display = 'block';
+  detail.classList.add('visible');
+  document.getElementById('back-to-grid').classList.add('visible');
+
+  // Scroll to detail
+  setTimeout(() => {
+    detail.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }, 50);
+}
+
+function renderAttractionSection(blockId, gridId, countId, items, typeClass) {
+  const block = document.getElementById(blockId);
+  const grid = document.getElementById(gridId);
+  const count = document.getElementById(countId);
+
+  if (!items || items.length === 0) {
+    block.style.display = 'none';
+    return;
+  }
+
+  block.style.display = '';
+  count.textContent = `${items.length}`;
+  grid.innerHTML = '';
+
+  items.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'attraction-card';
+    const hasDetail = item.description || item.lore || (item.trivia && item.trivia.length);
+    card.innerHTML = `
+      <div class="card-type-bar ${typeClass}"></div>
+      <div class="card-inner">
+        <div class="card-top">
+          <div class="card-name">${item.name}</div>
+          ${item.ip ? `<div class="card-ip-badge">${item.ipName || 'IP'}</div>` : ''}
+        </div>
+        ${item.location ? `<div class="card-location">📍 ${item.location}</div>` : ''}
+        ${item.description ? `<div class="card-desc">${item.description}</div>` : ''}
+        ${hasDetail ? `<div class="card-expand-indicator">+ Details</div>` : ''}
+      </div>
+    `;
+    if (hasDetail) {
+      card.style.cursor = 'pointer';
+      card.addEventListener('click', () => openModal(item, activeYear));
+    }
+    grid.appendChild(card);
+  });
+}
+
+// ─── MODAL ────────────────────────────────────────────────────────────────────
+
+function openModal(item, year) {
+  const overlay = document.getElementById('modal-overlay');
+  const header = document.getElementById('modal-header');
+  const body = document.getElementById('modal-body');
+
+  const typeLabel = item.type === 'MAZE' ? 'Haunted House' :
+                    item.type === 'SCAREZONE' ? 'Scare Zone' :
+                    item.type === 'SHOW' ? 'Show' : item.type || '';
+
+  header.innerHTML = `
+    <div class="modal-eyebrow">${typeLabel} · HHN ${year}</div>
+    <div class="modal-title">${item.name}</div>
+    ${item.ip && item.ipName ? `<div class="modal-ip">Based on: ${item.ipName}</div>` : ''}
+  `;
+
+  let sections = '';
+
+  if (item.location || item.ip !== undefined) {
+    sections += `
+      <div class="modal-section">
+        <div class="modal-section-label">Details</div>
+        <dl class="modal-meta-grid">
+          ${item.location ? `<dt>Location</dt><dd>${item.location}</dd>` : ''}
+          <dt>Type</dt><dd>${typeLabel}</dd>
+          <dt>IP / Original</dt><dd>${item.ip ? (item.ipName || 'Licensed IP') : 'Original Concept'}</dd>
+        </dl>
+      </div>
+    `;
+  }
+
+  if (item.description) {
+    sections += `
+      <div class="modal-section">
+        <div class="modal-section-label">Description</div>
+        <p class="modal-text">${item.description}</p>
+      </div>
+    `;
+  }
+
+  if (item.lore) {
+    sections += `
+      <div class="modal-section">
+        <div class="modal-section-label">Lore</div>
+        <p class="modal-lore">${item.lore}</p>
+      </div>
+    `;
+  }
+
+  if (item.trivia && item.trivia.length) {
+    sections += `
+      <div class="modal-section">
+        <div class="modal-section-label">Trivia</div>
+        <ul class="trivia-list">
+          ${item.trivia.map(t => `<li>${t}</li>`).join('')}
+        </ul>
+      </div>
+    `;
+  }
+
+  body.innerHTML = sections || '<p class="modal-text" style="color:var(--fog)">No additional details recorded yet.</p>';
+
+  overlay.classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeModal() {
+  document.getElementById('modal-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('modal-close').addEventListener('click', closeModal);
+document.getElementById('modal-overlay').addEventListener('click', e => {
+  if (e.target === document.getElementById('modal-overlay')) closeModal();
+});
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeModal();
+});
+
+// ─── SEARCH ───────────────────────────────────────────────────────────────────
+
+function getAllAttractions() {
+  const results = [];
+  DB.forEach(ev => {
+    const addList = (list, type) => {
+      (list || []).forEach(item => {
+        results.push({ ...item, type: item.type || type, year: ev.year, eventNum: ev.event_number });
+      });
+    };
+    addList(ev.houses, 'MAZE');
+    addList(ev.scarezones, 'SCAREZONE');
+    addList(ev.shows, 'SHOW');
+  });
+  return results;
+}
+
+function doSearch(query) {
+  const q = query.toLowerCase().trim();
+  if (!q) {
+    showBrowse();
+    return;
+  }
+
+  const all = getAllAttractions();
+  const results = all.filter(item => {
+    if (activeFilter !== 'all' && item.type !== activeFilter) return false;
+    return (
+      item.name?.toLowerCase().includes(q) ||
+      item.description?.toLowerCase().includes(q) ||
+      item.ipName?.toLowerCase().includes(q) ||
+      item.lore?.toLowerCase().includes(q) ||
+      (item.trivia || []).some(t => t.toLowerCase().includes(q))
+    );
+  });
+
+  document.getElementById('year-browse').classList.add('hidden');
+  document.getElementById('search-results').classList.add('visible');
+
+  const list = document.getElementById('search-results-list');
+
+  if (results.length === 0) {
+    list.innerHTML = `
+      <div class="empty-state">
+        <div class="glyph">☠</div>
+        <div class="empty-label">No records found for "${query}"</div>
+      </div>
+    `;
+    return;
+  }
+
+  list.innerHTML = results.map((item, i) => {
+    const typeLabel = item.type === 'MAZE' ? 'House' :
+                      item.type === 'SCAREZONE' ? 'Zone' :
+                      item.type === 'SHOW' ? 'Show' : item.type;
+    return `
+      <div class="search-result-item" data-idx="${i}">
+        <div class="sr-year-badge">${item.year}</div>
+        <div class="sr-content">
+          <div class="sr-name">${item.name}</div>
+          <div class="sr-meta">${typeLabel} ${item.ip && item.ipName ? `· ${item.ipName}` : item.ip ? '· IP' : '· Original'}</div>
+        </div>
+      </div>
+    `;
+  }).join('');
+
+  // Click handlers
+  list.querySelectorAll('.search-result-item').forEach((el, i) => {
+    el.addEventListener('click', () => openModal(results[i], results[i].year));
+  });
+}
+
+function showBrowse() {
+  document.getElementById('year-browse').classList.remove('hidden');
+  document.getElementById('search-results').classList.remove('visible');
+}
+
+document.getElementById('search-input').addEventListener('input', e => {
+  doSearch(e.target.value);
+});
+
+// ─── FILTER BUTTONS ───────────────────────────────────────────────────────────
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.type;
+    const q = document.getElementById('search-input').value;
+    if (q.trim()) doSearch(q);
+  });
+});
+
+// ─── BACK TO GRID ─────────────────────────────────────────────────────────────
+
+document.getElementById('back-to-grid').addEventListener('click', () => {
+  document.getElementById('event-detail').style.display = 'none';
+  document.getElementById('back-to-grid').classList.remove('visible');
+  document.querySelectorAll('.year-tile').forEach(t => t.classList.remove('active'));
+  activeYear = null;
+  document.getElementById('year-grid').scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+
+// ─── NAV ──────────────────────────────────────────────────────────────────────
+
+document.getElementById('nav-search-link').addEventListener('click', e => {
+  e.preventDefault();
+  document.getElementById('search-input').focus();
+});
+
+// ─── UTILS ───────────────────────────────────────────────────────────────────
+
+function fmtDate(str) {
+  if (!str) return '';
+  const d = new Date(str + 'T12:00:00');
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+// ─── BOOT ─────────────────────────────────────────────────────────────────────
+
+loadData();
+</script>
+</body>
+</html>
