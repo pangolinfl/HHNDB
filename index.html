@@ -842,6 +842,30 @@
   #back-to-grid.visible {
     display: inline-block;
   }
+  /* ── INFO LIST (times, prices) ──────────────────────────────────────────── */
+  .info-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .info-list li {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--ash);
+    padding-left: 16px;
+    position: relative;
+    line-height: 1.5;
+  }
+
+  .info-list li::before {
+    content: '—';
+    position: absolute;
+    left: 0;
+    color: var(--fog);
+  }
+
   /* ── Blood drips (white) ── */
   .drip-bar{position:absolute;top:0;left:0;right:0;display:flex;justify-content:space-around;pointer-events:none;z-index:2}
   .drip{width:6px;background:#e8dcc8;border-radius:0 0 4px 4px;animation:drip var(--dur,3s) ease-in-out infinite;animation-delay:var(--delay,0s);opacity:.6}
@@ -857,7 +881,7 @@
   <div class="site-title">Halloween Horror Nights</div>
   <div class="site-subtitle">Orlando Event Archive &amp; Reference Database</div>
   <nav class="header-nav">
-    <a href="index.html">← Tracker</a>
+    <a href="https://pangolinfl.github.io/HHNTRACKER/">← Tracker</a>
     <a href="#year-grid" id="nav-browse">Browse Years</a>
     <a href="#" id="nav-search-link">Search Attractions</a>
   </nav>
@@ -938,6 +962,27 @@
           <span class="section-label">Notes</span>
         </div>
         <div class="notes-box" id="detail-notes"></div>
+      </div>
+
+      <div class="section-block" id="detail-trivia-block">
+        <div class="section-header">
+          <span class="section-label">Trivia</span>
+        </div>
+        <ul class="trivia-list" id="detail-trivia"></ul>
+      </div>
+
+      <div class="section-block" id="detail-times-block">
+        <div class="section-header">
+          <span class="section-label">Event Hours</span>
+        </div>
+        <ul class="info-list" id="detail-times"></ul>
+      </div>
+
+      <div class="section-block" id="detail-prices-block">
+        <div class="section-header">
+          <span class="section-label">Ticket Prices</span>
+        </div>
+        <ul class="info-list" id="detail-prices"></ul>
       </div>
 
     </div><!-- /event-detail -->
@@ -1129,6 +1174,39 @@ function showEvent(year) {
     notesBlock.style.display = '';
   } else {
     notesBlock.style.display = 'none';
+  }
+
+  // Trivia
+  const triviaBlock = document.getElementById('detail-trivia-block');
+  const triviaList  = document.getElementById('detail-trivia');
+  const trivia = ev.trivia || [];
+  if (trivia.length) {
+    triviaList.innerHTML = trivia.map(t => `<li>${t}</li>`).join('');
+    triviaBlock.style.display = '';
+  } else {
+    triviaBlock.style.display = 'none';
+  }
+
+  // Event times
+  const timesBlock = document.getElementById('detail-times-block');
+  const timesList  = document.getElementById('detail-times');
+  const times = ev.event_times || [];
+  if (times.length) {
+    timesList.innerHTML = times.map(t => `<li>${t}</li>`).join('');
+    timesBlock.style.display = '';
+  } else {
+    timesBlock.style.display = 'none';
+  }
+
+  // Ticket prices
+  const pricesBlock = document.getElementById('detail-prices-block');
+  const pricesList  = document.getElementById('detail-prices');
+  const prices = ev.ticket_prices || [];
+  if (prices.length) {
+    pricesList.innerHTML = prices.map(p => `<li>${p}</li>`).join('');
+    pricesBlock.style.display = '';
+  } else {
+    pricesBlock.style.display = 'none';
   }
 
   // Show the detail panel
