@@ -893,11 +893,11 @@
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(0,0,0,0.95);
+    background: rgba(0,0,0,0.97);
     z-index: 2000;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 48px 20px 20px;
   }
 
   #photo-lightbox.open {
@@ -905,10 +905,13 @@
   }
 
   #photo-lightbox img {
-    max-width: 100%;
-    max-height: 90vh;
+    max-width: min(100%, 1200px);
+    max-height: calc(100vh - 80px);
+    width: auto;
+    height: auto;
     object-fit: contain;
     border: 1px solid var(--grave);
+    display: block;
   }
 
   #photo-lightbox-close {
