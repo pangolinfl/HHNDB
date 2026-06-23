@@ -842,6 +842,99 @@
   #back-to-grid.visible {
     display: inline-block;
   }
+  /* ── EVENT PHOTO GALLERY ─────────────────────────────────────────────────── */
+  .event-photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 4px;
+    margin-top: 4px;
+  }
+
+  .event-photo-thumb {
+    position: relative;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    background: var(--grave);
+    cursor: pointer;
+  }
+
+  .event-photo-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(20%);
+    transition: filter 0.2s, transform 0.2s;
+  }
+
+  .event-photo-thumb:hover img {
+    filter: grayscale(0%);
+    transform: scale(1.04);
+  }
+
+  .event-photo-thumb .photo-caption {
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.85));
+    padding: 18px 8px 6px;
+    font-family: var(--font-mono);
+    font-size: 9px;
+    color: rgba(232,220,200,0.8);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .event-photo-thumb:hover .photo-caption {
+    opacity: 1;
+  }
+
+  /* fullscreen lightbox */
+  #photo-lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.95);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  #photo-lightbox.open {
+    display: flex;
+  }
+
+  #photo-lightbox img {
+    max-width: 100%;
+    max-height: 90vh;
+    object-fit: contain;
+    border: 1px solid var(--grave);
+  }
+
+  #photo-lightbox-close {
+    position: absolute;
+    top: 16px; right: 20px;
+    background: none;
+    border: none;
+    color: var(--ash);
+    font-size: 28px;
+    cursor: pointer;
+    font-family: var(--font-mono);
+    line-height: 1;
+    transition: color 0.2s;
+  }
+
+  #photo-lightbox-close:hover { color: var(--bone); }
+
+  #photo-lightbox-caption {
+    position: absolute;
+    bottom: 20px; left: 0; right: 0;
+    text-align: center;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--ash);
+  }
+
   /* ── INFO LIST (times, prices) ──────────────────────────────────────────── */
   .info-list {
     list-style: none;
@@ -915,6 +1008,13 @@
         <div class="event-title" id="detail-title"></div>
         <div class="event-tagline" id="detail-tagline"></div>
         <div class="event-meta-row" id="detail-meta"></div>
+      </div>
+
+      <div class="section-block" id="detail-photos-block">
+        <div class="section-header">
+          <span class="section-label">Photos</span>
+        </div>
+        <div class="event-photo-gallery" id="detail-photos"></div>
       </div>
 
       <div class="section-block">
@@ -994,6 +1094,13 @@
   </section>
 
 </main>
+
+<!-- Photo Lightbox -->
+<div id="photo-lightbox">
+  <button id="photo-lightbox-close">×</button>
+  <img id="photo-lightbox-img" src="" alt="">
+  <div id="photo-lightbox-caption"></div>
+</div>
 
 <!-- Attraction Modal -->
 <div id="modal-overlay" role="dialog" aria-modal="true">
@@ -1116,6 +1223,26 @@ function showEvent(year) {
   meta.innerHTML = parts.map(p =>
     `<div class="meta-chip">${p.label}: <span>${p.val}</span></div>`
   ).join('');
+
+  // Photos
+  const photosBlock = document.getElementById('detail-photos-block');
+  const photosGrid  = document.getElementById('detail-photos');
+  const photos = ev.photos || [];
+  if (photos.length) {
+    photosGrid.innerHTML = photos.map((p, i) => `
+      <div class="event-photo-thumb" data-idx="${i}" data-url="${p.url}" data-caption="${p.caption || ''}">
+        <img src="${p.url}" alt="${p.caption || ''}" loading="lazy"
+             onerror="this.closest('.event-photo-thumb').style.display='none'">
+        <div class="photo-caption">${p.caption || ''}</div>
+      </div>
+    `).join('');
+    photosGrid.querySelectorAll('.event-photo-thumb').forEach(el => {
+      el.addEventListener('click', () => openPhotoLightbox(el.dataset.url, el.dataset.caption));
+    });
+    photosBlock.style.display = '';
+  } else {
+    photosBlock.style.display = 'none';
+  }
 
   // Description
   document.getElementById('detail-description').textContent = ev.description || '';
@@ -1349,7 +1476,10 @@ document.getElementById('modal-overlay').addEventListener('click', e => {
   if (e.target === document.getElementById('modal-overlay')) closeModal();
 });
 document.addEventListener('keydown', e => {
-  if (e.key === 'Escape') closeModal();
+  if (e.key === 'Escape') {
+    closeModal();
+    closePhotoLightbox();
+  }
 });
 
 // ─── SEARCH ───────────────────────────────────────────────────────────────────
@@ -1469,6 +1599,24 @@ function fmtDate(str) {
   const d = new Date(str + 'T12:00:00');
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
 }
+
+// ─── PHOTO LIGHTBOX ───────────────────────────────────────────────────────────
+
+function openPhotoLightbox(url, caption) {
+  document.getElementById('photo-lightbox-img').src = url;
+  document.getElementById('photo-lightbox-caption').textContent = caption || '';
+  document.getElementById('photo-lightbox').classList.add('open');
+}
+
+function closePhotoLightbox() {
+  document.getElementById('photo-lightbox').classList.remove('open');
+  document.getElementById('photo-lightbox-img').src = '';
+}
+
+document.getElementById('photo-lightbox-close').addEventListener('click', closePhotoLightbox);
+document.getElementById('photo-lightbox').addEventListener('click', e => {
+  if (e.target === document.getElementById('photo-lightbox')) closePhotoLightbox();
+});
 
 // ─── DRIPS ────────────────────────────────────────────────────────────────────
 
