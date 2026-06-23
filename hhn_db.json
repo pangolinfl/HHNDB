@@ -2,14 +2,14 @@
   {
     "year": 1991,
     "event_number": "I",
-    "theme": "Halloween Horror Nights 1991",
+    "theme": "Fright Nights",
     "icon": null,
-    "tagline": "",
+    "tagline": "Dying for a good Halloween party?",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "1991-10-25",
+      "close": "1991-10-91"
     },
-    "description": "",
+    "description": "Beetlejuice and the Universal Classic Monsters were the first Event Icons ever.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -39,19 +39,33 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Beetlejuice_Dead_In_Concert!_Featuring_The_Ghostbusters!"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "All nights ran from 6:00 PM to 12:00 AM."
+    ],
+    "ticket_prices": [
+      "Single Admission (Advanced Purchase): $12.95 + tax.",
+      "Single Admission: $15.95 + tax",
+      "Single Night Admission (October 31st at special ticket kiosks): $7.95 + tax"
+    ],
+    "trivia": [
+      "Due to legal issues with the Lugosi family, Universal could not use Bela Lugosi's likeness as Dracula for the Fright Nights logo.",
+      "A performer called \"The Elastic Lady\" can be seen on an article. It is unknown if she actually appeared at the event.",
+      "Regan was a roaming scareactor with a priest wheeling her around on a metal bed throughout the night, but due to a cease and desist, they would have to discontinue the scareactors' appearances. She was only featured one night with footage shown.",
+      "The promotional poster for the event featured Beetlejuice, The Bride of Frankenstein, The Wolf Man, The Mummy, Count Dracula, Angela Franklin from Night of the Demons, Chucky, Jason Voorhees, Norman Bates, The Hunchback of Notre Dame, a zombie, an inmate, Freddy Krueger, Gill Man, and Frankenstein's Monster."
+    ]
   },
   {
     "year": 1992,
     "event_number": "II",
     "theme": "Halloween Horror Nights II",
     "icon": null,
-    "tagline": "",
+    "tagline": "Second Annual 5 Nights of Terrorific Entertainment!",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "1992-10-23",
+      "close": "1992-10-92"
     },
-    "description": "",
+    "description": "Halloween Horror Nights II (marketed as Universal Studios Florida Halloween Horror Nights) was the second annual Halloween Horror Nights event held in Orlando. Located in Universal Studios Florida, it is considered the second annual event despite the name change from Fright Nights.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -114,19 +128,42 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Robosaurus"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "October 23-24 & 29 from 6:30 PM to 12:00 AM",
+      "October 30-31 ran from 6:30 PM to 1:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Night Admission for Florida Residents (Advanced Purchase): $22.95 + tax.",
+      "Single Night Admission for Florida Residents: $24.95 + tax.",
+      "Single Night Admission (Out of State): $33.00 + tax",
+      "Single Night Admission for Kids Out of State (3-9): $26.00 + tax",
+      "Day Ticket Upgrades: $12.95 + tax"
+    ],
+    "trivia": [
+      "This was the first year the event used Halloween Horror Nights the official name.",
+      "This was the first appearance of Bill & Ted's Excellent Halloween Adventure.",
+      "This was the appearance of Robosaurus.",
+      "This was the year that Kongfrontation, Earthquake, E.T. Adventure & Back to the Future were used as haunted attractions for the event.",
+      "The Lost Boys made an unofficial appearance at this event in Central Park.",
+      "Contrary to popular belief, this event was advertised as \"The Second Annual\" in some places.",
+      "The Bates Motel was used as a meet and greet with various monsters this year.",
+      "The logo used for this event was originally used for Halloween Horror Nights 1986.",
+      "The waiting room patients from Beetlejuice made unofficial appearances at the event.",
+      "The Munsters returned at the event in the streets."
+    ]
   },
   {
     "year": 1993,
     "event_number": "III",
     "theme": "Halloween Horror Nights III",
     "icon": null,
-    "tagline": "",
+    "tagline": "Dying For A Great Party? Don't Get Caught Dead Anywhere Else The Third Annual It's Halloween! And The Night Belongs to Universal Studios Florida!",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "1993-10-15",
+      "close": "1993-10-93"
     },
-    "description": "",
+    "description": "Halloween Horror Nights III (marketed as Third Annual Universal Studios Florida Halloween Horror Nights) was the third annual Halloween Horror Nights event held in Orlando. Located in Universal Studios Florida, advertisements featured a chainsaw destroying a pumpkin. The event, which featured three haunted houses and seven shows, was held for seven days in October 1993.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -189,19 +226,33 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Robosaurus"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "All nights ran from 6:30 PM to 12:00 AM or 6:30 PM to 12:30 AM"
+    ],
+    "ticket_prices": [
+      "Daytime Ticket Upgrade: $16.95 + price of Daytime Admission",
+      "School Groups: $19.95 + tax (In advance)",
+      "Florida Resident Single Admission (Advanced Purchase): $24.95 + tax",
+      "Kids (3-9): $28.00 + tax",
+      "Florida Resident Single Admission: $29.95 + tax",
+      "Single Admission: $35.00 + tax"
+    ],
+    "trivia": [
+      "According to [https://parkrumors.com/archive/93boo.php this], they may have toned down the gore compared to previous years."
+    ]
   },
   {
     "year": 1994,
     "event_number": "IV",
     "theme": "Halloween Horror Nights IV",
     "icon": null,
-    "tagline": "",
+    "tagline": "Party Beyond Your Wildest Screams! More Houses Than Ever Before!",
     "dates": {
       "open": null,
       "close": null
     },
-    "description": "",
+    "description": "Halloween Horror Nights IV (marketed as 4th Annual Universal Studios Florida Halloween Horror Nights) was the fourth annual Halloween Horror Nights event held in Orlando. Located in Universal Studios Florida, the event featured the first use of a scarezone in the history of Halloween Horror Nights.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -298,19 +349,34 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Robosaurus_Ii"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Non Peak Nights ran from 7:00 PM to 12:00 AM",
+      "Peak Nights ran from 7:00 PM to 1:00 AM"
+    ],
+    "ticket_prices": [
+      "Pepsi Discount (Advanced Purchase): $21.00 + tax",
+      "Single Admission (Advanced Purchase, Florida Residents): $26.00 + tax",
+      "Single Admission Kids (3-9): $29.00",
+      "Single Admission (Florida Residents): $31.00",
+      "Single Admission: $36.00 + tax",
+      "In Park Upgrade with Hertz Discount: $17.95 + tax (and Daytime Admission)"
+    ],
+    "trivia": [
+      "The first year of the event's first scarezone, Horrorwood."
+    ]
   },
   {
     "year": 1995,
     "event_number": "V",
     "theme": "Halloween Horror Nights V",
     "icon": "The Cryptkeeper",
-    "tagline": "",
+    "tagline": "The Curse of the Cryptkeeper Scream Your Head Off! All New Terror!",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "1995-10-13",
+      "close": "1995-10-95"
     },
-    "description": "",
+    "description": "Halloween Horror Nights V was the fifth annual Halloween Horror Nights event held in Orlando. Located in Universal Studios Florida, it had the second Event Icon, the Cryptkeeper from television's Tales from the Crypt (the first ones were the Universal Monsters and Beetlejuice). Advertisements touted it as \"The Curse of the Cryptkeeper\" and brandished his face.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -407,19 +473,36 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Rock_Of_Ages"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "All nights ran from 7:00 PM to 12:00 AM"
+    ],
+    "ticket_prices": [
+      "Stay and Scream (Non-Peak Nights): $10.95 + tax (and the price of Single Admission)",
+      "Stay and Scream (Saturdays): $15.95 + tax (and the price of Single Admission)",
+      "Single Admission (Florida Residents with Pepsi label): $22.00 + tax",
+      "Single Admission (Advanced Purchase Florida Residents): $27.00 + tax",
+      "Single Admission Kids (3-9): $30.00 + tax",
+      "Single Admission (Florida Residents): $32.00",
+      "Single Admission: $37.00 + tax"
+    ],
+    "trivia": [
+      "This was the first appearance of the Midway of the Bizarre scarezone at the event.",
+      "This was the first official use of the Roman Numerals in the event artwork.",
+      "This was the first use of the lagoon exclusively for Halloween Horror Nights, with the Crypt Keeper's Revenge: The Knights of Hell show."
+    ]
   },
   {
     "year": 1996,
     "event_number": "VI",
     "theme": "Halloween Horror Nights VI",
     "icon": null,
-    "tagline": "",
+    "tagline": "Journey Into Fear",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "1996-10-11",
+      "close": "1996-11-96"
     },
-    "description": "",
+    "description": "Halloween Horror Nights VI was the sixth annual Halloween Horror Nights event held in Orlando. Located in Universal Studios Florida, advertisements featured a demon lurking in the dark, touting, \"Journey Into Fear\".",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -516,19 +599,37 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Welcome_To_My_Nightmare"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Non Peak nights ran from 7:00 PM to 12:00 AM",
+      "Fridays and Saturdays ran from 7:00 PM to 1:00 AM"
+    ],
+    "ticket_prices": [
+      "Stay and Scream: $12.95 + tax (and the price of Single Daytime Admission)",
+      "Kids Single Admission (3-9, Florida/Georgia Residents): $26.00 + tax",
+      "Single Admission (Florida/Georgia Residents): $28.50 + tax",
+      "Kids Tickets (3-9): $31.00",
+      "Single Admission (Florida Residents): $33.50",
+      "Single Admission: $38.50 + tax",
+      "Gory Getaway: $49.00"
+    ],
+    "trivia": [
+      "While he wasn't marketed as such, the Cryptkeeper could be seen as an icon going by icon standards (especially Julian). He had a house, helmed the parade, was the [https://www.worthpoint.com/worthopedia/halloween-horror-nights-96-4652881171 media gift]. and was featured on at least one piece of merchandise.",
+      "Frankenstein's Monster received unprecedented media coverage as television, radio, and print outlets featured his likeness.",
+      "This is the first year of Festival of the Dead Parade being used at the event."
+    ]
   },
   {
     "year": 1997,
     "event_number": "VII",
     "theme": "Halloween Horror Nights VII: Frightmares",
     "icon": null,
-    "tagline": "",
+    "tagline": "Frightmares You'll Never Sleep Again",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "1997-10-03",
+      "close": "1997-11-97"
     },
-    "description": "",
+    "description": "Halloween Horror Nights VII: Frightmares was the seventh annual Halloween Horror Nights event held in Orlando. Located in Universal Studios Florida, the event was advertised with a small demon named Eyegore keeping an eye open touting, \"You'll Never Sleep Again\".",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -625,19 +726,35 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Frightmares"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Non Peak Nights ran from 7:00 PM to 12:00 AM",
+      "Peak Nights (Fridays and Saturdays) ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Florida Residents (In advance at Ticketmaster with coupon from Pepsi or Taco Bell): $24.75",
+      "Florida/ Georgia Residents Single Admission (Kids 3-9): $27.00 + tax",
+      "Florida/ Georgia Residents Single Admission: $29.75 + tax",
+      "Single Admission (Kids 3-9): $32.00 + tax",
+      "Single Admission: $39.75 + tax",
+      "One-Night Spooktacular (Hotel Stay): $59.00",
+      "Two-Night Gory Getaway: $99.00"
+    ],
+    "trivia": [
+      "This year Universal would have a billboard for the event featuring Eyegore pulling an person's eye-lid biting and drawing blood as part of their campaign for the event. Many parents were upset with the billboard, so they ended up having to change the billboard's design."
+    ]
   },
   {
     "year": 1998,
     "event_number": "VIII",
     "theme": "Halloween Horror Nights VIII: Primal Scream",
     "icon": null,
-    "tagline": "",
+    "tagline": "The Last Scream You’ll Ever Hear is Your Own.",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "1998-10-02",
+      "close": "1998-10-98"
     },
-    "description": "",
+    "description": "Halloween Horror Nights VIII: Primal Scream was the eighth annual Halloween Horror Nights Orlando. The event was advertised with a screaming face and was called \"The Last Scream You'll Ever Hear\".",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -756,19 +873,27 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Inferno"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Sundays through Thursdays ran from 7:00 PM to 12:00 AM",
+      "Friday's and Saturdays ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $42.00 + tax",
+      "Stay and Scream: $17.00 + Price of Daytime Admission"
+    ]
   },
   {
     "year": 1999,
     "event_number": "IX",
     "theme": "Halloween Horror Nights IX: Last Gasp",
     "icon": "Imhotep",
-    "tagline": "",
+    "tagline": "Last Gasp/ Sayonara",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "1999-10-01",
+      "close": "1999-10-99"
     },
-    "description": "",
+    "description": "In the ancient times of a land of sand and wonder- if caused under the backs of slaves- it all began as some stories begin; with a tale of love. The high priest of Egypt, Imhotep, was very much infatuated with a woman named Anck su Namun. There was just one problem- no other man than the Pharoah could touch her; as she was the Pharoah’s chosen wife. Imhotep chose a solution to this problem- they would kill the Pharoah. Unfortunately, Anck su Namun had to sacrifice her own life so that Imhotep could resurrect her; as soon someone called the Medjai on them. Imhotep and his priests went to the City of the Dead, Hamunaptra, where they recited the ancient spells that would bring Anck Su Namun’s soul back to her body and mind- and they would have succeeded if were not for those meddling Medjai. The Medjai ordered that Imhotep’s priests would be mummified alive and saved for Imhotep a most terrible curse- Imhotep would be sentenced to the Hom-Dai, which would give him everlasting life and powers beyond reason, but he would not get to feel any of it as he would be cursed into an eternal sleep. That and being eaten by scarabs for a very long time. The Medjai had the sarcophagus buried deep within Hamunaptra, so that Imhotep would never be released again.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -887,19 +1012,30 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Tricks_Or_Treats%3A_Dead_Man%27S_Party"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Sunday through Thursday ran from 7:00 PM to 12:00 AM (Except October 1 & 8)",
+      "Friday and Saturday ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $42.00 + tax"
+    ],
+    "trivia": [
+      "T.J. Mannarino was very proud of the work he and the other scenic designers put into the haunted houses this year. He had said that in the five houses this year, there were over 80 rooms, each with their own unique themes. He explained that conceiving the scares in the mazes was based psychology.",
+      "The first ever 3D house made its debut at the event with the Universal's Creature Features in 3-D haunted house."
+    ]
   },
   {
     "year": 2000,
     "event_number": "X",
     "theme": "Halloween Horror Nights X",
     "icon": "Jack the Clown",
-    "tagline": "",
+    "tagline": "Not afraid of the dark? You don't know Jack... Stay away if you are not interested in grisly entertainment",
     "dates": {
       "open": null,
       "close": null
     },
-    "description": "",
+    "description": "Halloween Horror Nights X was the tenth annual Halloween Horror Nights&nbsp;&nbsp; event in Orlando. The event was located at Universal Studios Florida. For the first time in its history, an original event icon, Jack the Clown, was created to be used in advertisements touting, \"Not Afraid of the Dark? You Don't Know Jack!\"",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -1040,19 +1176,31 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Jacked_Up"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Sunday through Thursday ran from 7:00 PM to 12:00 AM",
+      "Friday and Saturday ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $44.00 + tax"
+    ],
+    "trivia": [
+      "According to [http://archive.md/ge3SV this], Spielberg shot down a haunted version of ET.",
+      "The Creative Team wanted to make this year a lot scarier than previous years, so they decided to make the streets darker. They added far more scarezones and removed the \"safe-zones\" that were previously present at the event.",
+      "This would be the last year attractions would be re-themed for Halloween Horror Nights."
+    ]
   },
   {
     "year": 2001,
     "event_number": "XI",
     "theme": "Halloween Horror Nights XI",
     "icon": "Jack the Clown",
-    "tagline": "",
+    "tagline": "I.C.U/ Jack's Back/Say Goodbye to Jack/No More Clowning Around",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2001-10-05",
+      "close": "2001-11-01"
     },
-    "description": "",
+    "description": "Halloween Horror Nights XI was the 11th annual Halloween Horror Nights event in Orlando. The event featured the return of Jack the Clown. Advertised with \"Jack's Back\" and \"I.C.U\", the event was actually retooled after the September 11, 2001 attacks bring Jack back and to remove the original mascot, Eddie.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -1193,19 +1341,29 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmares_On_Parade"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Sunday through Thursday ran from 7:00 PM to 12:00 AM",
+      "Friday and Saturday ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $46.00 + tax"
+    ],
+    "trivia": [
+      "The [https://web.archive.org/web/20230724033225/https://www.ebay.com/itm/Halloween-Horror-Nights-Jack-press-media-markting-photos-2001-letter-VRY-HTF/404397600586?hash=item5e27f9af4a:g:sMkAAOSw9x1kvZA3&amdata=enc:AQAIAAAA0DHTTS6+H6eeJHDjOutg1dXiiLMeFdGquCGFu1VFbXofKCmBLGzFedmTsF2WkdHJ4h96pUwRk0yTDuq1d4AYkv2uecZTyEu9tuVCfN3Y5%2FGeJsK+TI7jWh8vu7wMQSRMycy9l1GJU5oU0uMtJv2+IRUUfzMSLGdw1D%2FES+yvCWZi1SxJ%2FQM3L9NYsW2gvig3F37hazO8a+mtIACd++CyO%2Fddj7d4h3DMi7rlTZ4FopCGcWFEAB07y2XbmIZQNvr02XQqGIzygLV6P0tJPvzsjik=%7Ctkp:Bk9SR-zxit-wYg&pageci=cc3c5ea3-c9fd-4e6e-bd73-7552a0615c45&redirect=mobile media gift] was presented by Jack himself."
+    ]
   },
   {
     "year": 2002,
     "event_number": "XII",
     "theme": "Halloween Horror Nights: Islands of Fear",
     "icon": "The Caretaker",
-    "tagline": "",
+    "tagline": "Islands of Fear/ Your time has come/Are you ready to meet The Caretaker?",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2002-10-04",
+      "close": "2002-11-02"
     },
-    "description": "",
+    "description": "Halloween Horror Nights: Islands of Fear was the 12th annual Halloween Horror Nights event in Orlando. Located for the first time in the new theme park, Islands of Adventure, it was advertised with the tagline \"Your Time Has Come\".",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -1357,7 +1515,26 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Studio_666"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Sunday through Thursday ran from 7:00 PM to 12:00 AM",
+      "Friday and Saturday ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $49.95 + tax",
+      "Frequent Fear: $19.95 + admission + tax"
+    ],
+    "trivia": [
+      "One of the commercials was filmed in Sting Alley.",
+      "The original concept of the event would have featured a show on the lagoon titled, \"Danse Macabre\". The show would be about a battle between good and evil with red lights being shown over the lagoon. The show would feature water cannons, airboats, ominous music, and floating banshees.",
+      "Allegedly, the event was going to have a house based on House of 1000 Corpses, which Universal was going to produce at the time. However, the film and the house eventually fell through. (Check the old ChainsawWolf threads on archive.org for proof)",
+      "This is one of the most IP-Heavy pre-2012 events, with even its main Icon being heavily inspired by many different IPs. The difference between here and the post-2011 events is that the creative team was given far more leeway to create semi-original concepts for the IPs.",
+      "There was going to be a parade featured at the event. Concept of it can be seen [https://www.flickr.com/photos/120203643@N07/13316610343/in/album-72157642718802284/ here].",
+      "A house based on the 1982 movie, The Thing, was supposed to be featured during this year. However, the house never made it past conceptual design. The concept of it could be seen [http://web.archive.org/web/20081120205931/http://www.hhnvault.com/horror_revisited/articles/thethingassimilation.htm here].",
+      "Dean Karr, the director of The Caretaker commercials for the event, said the commercials scared the community so bad that the local news interviewed child psychologists asking them if it was okay for children to be watching the commercial spots. The sales for the event went up to possibly 300%.",
+      "This was the first year the Frequent Fear Pass was offered.",
+      "This was the first year of the event to feature the now-modern event logo that had replaced the logo from 1995 during the Cryptkeeper’s debut."
+    ]
   },
   {
     "year": 2003,
@@ -1366,10 +1543,10 @@
     "icon": null,
     "tagline": "",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2003-10-03",
+      "close": "2003-11-03"
     },
-    "description": "",
+    "description": "Halloween Horror Nights 13 was the 13th Halloween Horror Nights event in Orlando. The event was located in Islands of Adventure for the second year in a row. The Director, also known as Paolo Ravinski (later changed to Paulo in Sweet 16), hosted the event, telling guests that \"The Director Will See You Now\".",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -1532,19 +1709,31 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Infestation"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Sunday through Thursday ran from 7:00 PM to 12:00 AM",
+      "Friday and Saturday ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $51.95 + tax"
+    ],
+    "trivia": [
+      "Originally A&D planned to do a parade for this event but decided to not to do it. They would do a parade as part of the event the following year for Halloween Horror Nights XIV.",
+      "Originally, The Master was supposed to be the icon for this year's event but was scrapped.",
+      "Early rumors seemed to indcate a house with all of the past HHN icons was planned for this yearhttps://web.archive.org/web/20041214212809/http://hauntfreaks.com/hauntfreaks/hhnxiii_rumors.html. The concept would later be used the following year in Horror Nights Nightmares."
+    ]
   },
   {
     "year": 2004,
     "event_number": "XIV",
     "theme": "Halloween Horror Nights XIV",
     "icon": "The Asylum Patient",
-    "tagline": "",
+    "tagline": "What's Your Breaking Point 2X the Fear Twice the Size, Twice the Fear Fear has no Boundaries",
     "dates": {
       "open": null,
       "close": null
     },
-    "description": "",
+    "description": "Halloween Horror Nights XIV (marketed as Halloween Horror Nights at Universal Orlando) was the 14th Halloween Horror Nights event. Asking guests, \"What's Your Breaking Point?\", it was the first time that parts of both Universal Studios Florida and Islands of Adventure were used in the event.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -1696,19 +1885,36 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Festival_Of_The_Dead_Parade"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Sunday through Thursday ran from 7:00 PM to 12:00 AM",
+      "Friday and Saturday ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $54.75 + tax"
+    ],
+    "trivia": [
+      "The advertisement for this year's event was subject to [http://articles.orlandosentinel.com/2004-10-15/news/0410150146_1_mental-health-treatment-mental-illnesses-eastman-kodak mild controversy] due to accusations of being offensive to mentally ill people.",
+      "According to [http://www.horrornightnightmares.com/forums/topic/3378-secrets-of-hhn/ this], the Halloween Horror Nights XIV website had the names of Art and Design Members all over it.",
+      "The website development for this year's event was the most extensive to date at the time with detailed back stories created for all elements of the event.",
+      "The Festival of the Dead parade returned with the most detailed floats ever built. When not moving \"in show\" the floats became part of the Midway of the Bizarre scarezone.",
+      "Due to the hurricanes that devastated Florida in August and September, construction was delayed and final preparations weren't made for the event until last minute. The employee preview night was cancelled, and even on the afternoon of opening night, teams were still busy putting scarezones together. It wasn't until the second week of the event that everything was completely donehttps://web.archive.org/web/20081028211222/http://hhnvault.com/haunts/hhn14_facts.htm.",
+      "This was the only year from 2000-2011 to not have an icon.",
+      "The vomiting redneck and the Old Smokey animatronics in Deadtropolis and Hellgate Prison were made by the same animatronic company, [https://distortionsunlimited.com/ Distortions Unlimited].",
+      "Due to the popularity of this year, Universal opened all of the Islands of Adventure theme park on Fridays and Saturdays, as well as expanding Universal Studios Florida to include both Jaws and Men in Black: Alien Attack."
+    ]
   },
   {
     "year": 2005,
     "event_number": "XV",
     "theme": "Halloween Horror Nights: Tales of Terror",
     "icon": "The Storyteller",
-    "tagline": "",
+    "tagline": "Tales of Terror/ No one will live happily ever after/Not just another Fairy Tale",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2005-09-30",
+      "close": "2005-10-05"
     },
-    "description": "",
+    "description": "Halloween Horror Nights: Tales of Terror was the 15th Halloween Horror Nights event in Orlando.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -1871,19 +2077,37 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Terra_Throne"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Sunday through Thursday ran from 7:00 PM to 12:00 AM",
+      "Friday and Saturday ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $59.75 + tax"
+    ],
+    "trivia": [
+      "Technically the Terra Queen could be considered the icon as there was some advertising and merchandise in store that had her visage.",
+      "2010 featured a live presentation about the event and the vinyl albums of 2020-2021 from Midnight Syndicate featured 5 sound bites from the website.",
+      "According to TJ Mannarino, The Storyteller wasn't just a spooky character to slap in the commercials but used as a symbolic gateway into this nightmare world of Terra Cruentus.",
+      "According to TJ Mannarino, a big component for the event was taking the whole story and wrapping it into a single theme that he and the team felt Islands of Adventure was better suited for. Mannarino mentioned how Islands of Adventure, with its twisting roads and hidden nooks, is the perfect place to set up scares and really play on the rugged theme of Terra Cruentus.",
+      "For the first time Halloween Horror Nights had a comprehensive overall theme, Terra Cruentas, a new world with realms.",
+      "The Gorewood Tree Throne at the end of Terra Guard Run was the site of nightly bloodletting ceremonies in honor of The Terra Queen.",
+      "Faithful fans of the event discovered clues hidden within the pages of the website. A final mystery was solved on the last night of the event, allowing guests to enter a VIP area and take part in the Queen's final sacrifice.",
+      "This event featured a “costume contest” on the final event night. This was a rare moment in Halloween Horror Nights history in which costumes were allowed to be worn at the event. At the end of the night, the guest with the best judged costume won $5,000https://web.archive.org/web/20081026202205/http://hhnvault.com/haunts/hhn15_facts.htm.",
+      "This was the first year Universal offered a behind the scenes tour of the Halloween Horror Nights event. The tour, at the time, was $20 and featured a walk-through of Blood Ruins and Where Evil Hides. At the time, the tour was simply a test to see how fans and the general public would react. Due to its popularity, the tour would officially return the following years as the much more expanded and in-depth \"Unmasking the Horror\" tour."
+    ]
   },
   {
     "year": 2006,
     "event_number": "XVI",
     "theme": "Halloween Horror Nights: Sweet 16",
     "icon": null,
-    "tagline": "",
+    "tagline": "Sweet 16/ Horror Comes Home",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2006-09-29",
+      "close": "2006-10-06"
     },
-    "description": "",
+    "description": "\"Guests have cringed in fear at the sight of just one. This year there are four – and there is no escape.\"",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -2057,19 +2281,36 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Robosaurus"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Sunday through Thursday ran from 7:00 PM to 12:00 AM",
+      "Friday and Saturday ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $59.95 + tax"
+    ],
+    "trivia": [
+      "The Halloween Horror Nights: Sweet 16 website had the names of Art and Design Members all over it.",
+      "The JAWS skippers wanted to use a more profane and adult script during the event. However, they were denied doing so by the higher-ups.",
+      "This was the first time the event was hosted by multiple icons.",
+      "This was the first year in the event's history that had extended hours from 5 to 12 AM during Friday and Saturday nights.",
+      "Universal would win The Best Halloween Event award for the first time during this year's event.",
+      "Permits show that originally \"Scary Tales 3\" would have been featured at the event located in the Curious George Goes to Town area. According to rumors, this would have originally been the icon house for The Storyteller, with the Dungeon of Terror: Retold originally being called \"Dungeon of Terror: Reopened\".",
+      "During Stay and Scream, scareactors from the Horror Comes Home scarezone would roam around and scare guests.",
+      "Even though this year's event was back at \"home\" at the Studios, Marvel Super Hero Island (Incredible Hulk Coaster, The Amazing Adventures of Spider-Man, and Doctor Doom's FearFall) was opened on Friday and Saturday nights to help with the overcrowding issues."
+    ]
   },
   {
     "year": 2007,
     "event_number": "XVII",
     "theme": "Halloween Horror Nights: Carnival of Carnage",
     "icon": "Jack the Clown",
-    "tagline": "",
+    "tagline": "Carnival of Carnage/ Choose thy Fear!",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2007-09-28",
+      "close": "2007-11-07"
     },
-    "description": "",
+    "description": "Halloween Horror Nights: Carnival of Carnage was the 17th Halloween Horror Nights event in Orlando. Located at Universal Studios Florida, it featured the return of Jack the Clown as event icon and leader of the traveling Carnival of Carnage. His carnival had brought together a number of attractions to present for the event, including three modern horror icons from New Line Cinema.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -2265,19 +2506,35 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Freak_Show"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "* Sunday through Thursday ran from 7:00 PM to 12:00 AM",
+      "* Friday and Saturday ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $64.95 + tax"
+    ],
+    "trivia": [
+      "This was the first time New Line Cinema characters were used at the event in an official state (previous appearances were unlicensed).",
+      "Halloween Horror Nights Hollywood reused Jack and (loosely) the carnival for their event that happened the same year; as both coasts used The New Line Cinema characters.",
+      "New Line was very protective of the use of their characters this year. They were required to wear cloaks when cast changes occurred. Originally there were going to be the New Line Trio at Jack’s show, a Freddy vs Jason scarezone, and Leatherface leading the Chainsaw Drill Team, but NLC vetoed them all.",
+      "Despite the name change of the haunted house on the other marketing materials for the event, PsychoScareapy: Home for the Holidays still had its original name Silent Night Psychotic Night featured on the House Shirt that year.",
+      "This was the first appearance of The Rocky Horror Picture Show at the event.",
+      "All of Nox Arcana's music throughout the park was from The Carnival of Lost Souls album",
+      "Midnight Syndicate - who's music had been used for the event many years in the past - created two exclusive tracks for this year's theme, \"Building the Carnival\" and \"The Carnival of Carnage\". Both tracks have since been officially released on their albums The Music Of Halloween Horror Nights and Dark Corners."
+    ]
   },
   {
     "year": 2008,
     "event_number": "XVIII",
     "theme": "Halloween Horror Nights: Reflections of Fear",
     "icon": "Bloody Mary",
-    "tagline": "",
+    "tagline": "Reflections of Fear/ I dare you to say it one more time/Bloody Mary",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2008-09-26",
+      "close": "2008-11-08"
     },
-    "description": "",
+    "description": "\"She waits for you behind the mirror. She aches to hear you whisper her name. And before you know it, her cold breath is on your face and her icy hands reach out to pull you into her world.\"",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -2473,17 +2730,31 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Brian_Brushwood"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Sunday through Thursday ran from 7:00 PM to 12:00 AM",
+      "Friday and Saturday ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $69.99 + tax"
+    ],
+    "trivia": [
+      "According to [http://www.horrornightnightmares.com/forums/topic/3378-secrets-of-hhn/ this], every restaurant open during Halloween Horror Nights: Reflections of Fear had some kind of reference to Bloody Mary. For Example: The Monsters Cafe had a shattered mirror above one of the doorways.",
+      "Some; but not all, of the audio from the website can be found through the audio mixes provided by HorrorNightNightmares (link below)",
+      "This was the only year its icon Bloody Mary physically appeared though she was mentioned and referenced several times over years.",
+      "John Carpenter's \"The Fog\" was discussed as a possible house after the success of the New Line Cinema characters the previous year, but no attempts were made to license the IP. The theme music for the film, however, was still used as background music for the Fractured Tales scarezone.",
+      "Universal would win The Best Halloween Event award for the second time for this year's event."
+    ]
   },
   {
     "year": 2009,
     "event_number": "XIX",
-    "theme": "Halloween Horror Nights 2009",
+    "theme": "Halloween Horror Nights: Ripped from the Silver Screen",
     "icon": "The Usher",
-    "tagline": "",
+    "tagline": "Ripped From the Silver Screen/It's Showtime",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2009-09-25",
+      "close": "2009-10-09"
     },
     "description": "",
     "attendance": "",
@@ -2681,19 +2952,35 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Rocky_Horror_Picture_Show%3A_A_Tribute"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "Sunday through Thursday ran from 7:00 PM to 12:00 AM",
+      "Friday and Saturday ran from 7:00 PM to 2:00 AM"
+    ],
+    "ticket_prices": [
+      "Single Admission: $69.99 + tax"
+    ],
+    "trivia": [
+      "According to [http://www.horrornightnightmares.com/forums/topic/3378-secrets-of-hhn/ this], throughout the park, were clips playing from Nightmare Alley.",
+      "Also, the Pumpkin Patch lightning was the same effect as the broken mirror from the year before.",
+      "Hollywood Rip Ride Rockit was originally planned to run during the event, but was cancelled due to lack of nets installed underneath the coaster between the soundstage entrances.",
+      "Tobin Bell would lend his voice the dialogue for all the promotional material for the event.",
+      "This was the first year the Art and Design team started using codenames for the houses to prevent a similar situation from the previous year.",
+      "The first and only year Universal were sponsored by Fangoria at the event.",
+      "Universal would win The Best Halloween Event award for this year's event."
+    ]
   },
   {
     "year": 2010,
     "event_number": "XX",
     "theme": "Halloween Horror Nights: Twenty Years of Fear",
     "icon": "Fear",
-    "tagline": "",
+    "tagline": "Twenty Years of Fear/ A New Era of Darkness Begins/A New Age of Darkness/THIS YEAR THE THING YOU MOST HAVE TO FEAR IS FEAR ITSELF",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2010-09-24",
+      "close": "2010-10-10"
     },
-    "description": "",
+    "description": "\"There is more to paralyzing fear than a scream in the darkness or a cool breath on the back of the neck. Or the grip of the undead.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -2878,19 +3165,42 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Brian_Brushwood%3A_Menace_And_Malice"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "6:30 PM to 12:00 AM: September 24-25 & 30 as well as October 3, 7, 20, 27, & 31",
+      "6:30 PM to 1:00 AM: October 10, 14, 17, 21, 24, & 28",
+      "6:30 PM to 2:00 AM: October 1-2, 8-9, 15-16, 22-23, & 29-30"
+    ],
+    "ticket_prices": [
+      "Single Night Admission: $74.99 + tax",
+      "Frequent Fear Pass: $74.99 + tax",
+      "Frequent Fear Plus Pass: $89.99 + tax",
+      "Frequent Fear Pass w/ Express Access: $154.98 + tax",
+      "Frequent Fear Plus Pass w/ Express Access: $239.98 + tax"
+    ],
+    "trivia": [
+      "The logo for the scarezone, HHN: 20 Years of Fear, has the faces in the fire from the Lantern. Eventually, later in the event, the scarezone's logo would become the event's own official logo, appearing on maps, and the website.",
+      "Another first this year, are the number of attractions centering the event's past. In others years, there have only been one, but this year there are 3 (Horror Nights: The Hallow'd Past, HHN: 20 Years of Fear, and Fear Revealed).",
+      "Each house had a cameo of one of the icons.",
+      "The houses were revealed on Friday, August 20, at exactly 20: 20.",
+      "Most of the houses are actually sequels with brief mentions, references, or even returning characters from past houses.",
+      "Jack had a photo op with a photo box mirroring the one from his 2000 commercial.",
+      "As shown in the VIP Lounge, a certain unused character from 2002 was supposed to run the show during this year.",
+      "Universal would win The Best Halloween Event award for this year's event.",
+      "Cindy Caine was originally supposed to the icon of the event making into the concept and promotional concept of the event but never officiated after. She would kill off the icons by burning their totems and ushering the new age of fear as The Halloween Tree being another piece that was also scrapped."
+    ]
   },
   {
     "year": 2011,
     "event_number": "XXI",
     "theme": "Halloween Horror Nights 21",
     "icon": "Lady Luck",
-    "tagline": "",
+    "tagline": "Come Try Your Luck Nobody Beats the House The House Always Wins Your Fate Is In Her Hands Are You In? Be Careful What You Wager...",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2011-09-21",
+      "close": "2011-10-11"
     },
-    "description": "",
+    "description": "Halloween Horror Nights 21: No One Beats the House (Be Careful What You Wager) or Halloween Horror Nights 21 was the official name for Halloween Horror Nights Orlando 2011. The event ran for 25 nights. On June 28, 2011, the theme was confirmed to be \"No One Beats The House\". The website was also reopened with an intro featuring a severed hand holding two cards. The Unmasking the Horror, RIP, and VIP tours returned.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -3075,19 +3385,38 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Death_Drums"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "6:30 PM to 12:00 AM: September 23-24, & 29 as well as October 2, 6, 19-20, 26, & 30- 31",
+      "6:30 PM to 1:00 AM: October 9, 13, 16, 20, 23, & 27",
+      "6:30 PM to 2:00 AM: September 30 as well as October 1, 7-8, 14-15, 21-22, & 28-29"
+    ],
+    "ticket_prices": [
+      "Single Night Admission: $81.99 + tax",
+      "Rush of Fear Pass: $69.99 + tax",
+      "Rush of Fear Pass w/ Express Access : $169.99 + tax",
+      "Frequent Fear Pass: $81.99 + tax",
+      "Frequent Fear Plus Pass: $96.99 + tax",
+      "Frequent Fear Pass w/ Express Access: $169.99 + tax",
+      "Frequent Fear Plus Pass w/ Express Access: $219.99 + tax"
+    ],
+    "trivia": [
+      "This was the last Year Orlando’s event had a mostly original-themed event aside from The Thing (2011) house. Subsequent years focused heavily on IPs.",
+      "First time Rush of Fear Pass was offered at the event.",
+      "Universal would win The Best Halloween Event award for this year's event."
+    ]
   },
   {
     "year": 2012,
     "event_number": "XXII",
     "theme": "Halloween Horror Nights 22",
     "icon": null,
-    "tagline": "",
+    "tagline": "Once you're inside, there's no way out!",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2012-09-21",
+      "close": "2012-10-12"
     },
-    "description": "",
+    "description": "Halloween Horror Nights 22 was the 22nd Halloween Horror Nights event at Universal Studios Florida. This was the first event since 2007 to have one huge parkwide scarezone rather then multiple scarezones scattered throughout the park.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -3294,19 +3623,42 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Halloween_Horror_Nights_Cinematic_Spectacular"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "6:30 PM-12:00 AM : September 21-22, 27, & 30, as well as October 4, 17, 24, 28 & 31",
+      "6:30 PM-1:00 AM : Sept. 28-29, as well as Oct. 7, 11, 14, 18, 21 & 25",
+      "6:30 PM- 2:00 AM : Oct. 5, 6, 12-13, 19-20, & 26-27"
+    ],
+    "ticket_prices": [
+      "Single Night Admission: $88.99 + tax",
+      "Rush of Fear Pass: $69.99 + tax",
+      "Rush of Fear Pass w/ Express Access: $179.99 + tax",
+      "Frequent Fear Pass: $81.99 + tax",
+      "Frequent Fear Plus Pass: $96.99 + tax",
+      "Frequent Fear Pass w/ Express Access: $179.99 + tax",
+      "Frequent Fear Plus Pass w/ Express Access: $229.99 + tax",
+      "Stay & Scream: Sunday -Thursday, $36.99 + tax",
+      "Stay & Scream: Friday, $51.99 + tax",
+      "Stay & Scream: Saturday, $66.99 + tax"
+    ],
+    "trivia": [
+      "Originally Universal were toying around with the idea of making this year a two park event branching Universal Studios and Islands of Adventures again, an idea that hadn't been done since its Halloween Horror Nights: Tales of Terror.",
+      "The Hercules/Xena building was rumored to be a Mayan Temple themed house and another idea of Chupacabras when a permit identified a scene named \"Spikes\". The house was midway through construction till the venue was torn down and replaced by Transformers.",
+      "This was the first time HHN licensed a video game property for the event with the Welcome to Silent Hill (Orlando) haunted house based on the Silent Hill series.",
+      "This also marked the first and only time to feature Alice Cooper at Halloween Horror Nights in Orlando."
+    ]
   },
   {
     "year": 2013,
     "event_number": "XXIII",
     "theme": "Halloween Horror Nights 23",
     "icon": "Walkers",
-    "tagline": "",
+    "tagline": "What evil has taken root?/ So this is what fear tastes like.",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2013-09-20",
+      "close": "2013-11-13"
     },
-    "description": "",
+    "description": "Halloween Horror Nights 23 was the 23rd Halloween Horror Nights event at Universal Studios Florida. This year saw the return of the park wide scarezones from Halloween Horror Nights 22. This time, however, instead of multiple horrifying factions, the Hordes consist of only Walkers from the popular TV show, The Walking Dead as well as settings from past seasons of the series.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -3480,19 +3832,36 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Rocky_Horror_Picture_Show%3A_A_Tribute"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "6:30 PM-12:00 AM: September 20-21 & 26-29, October 3, 16, 23, & 31, and November 1-2",
+      "6:30 PM- 1:00 AM: October 6, 10, 13, & 17",
+      "6:30 PM- 2:00 AM: October 4-5, 11-12, 18-20, & 24-27"
+    ],
+    "ticket_prices": [
+      "Single Night Admission: $91.99 + tax",
+      "Rush of Fear Pass: $72.99 + tax",
+      "Rush of Fear Pass w/ Express Access: $184.99 + tax",
+      "Frequent Fear Pass: $83.99 + tax",
+      "Frequent Fear Plus Pass: $99.99 + tax",
+      "Frequent Fear Pass w/ Express Access: $189.99 + tax",
+      "Frequent Fear Plus Pass w/ Express Access: $249.99 + tax",
+      "Stay & Scream: Sunday-Thursday, $38.99 + tax",
+      "Stay & Scream: Friday, $53.99 + tax",
+      "Stay & Scream: Saturday, $69.99 +tax"
+    ]
   },
   {
     "year": 2014,
     "event_number": "XXIV",
     "theme": "Halloween Horror Nights 24",
     "icon": null,
-    "tagline": "",
+    "tagline": "You've been warned.../ Fear will eat you alive./ Your worst fears come to life.",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2014-09-19",
+      "close": "2014-11-14"
     },
-    "description": "",
+    "description": "Halloween Horror Nights 24 was the 24th year of Halloween Horror Nights in Orlando. It ran from the 19th of September to the 1st of November 2014. One of the most notable things about the event was the fact that it reintroduced the first scarezones to the event since 2011 and that it introduced one of the most famous horror franchises, Halloween, to the event, officially, for the first time.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -3655,19 +4024,33 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Bill_%26_Ted%27S_Excellent_Halloween_Adventure"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "6:30 PM-12:00 AM: September 19-20 & 25-28, October 2, 15, 22 , & 29-31, and November 1",
+      "6:30 PM-1:00 AM: October 5, 9, 12, 16, & 19",
+      "6:30 PM- 2:00 AM: October 3-4, 10-11, 17-18, & 23-26"
+    ],
+    "ticket_prices": [
+      "Single Night Admission: $95.99 + tax",
+      "Rush of Fear Pass: $75.99 + tax",
+      "Rush of Fear Pass w/ Express Access: $189.99 + tax",
+      "Frequent Fear Pass: $86.99 + tax",
+      "Frequent Fear Plus Pass: $102.99 + tax",
+      "Frequent Fear Pass w/ Express Access: $194.99 + tax",
+      "Frequent Fear Plus Pass w/ Express Access: $254.99 + tax"
+    ]
   },
   {
     "year": 2015,
     "event_number": "XXV",
     "theme": "Halloween Horror Nights 25",
     "icon": "Jack the Clown",
-    "tagline": "",
+    "tagline": "Jack's back!All Jack'd up! 25 Years of Terror Has LED to This I’m Back Miss Me? Jack is Back",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2015-09-18",
+      "close": "2015-11-15"
     },
-    "description": "",
+    "description": "Halloween Horror Nights 25 was the event that took place during 2015 at Halloween Horror Nights in Universal Orlando. The event took place in Universal Studios Florida and was the 25th anniversary year for the event. It also served as the third anniversary year following Halloween Horror Nights: Sweet 16 and Halloween Horror Nights: Twenty Years of Fear.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -3852,19 +4235,38 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/The_Carnage_Returns"
       }
     ],
-    "notes": ""
+    "notes": "",
+    "event_times": [
+      "6:30 PM-1:00 AM: September 18-19 & 24-27, October 1, 7, 14, & 21, and November 1",
+      "6:30 PM-2:00 AM: October 2-4, 8-11, 15-18, 22-25, & 28-31"
+    ],
+    "ticket_prices": [
+      "Single Night Admission: $101.99 + tax",
+      "Rush of Fear Pass: $83.99 + tax",
+      "Rush of Fear Pass w/ HHN Express Pass: $219.99 + tax",
+      "Frequent Fear Pass: $94.99 + tax",
+      "Frequent Fear Plus Pass: $110.99 + tax",
+      "Frequent Fear Pass w/ HHN Express Pass: $234.99 + tax",
+      "Frequent Fear Plus Pass w/ HHN Express Pass: $279.99 + tax"
+    ],
+    "trivia": [
+      "Originally this year would have featured Ghostface in his first official appearance at Halloween Horror Nights Orlando as the cancelled Scream House that would be reskinned and replaced by The Purge (2015) at the last minute.",
+      "Despite replacing Scream in some of the promotional material for the event The Purge haunted house logo would not be featured on the house lineup shirt that year.",
+      "According to Michael Aiello, that year was the most diverse amount of houses they had in the event's history with 9 houses.",
+      "That year feature the most amount of scareactors in the event's history."
+    ]
   },
   {
     "year": 2016,
     "event_number": "XXVI",
     "theme": "Halloween Horror Nights 26",
     "icon": "Chance",
-    "tagline": "",
+    "tagline": "You won't stand a Chance!/ Terror Takes Center Stage/ Beyond Your Wildest Screams",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2016-09-16",
+      "close": "2016-11-16"
     },
-    "description": "",
+    "description": "Halloween Horror Nights 26 was Universal Studios Orlando 's annual Halloween event for 2016. The event was a direct sequel to Halloween Horror Nights 25, with Chance being this year's icon. It originally ran from September 16th to October 31st 2016, but due to Hurricane Matthew cancelling the event on October 6th and 7th the event was extended for a weekend, finally ending on November 5th. Halloween Horror Nights featured nine houses, five scarezones, and two live shows, with a separately ticketed house and a scareactor dining experience.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -4060,19 +4462,34 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_Of_Villains%3A_House_Of_Fear"
       }
     ],
-    "notes": "The Repository Vr Experience"
+    "notes": "The Repository Vr Experience",
+    "event_times": [
+      "6:30 PM-1:00 AM: September 16-18, 22-25, & 29, October 12, 19, 26, & 31, and November 4-5",
+      "6:30 PM-2:00 AM: 1-2, 6-9, 13-16, 20-23, & 27-30 2016"
+    ],
+    "ticket_prices": [
+      "General Admission: $104.99 + tax",
+      "Rush of Fear Pass: $91.99 + tax",
+      "Rush of Fear Pass w/ HHN Express Pass: $299.99 + tax",
+      "Frequent Fear Pass: $102.99 + tax",
+      "Frequent Fear Pass w/ HHN Express Pass: $319.99 +tax",
+      "Frequent Fear Plus Pass: $118.99 + tax",
+      "Frequent Fear Plus Pass w/ HHN Express Pass: $399.99 + tax",
+      "Ultimate Frequent Fear Pass: $199.99 + tax",
+      "Ultimate Frequent Fear Pass w/ HHN Express Pass: $599.99 + tax"
+    ]
   },
   {
     "year": 2017,
     "event_number": "XXVII",
     "theme": "Halloween Horror Nights 27",
     "icon": "Bone",
-    "tagline": "",
+    "tagline": "Your soul is requested/ The best nightmares never end./The Festival of the Deadliest",
     "dates": {
       "open": null,
       "close": null
     },
-    "description": "",
+    "description": "Halloween Horror Nights 27 was the 27th Halloween Horror Nights Orlando event. It was held from September 15th to November 4th 2017.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -4257,19 +4674,39 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_Of_Villains%3A_Afterlife"
       }
     ],
-    "notes": "Tickets On Sale"
+    "notes": "Tickets On Sale",
+    "event_times": [
+      "6:30 PM- 1:00 AM: September 15-17 & 21-24, October 4, 11, 18, 25, 30, & 31, and November 3 & 4",
+      "6:30- 2:00 AM: September 29-30, October 1, 5-8, 12-15, 19-22 & 26-29"
+    ],
+    "ticket_prices": [
+      "General Admission Ticket: $59.99-$85.99",
+      "HHN Express: $79.99-$139.99",
+      "Rush of Fear: $91.99",
+      "Rush of Fear + Express: $299.99",
+      "Frequent Fear: $102.99",
+      "Rush of Fear + Express: $339.99",
+      "Frequent Fear Plus: $118.99",
+      "Frequent Fear Plus + Express: $399.99",
+      "Ultimate FF Pass: $199.99",
+      "Ultimate FF + Express: $599.99"
+    ],
+    "trivia": [
+      "The Caretaker was originally planned to be this year's Icon, but was shot down. Bone would be his replacement, but he was not allowed to have Icon status. But with time, he is now considered an Icon.",
+      "Many fans speculated The Amityville Horror would become a haunted house at the event this year due to an easter egg found in the Krampus haunted house from the previous year. The property has yet to make an appearance."
+    ]
   },
   {
     "year": 2018,
     "event_number": "XXVIII",
     "theme": "Halloween Horror Nights 28",
     "icon": null,
-    "tagline": "",
+    "tagline": "We Know What Scares You/ More Houses Than Ever!/ True Fear Comes From Within.",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2018-09-14",
+      "close": "2018-11-18"
     },
-    "description": "",
+    "description": "Halloween Horror Nights 28 was the 28th annual Halloween event at the Universal Orlando Resort and it occurred between September 14th and November 3rd 2018.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -4443,19 +4880,40 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Academy_Of_Villains"
       }
     ],
-    "notes": "Tickets On Sale"
+    "notes": "Tickets On Sale",
+    "event_times": [
+      "6:30 PM- 1:00 AM: 14-16, 19-23 & 26, October 3, 10, & 31, and November 1-3",
+      "6:30 PM- 2:00 AM: September 28-30, and October 4-7, 11-14, 17-21, & 24-28"
+    ],
+    "ticket_prices": [
+      "Date Specific General Admission Ticket: $62.99-$87.99",
+      "Flexible Sun-Fri: $81.99",
+      "Flexible Sun-Sat: $89.99",
+      "Rush of Fear: $95.99",
+      "Rush of Fear + Express: $299.99",
+      "Frequent Fear: $106.99",
+      "Frequent Fear + Express: $339.99",
+      "Frequent Fear Plus: $122.99",
+      "Frequent Fear Plus + Express: $419.99",
+      "Ultimate Frequent Fear Pass: $203.99",
+      "Ultimate Frequent Fear + Express: $599.99"
+    ],
+    "trivia": [
+      "First time Halloween Horror Nights had 10 houses.",
+      "Despite The Horrors of Blumhouse (Orlando 2018) haunted house being featured at the event, it was not featured on the event's house lineup t-shirt."
+    ]
   },
   {
     "year": 2019,
     "event_number": "XXIX",
     "theme": "Halloween Horror Nights 29",
     "icon": null,
-    "tagline": "",
+    "tagline": "You Worst Fears Live Here/ Maximum Screamage/ Take Fear to the Max/Totally Terrifying",
     "dates": {
-      "open": null,
-      "close": null
+      "open": "2019-09-06",
+      "close": "2019-11-19"
     },
-    "description": "",
+    "description": "Halloween Horror Nights 29 was the 29th annual Halloween Horror Nights in Universal Studios Florida. The event ran from September 6th to November 2nd, 2019.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -4651,7 +5109,28 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Marathon_Of_Mayhem"
       }
     ],
-    "notes": "Tickets On Sale"
+    "notes": "Tickets On Sale",
+    "event_times": [
+      "6:30 PM- 1:00 AM: September 6-8, 12-15, 18-22, & 25, and October 2, 21, & 29",
+      "6:30 PM- 2:00 AM: September 26-29, October 3-6, 9-13, 17-20, 23-27, & 30-31, and November 1-2"
+    ],
+    "ticket_prices": [
+      "Date Specific General Admission Ticket: $67.99-$119.99",
+      "Express: $89.99-$139.99",
+      "Rush of Fear: $109.99",
+      "Rush of Fear + Express: $334.99",
+      "Frequent Fear: $119.99",
+      "Frequent Fear + Express: $374.99",
+      "Frequent Fear Plus: $139.99",
+      "Frequent Fear Plus + Express: $459.99",
+      "Ultimate Frequent Fear Pass: $259.99",
+      "Ultimate Frequent Fear + Express: $679.99"
+    ],
+    "trivia": [
+      "This event year had the longest number of days than previous years.",
+      "Supposedly, the hit TV series Game of Thrones was rumored to be coming to the event, but never made it past initial discussions with HBO.",
+      "It was rumored that the event would feature an IT haunted house."
+    ]
   },
   {
     "year": 2020,
@@ -4699,12 +5178,12 @@
     "event_number": "XXX",
     "theme": "Halloween Horror Nights 30",
     "icon": "Jack the Clown",
-    "tagline": "",
+    "tagline": "Never Go Alone/ The Biggest Thing In Fear for 30 Years/I'm Back/Jack Returns/ 30 Years of Screams/ 30 Years 30 Fears",
     "dates": {
       "open": null,
       "close": null
     },
-    "description": "",
+    "description": "Halloween Horror Nights 30 was the 30th annual Halloween Horror Nights in Universal Studios Florida. It was the 30 year anniversary of the event, and the first Halloween Horror Nights event to take place in two years after Universal skipped a year due to the COVID-19 pandemic. The event ran from September 3rd to October 31st, 2021.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -4900,19 +5379,27 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmare_Fuel"
       }
     ],
-    "notes": "Tickets On Sale | Jack Is Back! (Again) | Frequent Fear Passes On Sale"
+    "notes": "Tickets On Sale | Jack Is Back! (Again) | Frequent Fear Passes On Sale",
+    "event_times": [
+      "6:30 PM- 1:00 AM: September 3-4, 9-12, 15-19, 22-26, & 29-30",
+      "6:30 PM- 2:00 AM: October 1-3, 6-10, 13-17, 20-24, & 26-31"
+    ],
+    "trivia": [
+      "In 2020, Universal would have Silence of the Lambs originally at the event until it was cancelled due to the Covid Pandemic, the house would be later replaced by The Texas Chainsaw Massacre (Orlando) haunted house.",
+      "This is the first time the Event Phrase \"Never Go Alone\" was used, as it was carried over for the next three years as of Halloween Horror Nights 34 (with the exception of Halloween Horror Nights 33)."
+    ]
   },
   {
     "year": 2022,
     "event_number": "XXXI",
     "theme": "Halloween Horror Nights 31",
     "icon": "Pumpkin Lord",
-    "tagline": "",
+    "tagline": "Never Go Alone/Bring Your Friends And You Might Survive/ Scares At Every Turn/Every Day Is Halloween",
     "dates": {
       "open": null,
       "close": null
     },
-    "description": "",
+    "description": "Halloween Horror Nights was the 31st Halloween Horror Nights event at Universal Studios Florida.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -5108,19 +5595,24 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Ghoulish!_A_Halloween_Tale"
       }
     ],
-    "notes": "Tickets On Sale | Frequent Fear Passes On Sale"
+    "notes": "Tickets On Sale | Frequent Fear Passes On Sale",
+    "trivia": [
+      "This is the first year that the event has ran a record-breaking 43 nights.",
+      "This is the first year that every night of Halloween Horror Nights will go until 2:00 a.m.",
+      "Although The Weeknd: After Hours Nightmare haunted house was one of the main ips of the event that year, the house was not marketed on the house line up shirt."
+    ]
   },
   {
     "year": 2023,
     "event_number": "XXXII",
     "theme": "Halloween Horror Nights 32",
     "icon": "Dr. Oddfellow",
-    "tagline": "",
+    "tagline": "See You In The Fog/Never Go Alone",
     "dates": {
       "open": null,
       "close": null
     },
-    "description": "",
+    "description": "Halloween Horror Nights 32 was the 32nd Halloween Horror Nights event at Universal Studios Florida.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -5305,19 +5797,22 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmare_Fuel%3A_Revenge_Dream"
       }
     ],
-    "notes": "Tickets On Sale | Frequent Fear Passes On Sale | Death Eaters In Diagon Alley"
+    "notes": "Tickets On Sale | Frequent Fear Passes On Sale | Death Eaters In Diagon Alley",
+    "trivia": [
+      "This is the first year that the event has ran a record-breaking 48 nights."
+    ]
   },
   {
     "year": 2024,
     "event_number": "XXXIII",
     "theme": "Halloween Horror Nights 33",
     "icon": "SINIST3R",
-    "tagline": "",
+    "tagline": "Where Horror Lives/Fear Cannot Be Contained",
     "dates": {
       "open": null,
       "close": null
     },
-    "description": "",
+    "description": "Halloween Horror Nights 33 is the 33rd Halloween Horror Nights event at Universal Studios Florida. The event ran for 48 nights this year.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -5502,19 +5997,38 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Nightmare_Fuel%3A_Nocturnal_Circus"
       }
     ],
-    "notes": "Tickets On Sale | Frequent Fear Passes On Sale"
+    "notes": "Tickets On Sale | Frequent Fear Passes On Sale",
+    "ticket_prices": [
+      "Single Day Tickets: $82.99 - $123.99 + TAX",
+      "Express Passes: $159.99 - $239.99 + TAX",
+      "Frequent Fear Pass: $239.99 + TAX",
+      "Frequent Fear Pass + Express: $729.99 + TAX",
+      "Frequent Fear Pass Plus: $289.99 + TAX",
+      "Frequent Fear Pass Plus + Express: $839.99 + TAX",
+      "Ultimate Frequent Fear Pass: $399.99 + TAX",
+      "Ultimate Frequent Fear Pass + Express: $1069.99 + TAX",
+      "Rush of Fear Pass: $179.99 + TAX",
+      "Rush of Fear Pass + Express: $609.99 + TAX",
+      "Premium Scream Ticket: $350.00 + TAX"
+    ],
+    "trivia": [
+      "This is the first year since 2021 the Never Go Alone tagline was not used.",
+      "This is the first year that two hurricanes had cost the event to cancel some event nights.",
+      "Every year, Halloween Horror Nights puts a prop small animal inside all of the houses. This year the animal was a Snail. All of the snails were slightly different, but they all had the same brownish look and slimy features.",
+      "This was the last year guests could ride the Hollywood Rip Ride Rocket at the event before it closed in 2025."
+    ]
   },
   {
     "year": 2025,
     "event_number": "XXXIV",
     "theme": "Halloween Horror Nights 34",
     "icon": "Stone Gargoyle",
-    "tagline": "",
+    "tagline": "Never Go Alone/Live The Horror/Face Fear Incarnate",
     "dates": {
       "open": null,
       "close": null
     },
-    "description": "",
+    "description": "Halloween Horror Nights 34 is the 34th Halloween Horror Nights event at Universal Studios Florida. The event ran for 48 nights.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -5721,19 +6235,40 @@
         "wikiUrl": "https://halloweenhorrornights.fandom.com/wiki/Haunt-O-Phonic%3A_A_Ghoulish_Journey"
       }
     ],
-    "notes": "Tickets On Sale | Frequent Fear Passes On Sale"
+    "notes": "Tickets On Sale | Frequent Fear Passes On Sale",
+    "ticket_prices": [
+      "Single Day Tickets: $82.99 - $149.99 + TAX",
+      "Express Passes: $149.99 - $250.99 + TAX",
+      "Frequent Fear Pass: $249.99 + TAX",
+      "Frequent Fear Pass + Express: $839.99 + TAX",
+      "Frequent Fear Pass Plus: $299.99 + TAX",
+      "Frequent Fear Pass Plus + Express: $949.99 + TAX",
+      "Ultimate Frequent Fear Pass: $419.99 + TAX",
+      "Ultimate Frequent Fear Pass + Express: $1199.99 + TAX",
+      "Rush of Fear Pass: $199.99 + TAX",
+      "Rush of Fear Pass + Express: $689.99 + TAX",
+      "Premium Scream Ticket: $375.99-$414.99 + TAX"
+    ],
+    "trivia": [
+      "The codenames for this year's houses would be based around different types of flowers.",
+      "This was the first year since 2013 that Universal would lower the number of scarezones down to 4. They would also bring back street experiences with Mel's Die-In Zombies & Club Horror.",
+      "The Express upgrades for the Frequent Fear passes would sell out in record time the day they were released.",
+      "Every year, Halloween Horror Nights puts a prop small animal inside all of the houses. This year the animal was a lizard.",
+      "This year was the first year that flame bursts would happen at certain parts in the park. They occurred in the front of the park above the neon sign, above a building in Sting Alley, and atop the Simpsons Ride building.",
+      "The trailer for the event featured actor David Howard Thornton portraying Art the Clown."
+    ]
   },
   {
     "year": 2026,
     "event_number": "XXXV",
     "theme": "Halloween Horror Nights 35",
     "icon": null,
-    "tagline": "",
+    "tagline": "35 Years of Horror/Horror that haunts you. Fear that consumes you./Let Fear Consume You/35 Years of Undying Horror - A World of Relentless Terror/A Terrifying Event Where The Biggest Names in Horror Haunt You/Never Go Alone",
     "dates": {
       "open": null,
       "close": null
     },
-    "description": "",
+    "description": "Halloween Horror Nights 35 will be the 35th annual Halloween Horror Nights in Universal Studios Florida. It will be the 35th year anniversary of the event, and the fifth overall anniversary year celebrated. The event will run from August 28th to November 1st, 2026.",
     "attendance": "",
     "reception": "",
     "houses": [
@@ -5784,6 +6319,15 @@
     ],
     "scarezones": [],
     "shows": [],
-    "notes": "Tickets On Sale"
+    "notes": "Tickets On Sale",
+    "trivia": [
+      "According to Lora Sauls, they began building the 35th anniversary of the event in April of 2025 and all five of the original haunted houses for the event had been approved.",
+      "According to Mike Aiello, all of this year's content resides within this infernal carnival of Jack and Oddfellow's creation",
+      "This is the sixth time Jack the Clown would be the icon in the event's history, as well as this being Dr. Oddfellow's second time.",
+      "The name for this year's setting - Infernal Carnival of Nightmares - is initialized as \"I.C.O.N.\"",
+      "The Premier Scream Ticket would for the first time have two separate nights as a choice, August 27th or October 19th.",
+      "This year would have the second earliest ticket drop for the event behind Halloween Horror Nights 32.",
+      "This would be the sixth year that Universal would use the \"Never Go Alone\" slogan in the marketing of the event."
+    ]
   }
 ]
